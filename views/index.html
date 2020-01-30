@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block additional_css %}
+<link rel="stylesheet" href="/css/index.css">
+
+{% endblock %}
+{% block content %}
+<script type="text/javascript" src="//use.typekit.net/uvs8amk.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+<div class="form">
+ 
+<select data-placeholder="&nbsp;Year" class="chzn-select year" style="width:70px;" tabindex="1" id="year">
+<option value=""></option>
+{% for car in cars %}
+<option value={{car.CarMake}}>{{car.CarMake}}</option>
+{% endfor %}
+</select><select data-placeholder="Make" class="chzn-select" style="width:115px;" tabindex="2" id="make">
+<option value=""></option>
+{% for Model in cars %}
+
+<option value={{Model.Model}}>{{Model.Model}}</option>
+
+{% endfor %}
+</select><select data-placeholder="Model" class="chzn-select" style="width:115px;" tabindex="3" id="model">
+<option value=""></option>
+{% for fuelType in cars %}
+<option value={{fuelType.fuelType}} >{{ fuelType.fuelType}}</option>
+{% endfor %}
+</select>
+
+ <a href='/package/{{Model}}' class="button">CHECK SERVICE</a>   
+  </div>
+{% endblock %}

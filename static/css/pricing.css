@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+ * {
+	 padding: 0;
+	 margin: 0;
+	 box-sizing: border-box;
+}
+ .cf:after {
+	 content: "";
+	 display: table;
+	 clear: both;
+}
+ body {
+	 padding-top: 40px;
+}
+ .btn {
+	 display: block;
+	 height: 45px;
+	 line-height: 43px;
+	 width: 130px;
+	 border-radius: 3px;
+	 background: #e25546;
+	 color: white;
+	 text-transform: uppercase;
+	 font-size: 0.8em;
+	 font-weight: bold;
+	 margin: 0 auto;
+	 text-decoration: none;
+}
+ .btn:hover {
+	 background: #e66a5c;
+	 text-decoration: underline;
+}
+ .btn-pricing {
+	 margin: 30px auto;
+}
+ #switch-cont {
+	 display: none;
+	 width: 100%;
+	 min-width: 270px;
+	 text-align: center;
+	 margin: 30px auto;
+	 position: relative;
+}
+ #switch-cont button {
+	 display: inline-block;
+	 width: 25%;
+	 max-width: 100px;
+	 min-width: 80px;
+	 margin: 0 0.5%;
+	 height: 40px;
+	 border: 1px solid #ccc;
+	 border-radius: 3px;
+	 background: white;
+}
+ #switch-cont button.switch-selected {
+	 background: #4c99eb;
+	 color: white;
+}
+ #switch-cont button:focus {
+	 outline: none;
+}
+ #switch-cont button:hover {
+	 cursor: pointer;
+}
+ #switch-cont button:not(.switch-selected):hover {
+	 background: #eee;
+}
+ #pricing-cont {
+	 font-family: 'Raleway', sans-serif;
+	 text-align: center;
+	 display: block;
+	 padding: 0 10px;
+	 width: 100%;
+}
+ .pricing-card {
+	 height: 465px;
+	 border: 1px solid #ccc;
+	 box-shadow: 0px 2px 15px 3px rgba(0, 0, 0, 0.1);
+	 display: inline-block;
+	 margin: 0 5px;
+	 padding: 50px 0 20px 0;
+	 text-align: center;
+	 max-width: 350px;
+	 width: 30%;
+}
+ .pricing-card h2 {
+	 font-size: 2.2em;
+	 margin: 4px 0 10px 0;
+}
+ .pricing-card .pricing-el-small {
+	 font-size: 0.9em;
+	 color: #616161;
+}
+ .pricing-card .pricing-el-med {
+	 font-size: 1.15em;
+	 color: #333;
+}
+ .pricing-card ul {
+	 margin-top: 40px;
+	 list-style: none;
+	 text-align: center;
+}
+ .pricing-card ul li {
+	 height: 43px;
+	 line-height: 40px;
+	 width: 100%;
+	 border-top: 1px solid #e6e6e6;
+	 border-bottom: 1px solid #e6e6e6;
+}
+ .pricing-card ul li:nth-of-type(odd) {
+	 background: #e6e6e6;
+}
+ @media (max-width: 750px) {
+	 #switch-cont {
+		 display: block;
+	}
+	 .pricing-card {
+		 width: 100%;
+		 display: none;
+		 margin: auto;
+	}
+	 .pricing-card.pricing-selected {
+		 display: block;
+	}
+}
+ 
