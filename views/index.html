@@ -4,30 +4,26 @@
 
 {% endblock %}
 {% block content %}
-<script type="text/javascript" src="//use.typekit.net/uvs8amk.js"></script>
-<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<!-- <script type="text/javascript" src="//use.typekit.net/uvs8amk.js"></script> -->
+
 
 <div class="form">
  
-<select data-placeholder="&nbsp;Year" class="chzn-select year" style="width:70px;" tabindex="1" id="year">
+<select data-placeholder="&nbsp;Year" class="chzn-select year" style="position:relative; width:131px; height: 40px; -webkit-appearance: none; font-size: 16px; font-weight: 100;" tabindex="1" id="Manufacturer">
 <option value=""></option>
-{% for car in cars %}
-<option value={{car.CarMake}}>{{car.CarMake}}</option>
-{% endfor %}
-</select><select data-placeholder="Make" class="chzn-select" style="width:115px;" tabindex="2" id="make">
-<option value=""></option>
-{% for Model in cars %}
 
-<option value={{Model.Model}}>{{Model.Model}}</option>
-
-{% endfor %}
-</select><select data-placeholder="Model" class="chzn-select" style="width:115px;" tabindex="3" id="model">
+</select>
+<select data-placeholder="Make" class="chzn-select" style="width:131px; height: 40px; -webkit-appearance: none; font-size: 16px; font-weight: 100;" tabindex="2" id="model">
 <option value=""></option>
-{% for fuelType in cars %}
-<option value={{fuelType.fuelType}} >{{ fuelType.fuelType}}</option>
-{% endfor %}
 </select>
 
- <a href='/package/{{Model}}' class="button">CHECK SERVICE</a>   
+<select data-placeholder="Model" class="chzn-select" style="width:131px; height: 40px; -webkit-appearance: none; font-size: 16px; font-weight: 100;" tabindex="3" id="fuelType">
+<option value=""></option>
+</select>
+
+ <a class="button" id="buttonNext">CHECK SERVICE</a>   
   </div>
 {% endblock %}
+{% block additional_js %}
+<!-- <script src="/js/index.js"></script> -->
+    {% endblock %}
