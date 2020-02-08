@@ -8910,7 +8910,6 @@ window.onload = function () {
 
             if (_queryHolder.elements.indexElement) {
               localStorage.clear();
-              console.log("yeah in index");
               document.onload = _asyncToGenerator(
               /*#__PURE__*/
               regeneratorRuntime.mark(function _callee() {
@@ -8919,43 +8918,40 @@ window.onload = function () {
                   while (1) {
                     switch (_context.prev = _context.next) {
                       case 0:
-                        console.log(dataholder);
                         i = 0;
 
-                      case 2:
+                      case 1:
                         if (!(i < dataholder.length)) {
-                          _context.next = 9;
+                          _context.next = 8;
                           break;
                         }
 
                         if (!(ManufacturerHolder.length == 0 || !ManufacturerHolder.includes(dataholder[i].CarMake))) {
-                          _context.next = 6;
+                          _context.next = 5;
                           break;
                         }
 
-                        _context.next = 6;
+                        _context.next = 5;
                         return ManufacturerHolder.push(dataholder[i].CarMake);
 
-                      case 6:
+                      case 5:
                         i++;
-                        _context.next = 2;
+                        _context.next = 1;
                         break;
 
-                      case 9:
+                      case 8:
                         // ManufacturerHolder = [...new this.Set(ManufacturerHolder)];
                         ManufacturerHolder.map(function (x) {
                           (0, _insertElement.renderModel)(x, "Manufacturer");
                         });
 
-                      case 10:
+                      case 9:
                       case "end":
                         return _context.stop();
                     }
                   }
                 }, _callee);
-              }))();
-              console.log("yeah in index 1");
-              console.log(window.location.href); // };
+              }))(); // };
               // For Model in Index page
 
               _queryHolder.elements.manufacturer.addEventListener("change",
@@ -9079,8 +9075,6 @@ window.onload = function () {
 
 
             if (_queryHolder.elements.packageElement) {
-              console.log("we are in package");
-
               getarrayedpackages = function getarrayedpackages(arrayOfpackages) {
                 var _iteratorNormalCompletion = true;
                 var _didIteratorError = false;
@@ -9109,26 +9103,18 @@ window.onload = function () {
 
 
               for (i = 0; i < dataholder.length; i++) {
-                console.log(localStorage.getItem("slug"));
-                console.log(localStorage.getItem("fuelType"));
-
                 if (dataholder[i].Model === localStorage.getItem("slug") && dataholder[i].fuelType === localStorage.getItem("fuelType")) {
                   getarrayedpackages(dataholder[i].packages);
-                  console.log(dataholder[i]);
                   localStorage.setItem("dataholderforemail", dataholder[i]);
                 }
               }
             } // For the Booking page
 
 
-            console.log(_queryHolder.elements.bookingElement);
-
             if (_queryHolder.elements.bookingElement) {
-              console.log("inside of booking");
               packageType = localStorage.getItem("packageType");
               slugholder = localStorage.getItem("slug");
               price = localStorage.getItem("price");
-              console.log(packageType, slugholder, price);
 
               if (localStorage.getItem("slug") && localStorage.getItem("packageType")) {
                 _queryHolder.elements.formElement.addEventListener("submit", function (e) {
@@ -9140,9 +9126,6 @@ window.onload = function () {
                   var pinCode = document.getElementById("pinCode").value;
                   (0, _overview.booking)(name, email, phone, pickupLocation, pinCode, slugholder, packageType, price);
                 });
-
-                console.log(localStorage.getItem("packageType"));
-                console.log(localStorage.getItem("slug"));
               } else {
                 document.getElementById("name").disabled = true;
                 document.getElementById("email").disabled = true;
@@ -9154,7 +9137,7 @@ window.onload = function () {
               }
             }
 
-          case 10:
+          case 9:
           case "end":
             return _context5.stop();
         }

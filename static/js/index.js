@@ -18,9 +18,7 @@ window.onload = function() {
     if (elements.indexElement) {
       localStorage.clear();
 
-      console.log("yeah in index");
       document.onload = (async function() {
-        console.log(dataholder);
         for (var i = 0; i < dataholder.length; i++) {
           if (
             ManufacturerHolder.length == 0 ||
@@ -34,8 +32,7 @@ window.onload = function() {
           renderModel(x, "Manufacturer");
         });
       })();
-      console.log("yeah in index 1");
-      console.log(window.location.href);
+
       // };
 
       // For Model in Index page
@@ -93,7 +90,6 @@ window.onload = function() {
 
     // For the packages page
     if (elements.packageElement) {
-      console.log("we are in package");
       const getarrayedpackages = arrayOfpackages => {
         for (let arrayOfpackage of arrayOfpackages) {
           packageInsert(arrayOfpackage);
@@ -101,29 +97,23 @@ window.onload = function() {
       };
       // console.log(localStorage.getItem("slug"));
       for (var i = 0; i < dataholder.length; i++) {
-        console.log(localStorage.getItem("slug"));
-        console.log(localStorage.getItem("fuelType"));
-
         if (
           dataholder[i].Model === localStorage.getItem("slug") &&
           dataholder[i].fuelType === localStorage.getItem("fuelType")
         ) {
           getarrayedpackages(dataholder[i].packages);
-          console.log(dataholder[i]);
+
           localStorage.setItem("dataholderforemail", dataholder[i]);
         }
       }
     }
 
     // For the Booking page
-    console.log(elements.bookingElement);
+
     if (elements.bookingElement) {
-      console.log("inside of booking");
       let packageType = localStorage.getItem("packageType");
       let slugholder = localStorage.getItem("slug");
       let price = localStorage.getItem("price");
-
-      console.log(packageType, slugholder, price);
 
       if (localStorage.getItem("slug") && localStorage.getItem("packageType")) {
         elements.formElement.addEventListener("submit", e => {
@@ -144,8 +134,6 @@ window.onload = function() {
             price
           );
         });
-        console.log(localStorage.getItem("packageType"));
-        console.log(localStorage.getItem("slug"));
       } else {
         document.getElementById("name").disabled = true;
         document.getElementById("email").disabled = true;
