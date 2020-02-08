@@ -8407,7 +8407,7 @@ function () {
                 _context.next = 3;
                 return (0, _axios.default)({
                   method: "GET",
-                  url: "http://127.0.0.1:3000/api/v1/carBrand"
+                  url: "http://ec2-18-191-170-162.us-east-2.compute.amazonaws.com:3000/api/v1/carBrand"
                 });
 
               case 3:
@@ -8458,7 +8458,7 @@ function () {
             _context2.next = 3;
             return (0, _axios.default)({
               method: "POST",
-              url: "http://127.0.0.1:3000/api/v1/booking",
+              url: "http://ec2-18-191-170-162.us-east-2.compute.amazonaws.com:3000/api/v1/booking",
               data: {
                 name: name,
                 email: email,
