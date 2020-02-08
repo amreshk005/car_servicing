@@ -1,0 +1,381 @@
+CarMake,Model,fuelType,packages/0/packageType,packages/0/price,packages/1/packageType,packages/1/price,packages/2/packageType,packages/2/price
+hero,honda,Petrol,Standard,23,Comprehensive,23,Basic,23
+Chevrolet,AVEO,CNG,Standard,3039,Comprehensive,5839,Basic,2399
+Chevrolet,AVEO,Diesel,Standard,3359,Comprehensive,4719,Basic,2639
+Chevrolet,AVEO,Petrol,Standard,3039,Comprehensive,4719,Basic,2399
+Chevrolet,BEAT,Diesel,Standard,3039,Comprehensive,4239,Basic,2399
+Chevrolet,BEAT,Petrol,Standard,2799,Comprehensive,5439,Basic,2239
+Chevrolet,BEAT,CNG,Standard,2799,Comprehensive,4239,Basic,2239
+Chevrolet,CAPTIVA,Diesel,Standard,4879,Comprehensive,7919,Basic,3919
+Chevrolet,CRUZE,Diesel,Standard,4879,Comprehensive,6319,Basic,3919
+Chevrolet,CRUZE,Petrol,Standard,3999,Comprehensive,8079,Basic,3199
+Chevrolet,CRUZE,CNG,Standard,3999,Comprehensive,6319,Basic,3199
+Chevrolet,ENJOY,Diesel,Standard,3759,Comprehensive,5999,Basic,3039
+Chevrolet,ENJOY,Petrol,Standard,3519,Comprehensive,4959,Basic,2879
+Chevrolet,ENJOY,CNG,Standard,3519,Comprehensive,4959,Basic,2879
+Chevrolet,FORESTER,CNG,Standard,4879,Comprehensive,8559,Basic,3919
+Chevrolet,FORESTER,Diesel,Standard,5519,Comprehensive,7919,Basic,4399
+Chevrolet,FORESTER,Petrol,Standard,4879,Comprehensive,7919,Basic,3919
+Chevrolet,OPTRA,Diesel,Standard,4879,Comprehensive,5199,Basic,3919
+Chevrolet,OPTRA,Petrol,Standard,3359,Comprehensive,7919,Basic,2639
+Chevrolet,OPTRA,CNG,Standard,3359,Comprehensive,5199,Basic,2639
+Chevrolet,OPTRA MAGNUM,CNG,Standard,3359,Comprehensive,7919,Basic,2639
+Chevrolet,OPTRA MAGNUM,Diesel,Standard,4879,Comprehensive,5199,Basic,3919
+Chevrolet,OPTRA MAGNUM,Petrol,Standard,3359,Comprehensive,5199,Basic,2639
+Chevrolet,OPTRA SRV,Petrol,Standard,3359,Comprehensive,5199,Basic,2639
+Chevrolet,OPTRA SRV,CNG,Standard,3359,Comprehensive,5199,Basic,2639
+Chevrolet,SAIL,Diesel,Standard,3119,Comprehensive,4719,Basic,2479
+Chevrolet,SAIL,Petrol,Standard,3039,Comprehensive,5599,Basic,2399
+Chevrolet,SAIL,CNG,Standard,3039,Comprehensive,4719,Basic,2399
+Chevrolet,SAIL HATCHBACK,Diesel,Standard,2959,Comprehensive,4639,Basic,2319
+Chevrolet,SAIL HATCHBACK,Petrol,Standard,2959,Comprehensive,4639,Basic,2319
+Chevrolet,SAIL HATCHBACK,CNG,Standard,2959,Comprehensive,5439,Basic,2319
+Chevrolet,SPARK,CNG,Standard,2959,Comprehensive,3679,Basic,2479
+Chevrolet,SPARK,Petrol,Standard,2959,Comprehensive,3679,Basic,2479
+Chevrolet,TAVERA,Diesel,Standard,4159,Comprehensive,6719,Basic,3359
+Chevrolet,UVA,Diesel,Standard,2959,Comprehensive,4399,Basic,2319
+Chevrolet,UVA,Petrol,Standard,2959,Comprehensive,5279,Basic,2319
+Chevrolet,UVA,CNG,Standard,2959,Comprehensive,4399,Basic,2319
+Daewoo,CIELO,Petrol,Standard,3199,Comprehensive,5039,Basic,2559
+Daewoo,CIELO,CNG,Standard,3199,Comprehensive,5039,Basic,2559
+Daewoo,MATIZ,Petrol,Standard,2479,Comprehensive,3679,Basic,1999
+Daewoo,MATIZ,CNG,Standard,2479,Comprehensive,3679,Basic,1999
+Daewoo,NEXIA,CNG,Standard,3199,Comprehensive,5039,Basic,2559
+Daewoo,NEXIA,Petrol,Standard,3199,Comprehensive,5039,Basic,2559
+Datsun,GO,CNG,Standard,2479,Comprehensive,3679,Basic,1999
+Datsun,GO,Petrol,Standard,2479,Comprehensive,3679,Basic,1999
+Datsun,GO PLUS,CNG,Standard,2479,Comprehensive,3679,Basic,1999
+Datsun,GO PLUS,Petrol,Standard,2479,Comprehensive,3679,Basic,1999
+Fiat,ADVENTURE,CNG,Standard,3039,Comprehensive,6079,Basic,2399
+Fiat,ADVENTURE,Diesel,Standard,3279,Comprehensive,4399,Basic,2639
+Fiat,ADVENTURE,Petrol,Standard,3039,Comprehensive,4399,Basic,2399
+Fiat,AVVENTURA,Diesel,Standard,3279,Comprehensive,4399,Basic,2639
+Fiat,AVVENTURA,Petrol,Standard,3039,Comprehensive,6079,Basic,2399
+Fiat,AVVENTURA,CNG,Standard,3039,Comprehensive,4399,Basic,2399
+Fiat,LINEA,CNG,Standard,3119,Comprehensive,6159,Basic,2479
+Fiat,LINEA,Diesel,Standard,3359,Comprehensive,4559,Basic,2639
+Fiat,LINEA,Petrol,Standard,3119,Comprehensive,4559,Basic,2479
+Fiat,LINEA CLASSIC,Petrol,Standard,3119,Comprehensive,4559,Basic,2479
+Fiat,LINEA CLASSIC,CNG,Standard,3119,Comprehensive,6159,Basic,2479
+Fiat,LINEA CLASSIC,Diesel,Standard,3359,Comprehensive,4559,Basic,2479
+Fiat,PALIO D,Diesel,Standard,3119,Comprehensive,4559,Basic,2479
+Fiat,PALIO D,Petrol,Standard,2879,Comprehensive,5599,Basic,2319
+Fiat,PALIO D,CNG,Standard,2879,Comprehensive,4559,Basic,2319
+Fiat,PALIO NV,CNG,Standard,2879,Comprehensive,5599,Basic,2319
+Fiat,PALIO NV,Diesel,Standard,3119,Comprehensive,4559,Basic,2479
+Fiat,PALIO NV,Petrol,Standard,2879,Comprehensive,4559,Basic,2319
+Fiat,PALIO STILE,Diesel,Standard,3119,Comprehensive,4559,Basic,2479
+Fiat,PALIO STILE,Petrol,Standard,2879,Comprehensive,5599,Basic,2319
+Fiat,PALIO STILE,CNG,Standard,2879,Comprehensive,4559,Basic,2319
+Fiat,PETRA,CNG,Standard,2879,Comprehensive,5599,Basic,2319
+Fiat,PETRA,Diesel,Standard,3119,Comprehensive,4559,Basic,2479
+Fiat,PETRA,Petrol,Standard,2879,Comprehensive,4559,Basic,2319
+Fiat,PUNTO,Petrol,Standard,2799,Comprehensive,4159,Basic,2239
+Fiat,PUNTO,CNG,Standard,2799,Comprehensive,6079,Basic,2239
+Fiat,PUNTO,Diesel,Standard,3279,Comprehensive,4159,Basic,2639
+Fiat,PUNTO EVO,Diesel,Standard,2799,Comprehensive,4159,Basic,2239
+Fiat,UNO,CNG,Standard,2799,Comprehensive,4159,Basic,2239
+Fiat,UNO,Petrol,Standard,2799,Comprehensive,4159,Basic,2239
+Ford,ECO SPORT,CNG,Standard,3039,Comprehensive,5599,Basic,2399
+Ford,ECO SPORT,Diesel,Standard,3279,Comprehensive,4559,Basic,2639
+Ford,ECO SPORT,Petrol,Standard,3039,Comprehensive,4559,Basic,2399
+Ford,ENDEAVOUR,Diesel,Standard,4719,Comprehensive,7279,Basic,3759
+Ford,ESCORT,CNG,Standard,3119,Comprehensive,5839,Basic,2479
+Ford,ESCORT,Diesel,Standard,3279,Comprehensive,4799,Basic,2639
+Ford,ESCORT,Petrol,Standard,3119,Comprehensive,4799,Basic,2479
+Ford,FIESTA,Diesel,Standard,3279,Comprehensive,4799,Basic,2639
+Ford,FIESTA,Petrol,Standard,3119,Comprehensive,5839,Basic,2479
+Ford,FIESTA,CNG,Standard,3119,Comprehensive,4799,Basic,2479
+Ford,FIESTA CLASSIC,CNG,Standard,3119,Comprehensive,5839,Basic,2479
+Ford,FIESTA CLASSIC,Diesel,Standard,3279,Comprehensive,4799,Basic,2639
+Ford,FIESTA CLASSIC,Petrol,Standard,3119,Comprehensive,4799,Basic,2479
+Ford,FIGO,CNG,Standard,3039,Comprehensive,5679,Basic,2399
+Ford,FIGO,Diesel,Standard,3119,Comprehensive,4719,Basic,2479
+Ford,FIGO,Petrol,Standard,3039,Comprehensive,4719,Basic,2399
+Ford,FIGO ASPIRE,Diesel,Standard,3119,Comprehensive,4719,Basic,2479
+Ford,FIGO ASPIRE,Petrol,Standard,3039,Comprehensive,5679,Basic,2399
+Ford,FIGO ASPIRE,CNG,Standard,3039,Comprehensive,4719,Basic,2399
+Ford,FUSION,CNG,Standard,3039,Comprehensive,5679,Basic,2399
+Ford,FUSION,Diesel,Standard,3119,Comprehensive,4719,Basic,2479
+Ford,FUSION,Petrol,Standard,3039,Comprehensive,4719,Basic,2399
+Ford,IKON,Diesel,Standard,3279,Comprehensive,4799,Basic,2639
+Ford,IKON,Petrol,Standard,3119,Comprehensive,5839,Basic,2479
+Ford,IKON,CNG,Standard,3119,Comprehensive,4799,Basic,2479
+Ford,MONDEO,CNG,Standard,3119,Comprehensive,5839,Basic,2479
+Ford,MONDEO,Diesel,Standard,3279,Comprehensive,4799,Basic,2639
+Ford,MONDEO,Petrol,Standard,3119,Comprehensive,4799,Basic,2479
+Honda,ACCORD,CNG,Standard,3839,Comprehensive,5839,Basic,3039
+Honda,ACCORD,Petrol,Standard,3839,Comprehensive,5839,Basic,3039
+Honda,AMAZE,CNG,Standard,2879,Comprehensive,5039,Basic,2319
+Honda,AMAZE,Diesel,Standard,3039,Comprehensive,4559,Basic,2399
+Honda,AMAZE,Petrol,Standard,2879,Comprehensive,4559,Basic,2319
+Honda,BRIO,Petrol,Standard,2879,Comprehensive,4559,Basic,2319
+Honda,BRIO,CNG,Standard,2879,Comprehensive,4559,Basic,2319
+Honda,CITY,Diesel,Standard,3119,Comprehensive,4719,Basic,2479
+Honda,CITY,Petrol,Standard,3039,Comprehensive,5199,Basic,2399
+Honda,CITY,CNG,Standard,3039,Comprehensive,4719,Basic,2399
+Honda,CITY IVTEC,CNG,Standard,3039,Comprehensive,4719,Basic,2399
+Honda,CITY IVTEC,Petrol,Standard,3039,Comprehensive,4719,Basic,2399
+Honda,CITY ZX,CNG,Standard,3039,Comprehensive,4719,Basic,2399
+Honda,CITY ZX,Petrol,Standard,3039,Comprehensive,4719,Basic,2399
+Honda,CIVIC,CNG,Standard,3679,Comprehensive,5679,Basic,2959
+Honda,CIVIC,Petrol,Standard,3679,Comprehensive,5679,Basic,2959
+Honda,CRV,Petrol,Standard,3839,Comprehensive,5839,Basic,3039
+Honda,CRV,CNG,Standard,3839,Comprehensive,5839,Basic,3039
+Honda,JAZZ,Diesel,Standard,3119,Comprehensive,4719,Basic,2479
+Honda,JAZZ,Petrol,Standard,3039,Comprehensive,4719,Basic,2399
+Honda,JAZZ,CNG,Standard,3039,Comprehensive,5199,Basic,2399
+Honda,MOBILIO,CNG,Standard,2879,Comprehensive,5039,Basic,2319
+Honda,MOBILIO,Diesel,Standard,3039,Comprehensive,4559,Basic,2399
+Honda,MOBILIO,Petrol,Standard,2879,Comprehensive,4559,Basic,2319
+Hyundai,ACCENT,Diesel,Standard,3839,Comprehensive,3679,Basic,3039
+Hyundai,ACCENT,Petrol,Standard,2639,Comprehensive,6719,Basic,2159
+Hyundai,ACCENT,CNG,Standard,2639,Comprehensive,3679,Basic,2159
+Hyundai,ACCENT VIVA,CNG,Standard,2639,Comprehensive,6719,Basic,2159
+Hyundai,ACCENT VIVA,Diesel,Standard,3839,Comprehensive,3679,Basic,3039
+Hyundai,ACCENT VIVA,Petrol,Standard,2639,Comprehensive,3679,Basic,2159
+Hyundai,CRETA,Diesel,Standard,3759,Comprehensive,4239,Basic,3039
+Hyundai,CRETA,Petrol,Standard,2879,Comprehensive,6559,Basic,2319
+Hyundai,CRETA,CNG,Standard,2879,Comprehensive,4239,Basic,2319
+Hyundai,ELANTRA,Diesel,Standard,3759,Comprehensive,4399,Basic,3039
+Hyundai,ELANTRA,Petrol,Standard,3039,Comprehensive,4399,Basic,2399
+Hyundai,ELANTRA,CNG,Standard,3039,Comprehensive,6559,Basic,2399
+Hyundai,ELITE i20,CNG,Standard,2479,Comprehensive,5439,Basic,2079
+Hyundai,ELITE i20,Diesel,Standard,2959,Comprehensive,3439,Basic,2079
+Hyundai,ELITE i20,Petrol,Standard,2479,Comprehensive,3439,Basic,2079
+Hyundai,EON,Petrol,Standard,2559,Comprehensive,3759,Basic,2079
+Hyundai,EON,CNG,Standard,2559,Comprehensive,3759,Basic,2079
+Hyundai,GETZ,Petrol,Standard,2479,Comprehensive,3679,Basic,1999
+Hyundai,GETZ,CNG,Standard,2479,Comprehensive,3679,Basic,1999
+Hyundai,GETZ PRIME,Diesel,Standard,3359,Comprehensive,5919,Basic,2639
+Hyundai,GRAND i10,CNG,Standard,2479,Comprehensive,6319,Basic,2079
+Hyundai,GRAND i10,Diesel,Standard,2959,Comprehensive,3759,Basic,2799
+Hyundai,GRAND i10,Petrol,Standard,2479,Comprehensive,3759,Basic,2079
+Hyundai,i10,Petrol,Standard,2319,Comprehensive,3439,Basic,1919
+Hyundai,i10,CNG,Standard,2319,Comprehensive,3439,Basic,1919
+Hyundai,i20,CNG,Standard,2479,Comprehensive,3439,Basic,2079
+Hyundai,i20,Diesel,Standard,2959,Comprehensive,5439,Basic,2079
+Hyundai,i20,Petrol,Standard,2479,Comprehensive,3439,Basic,2079
+Hyundai,i20 ACTIVE,Diesel,Standard,2479,Comprehensive,3439,Basic,2079
+Hyundai,i20 ACTIVE,Petrol,Standard,2959,Comprehensive,5439,Basic,2079
+Hyundai,i20 ACTIVE,CNG,Standard,2479,Comprehensive,3439,Basic,2079
+Hyundai,SANTAFE,CNG,Standard,4959,Comprehensive,8079,Basic,3999
+Hyundai,SANTAFE,Petrol,Standard,4959,Comprehensive,8079,Basic,3999
+Hyundai,SANTRO XING,CNG,Standard,2239,Comprehensive,3199,Basic,1759
+Hyundai,SANTRO XING,Petrol,Standard,2239,Comprehensive,3199,Basic,1759
+Hyundai,SONATA,CNG,Standard,3039,Comprehensive,6559,Basic,2399
+Hyundai,SONATA,Diesel,Standard,3759,Comprehensive,4399,Basic,3039
+Hyundai,SONATA,Petrol,Standard,3039,Comprehensive,4399,Basic,2399
+Hyundai,SONATA EMBRA,Diesel,Standard,3759,Comprehensive,4399,Basic,3039
+Hyundai,SONATA EMBRA,Petrol,Standard,3039,Comprehensive,6559,Basic,2399
+Hyundai,SONATA EMBRA,CNG,Standard,3039,Comprehensive,4399,Basic,2399
+Hyundai,SONATA TRANSFORM,Diesel,Standard,3759,Comprehensive,4399,Basic,3039
+Hyundai,SONATA TRANSFORM,Petrol,Standard,3039,Comprehensive,4399,Basic,2399
+Hyundai,SONATA TRANSFORM,CNG,Standard,3039,Comprehensive,6559,Basic,2399
+Hyundai,TUCSON,Diesel,Standard,4959,Comprehensive,8079,Basic,3999
+Hyundai,VERNA,Diesel,Standard,3759,Comprehensive,3919,Basic,3039
+Hyundai,VERNA,Petrol,Standard,2799,Comprehensive,6559,Basic,2239
+Hyundai,VERNA,CNG,Standard,2799,Comprehensive,3919,Basic,2239
+Hyundai,VERNA FLUIDIC,CNG,Standard,2799,Comprehensive,6559,Basic,2239
+Hyundai,VERNA FLUIDIC,Diesel,Standard,3759,Comprehensive,3919,Basic,3039
+Hyundai,VERNA FLUIDIC,Petrol,Standard,2799,Comprehensive,3919,Basic,2239
+Hyundai,VERNA TRANSFORM,Diesel,Standard,3759,Comprehensive,3919,Basic,3039
+Hyundai,VERNA TRANSFORM,Petrol,Standard,2799,Comprehensive,6559,Basic,2239
+Hyundai,VERNA TRANSFORM,CNG,Standard,2799,Comprehensive,3919,Basic,2239
+Hyundai,XCENT,CNG,Standard,2479,Comprehensive,6319,Basic,1999
+Hyundai,XCENT,Diesel,Standard,3359,Comprehensive,3439,Basic,2639
+Hyundai,XCENT,Petrol,Standard,2479,Comprehensive,3439,Basic,1999
+Mahindra,BOLERO,Diesel,Standard,4159,Comprehensive,6319,Basic,3359
+Mahindra,QUANTO,Diesel,Standard,4159,Comprehensive,6319,Basic,3359
+Mahindra,SCORPIO,Diesel,Standard,4159,Comprehensive,6319,Basic,3359
+Mahindra,SCORPIO GETAWAY,Diesel,Standard,4159,Comprehensive,6319,Basic,3359
+Mahindra,THAR,Diesel,Standard,4159,Comprehensive,6319,Basic,3359
+Mahindra,VERITO,Diesel,Standard,4159,Comprehensive,5759,Basic,3359
+Mahindra,VERITO VIBE CS,Diesel,Standard,4159,Comprehensive,6319,Basic,3359
+Mahindra,XUV 500,Diesel,Standard,4159,Comprehensive,6319,Basic,3359
+Mahindra,XYLO,Diesel,Standard,4159,Comprehensive,6319,Basic,3359
+Maruti Suzuki,800,Petrol,Standard,1999,Comprehensive,2879,Basic,1599
+Maruti Suzuki,800,CNG,Standard,1999,Comprehensive,2879,Basic,1599
+Maruti Suzuki,A-STAR,CNG,Standard,2319,Comprehensive,3359,Basic,1919
+Maruti Suzuki,A-STAR,Petrol,Standard,2319,Comprehensive,3359,Basic,1919
+Maruti Suzuki,ALTO,Petrol,Standard,2239,Comprehensive,3279,Basic,1759
+Maruti Suzuki,ALTO,CNG,Standard,2239,Comprehensive,3279,Basic,1759
+Maruti Suzuki,ALTO 800,Petrol,Standard,2239,Comprehensive,3359,Basic,1759
+Maruti Suzuki,ALTO 800,CNG,Standard,2239,Comprehensive,3359,Basic,1759
+Maruti Suzuki,ALTO K10,Petrol,Standard,2239,Comprehensive,3519,Basic,1759
+Maruti Suzuki,ALTO K10,CNG,Standard,2239,Comprehensive,3519,Basic,1759
+Maruti Suzuki,BALENO,CNG,Standard,3199,Comprehensive,5759,Basic,2559
+Maruti Suzuki,BALENO,Diesel,Standard,3759,Comprehensive,4399,Basic,3119
+Maruti Suzuki,BALENO,Petrol,Standard,3199,Comprehensive,4399,Basic,2559
+Maruti Suzuki,CELERIO,Diesel,Standard,3039,Comprehensive,4879,Basic,2399
+Maruti Suzuki,CELERIO,Petrol,Standard,2479,Comprehensive,5039,Basic,1999
+Maruti Suzuki,CELERIO,CNG,Standard,2479,Comprehensive,4879,Basic,1999
+Maruti Suzuki,CIAZ,CNG,Standard,2799,Comprehensive,5039,Basic,2239
+Maruti Suzuki,CIAZ,Diesel,Standard,3519,Comprehensive,3519,Basic,2879
+Maruti Suzuki,CIAZ,Petrol,Standard,2799,Comprehensive,3519,Basic,2239
+Maruti Suzuki,EECO,Petrol,Standard,2319,Comprehensive,3519,Basic,1919
+Maruti Suzuki,EECO,CNG,Standard,2319,Comprehensive,3519,Basic,1919
+Maruti Suzuki,ERTIGA,Petrol,Standard,2879,Comprehensive,3519,Basic,2319
+Maruti Suzuki,ERTIGA,CNG,Standard,2879,Comprehensive,5039,Basic,2319
+Maruti Suzuki,ERTIGA,Diesel,Standard,3039,Comprehensive,3519,Basic,2399
+Maruti Suzuki,ESTEEM,Petrol,Standard,2319,Comprehensive,3359,Basic,1919
+Maruti Suzuki,ESTEEM,CNG,Standard,2319,Comprehensive,3359,Basic,1919
+Maruti Suzuki,ESTILIO,Petrol,Standard,2319,Comprehensive,3359,Basic,1919
+Maruti Suzuki,ESTILIO,CNG,Standard,2319,Comprehensive,3359,Basic,1919
+Maruti Suzuki,GRAND VITARA,Diesel,Standard,3919,Comprehensive,4879,Basic,3119
+Maruti Suzuki,GRAND VITARA,Petrol,Standard,3279,Comprehensive,6159,Basic,2639
+Maruti Suzuki,GRAND VITARA,CNG,Standard,3279,Comprehensive,4879,Basic,2639
+Maruti Suzuki,GYPSY,CNG,Standard,3039,Comprehensive,5919,Basic,2399
+Maruti Suzuki,GYPSY,Diesel,Standard,3679,Comprehensive,4639,Basic,2959
+Maruti Suzuki,GYPSY,Petrol,Standard,3039,Comprehensive,4639,Basic,2399
+Maruti Suzuki,KIZASHI,Diesel,Standard,3919,Comprehensive,4879,Basic,3119
+Maruti Suzuki,KIZASHI,Petrol,Standard,3279,Comprehensive,6159,Basic,2639
+Maruti Suzuki,KIZASHI,CNG,Standard,3279,Comprehensive,4879,Basic,2639
+Maruti Suzuki,OMNI,CNG,Standard,3039,Comprehensive,3359,Basic,1919
+Maruti Suzuki,OMNI,Petrol,Standard,3039,Comprehensive,3359,Basic,1919
+Maruti Suzuki,RITZ,Diesel,Standard,2959,Comprehensive,4639,Basic,2079
+Maruti Suzuki,RITZ,Petrol,Standard,2479,Comprehensive,3359,Basic,1919
+Maruti Suzuki,RITZ,CNG,Standard,2479,Comprehensive,3359,Basic,1919
+Maruti Suzuki,S-CROSS,CNG,Standard,2319,Comprehensive,4719,Basic,1999
+Maruti Suzuki,S-CROSS,Diesel,Standard,2639,Comprehensive,3759,Basic,2159
+Maruti Suzuki,S-CROSS,Petrol,Standard,2319,Comprehensive,3759,Basic,1999
+Maruti Suzuki,SWIFT,Diesel,Standard,2559,Comprehensive,3359,Basic,2079
+Maruti Suzuki,SWIFT,Petrol,Standard,2319,Comprehensive,4639,Basic,1919
+Maruti Suzuki,SWIFT,CNG,Standard,2319,Comprehensive,3359,Basic,1919
+Maruti Suzuki,SWIFT DZIRE,CNG,Standard,2479,Comprehensive,4719,Basic,1999
+Maruti Suzuki,SWIFT DZIRE,Diesel,Standard,2639,Comprehensive,3519,Basic,2159
+Maruti Suzuki,SWIFT DZIRE,Petrol,Standard,2479,Comprehensive,3519,Basic,1999
+Maruti Suzuki,SX4,Diesel,Standard,3279,Comprehensive,4159,Basic,2639
+Maruti Suzuki,SX4,Petrol,Standard,2959,Comprehensive,5279,Basic,2319
+Maruti Suzuki,SX4,CNG,Standard,2959,Comprehensive,4159,Basic,2319
+Maruti Suzuki,VERSA,CNG,Standard,2799,Comprehensive,3839,Basic,2239
+Maruti Suzuki,VERSA,Petrol,Standard,2799,Comprehensive,3839,Basic,2239
+Maruti Suzuki,WAGONR,Petrol,Standard,2319,Comprehensive,3359,Basic,1919
+Maruti Suzuki,WAGONR,CNG,Standard,2319,Comprehensive,3359,Basic,1919
+Maruti Suzuki,ZEN,Petrol,Standard,2319,Comprehensive,3359,Basic,1919
+Maruti Suzuki,ZEN,CNG,Standard,2319,Comprehensive,3359,Basic,1919
+Mitsubishi,PAJERO,Diesel,Standard,5519,Comprehensive,8799,Basic,4399
+Mitsubishi,PAJERO SPORT,Diesel,Standard,5519,Comprehensive,8799,Basic,4399
+Nissan,EVALIA,Diesel,Standard,4159,Comprehensive,7359,Basic,3359
+Nissan,MICRA,CNG,Standard,3119,Comprehensive,5279,Basic,2479
+Nissan,MICRA,Petrol,Standard,3119,Comprehensive,5279,Basic,2479
+Nissan,MICRA ACTIVE,CNG,Standard,3119,Comprehensive,5279,Basic,2479
+Nissan,MICRA ACTIVE,Petrol,Standard,3119,Comprehensive,5279,Basic,2479
+Nissan,SUNNY,Diesel,Standard,3839,Comprehensive,6159,Basic,3039
+Nissan,TEANA,Diesel,Standard,4239,Comprehensive,6639,Basic,3359
+Nissan,TERRANO,Diesel,Standard,4079,Comprehensive,7279,Basic,3279
+Nissan,X-TRAIL,Diesel,Standard,4399,Comprehensive,7599,Basic,3519
+Renault,DUSTER,Diesel,Standard,4079,Comprehensive,7279,Basic,3279
+Renault,FLUENCE,CNG,Standard,3279,Comprehensive,4879,Basic,2639
+Renault,FLUENCE,Diesel,Standard,3839,Comprehensive,6159,Basic,3039
+Renault,FLUENCE,Petrol,Standard,3279,Comprehensive,4879,Basic,2639
+Renault,KOLEOS,Diesel,Standard,4399,Comprehensive,7599,Basic,3519
+Renault,LODGY,Diesel,Standard,4159,Comprehensive,7359,Basic,3359
+Renault,PULSE,Diesel,Standard,3119,Comprehensive,4159,Basic,2479
+Renault,PULSE,Petrol,Standard,2639,Comprehensive,5279,Basic,2159
+Renault,PULSE,CNG,Standard,2639,Comprehensive,4159,Basic,2159
+Renault,SCALA,CNG,Standard,3279,Comprehensive,6159,Basic,2639
+Renault,SCALA,Diesel,Standard,3839,Comprehensive,4879,Basic,3039
+Renault,SCALA,Petrol,Standard,3279,Comprehensive,4879,Basic,2639
+Skoda,FABIA,Diesel,Standard,4079,Comprehensive,6079,Basic,3199
+Skoda,FABIA,Petrol,Standard,4079,Comprehensive,6639,Basic,3199
+Skoda,FABIA,CNG,Standard,4079,Comprehensive,6079,Basic,3199
+Skoda,FABIA SCOUT,CNG,Standard,4079,Comprehensive,6639,Basic,3199
+Skoda,FABIA SCOUT,Diesel,Standard,4079,Comprehensive,6079,Basic,3199
+Skoda,FABIA SCOUT,Petrol,Standard,4079,Comprehensive,6079,Basic,3199
+Skoda,LAURA,Diesel,Standard,4559,Comprehensive,6719,Basic,3519
+Skoda,OCTAVIA,Diesel,Standard,4559,Comprehensive,6079,Basic,3519
+Skoda,OCTAVIA,Petrol,Standard,4239,Comprehensive,7039,Basic,3519
+Skoda,OCTAVIA,CNG,Standard,4239,Comprehensive,6079,Basic,3519
+Skoda,RAPID,CNG,Standard,4239,Comprehensive,7279,Basic,3519
+Skoda,RAPID,Diesel,Standard,4559,Comprehensive,6159,Basic,3519
+Skoda,RAPID,Petrol,Standard,4239,Comprehensive,6159,Basic,3519
+Skoda,SUPERB,Diesel,Standard,5279,Comprehensive,7199,Basic,4239
+Skoda,SUPERB,Petrol,Standard,5279,Comprehensive,8319,Basic,4239
+Skoda,SUPERB,CNG,Standard,5279,Comprehensive,7199,Basic,4239
+Skoda,YETI,Diesel,Standard,5279,Comprehensive,8319,Basic,3839
+TATA,ARIA,Diesel,Standard,3119,Comprehensive,3279,Basic,2479
+TATA,ARIA,Petrol,Standard,2559,Comprehensive,5839,Basic,2079
+TATA,ARIA,CNG,Standard,2559,Comprehensive,3279,Basic,2079
+TATA,BOLT,Diesel,Standard,3119,Comprehensive,5839,Basic,2479
+TATA,BOLT,Petrol,Standard,2559,Comprehensive,3279,Basic,2079
+TATA,BOLT,CNG,Standard,2559,Comprehensive,3279,Basic,2079
+TATA,INDICA,CNG,Standard,2559,Comprehensive,5839,Basic,2079
+TATA,INDICA,Diesel,Standard,3119,Comprehensive,3279,Basic,2479
+TATA,INDICA,Petrol,Standard,2559,Comprehensive,3279,Basic,2079
+TATA,INDICA eV2,Diesel,Standard,3119,Comprehensive,3279,Basic,2479
+TATA,INDICA eV2,Petrol,Standard,2559,Comprehensive,5839,Basic,2079
+TATA,INDICA eV2,CNG,Standard,2559,Comprehensive,3279,Basic,2079
+TATA,INDICA V2,CNG,Standard,2559,Comprehensive,5839,Basic,2079
+TATA,INDICA V2,Diesel,Standard,3119,Comprehensive,3279,Basic,2479
+TATA,INDICA V2,Petrol,Standard,2559,Comprehensive,3279,Basic,2079
+TATA,INDICA VISTA,Diesel,Standard,3119,Comprehensive,3279,Basic,2479
+TATA,INDICA VISTA,Petrol,Standard,2559,Comprehensive,5839,Basic,2079
+TATA,INDICA VISTA,CNG,Standard,2559,Comprehensive,3279,Basic,2079
+TATA,INDIGO,CNG,Standard,2559,Comprehensive,5839,Basic,2079
+TATA,INDIGO,Diesel,Standard,3119,Comprehensive,3279,Basic,2479
+TATA,INDIGO,Petrol,Standard,2559,Comprehensive,3279,Basic,2079
+TATA,INDIGO CS,CNG,Standard,2559,Comprehensive,5839,Basic,2079
+TATA,INDIGO CS,Diesel,Standard,3119,Comprehensive,3279,Basic,2479
+TATA,INDIGO CS,Petrol,Standard,2559,Comprehensive,3279,Basic,2079
+TATA,INDIGO eCS,Diesel,Standard,3119,Comprehensive,3279,Basic,2479
+TATA,INDIGO eCS,Petrol,Standard,2559,Comprehensive,5839,Basic,2079
+TATA,INDIGO eCS,CNG,Standard,2559,Comprehensive,3279,Basic,2079
+TATA,INDIGO MARINA,CNG,Standard,2559,Comprehensive,5839,Basic,2079
+TATA,INDIGO MARINA,Diesel,Standard,3119,Comprehensive,3279,Basic,2479
+TATA,INDIGO MARINA,Petrol,Standard,2559,Comprehensive,3279,Basic,2079
+TATA,INDIGO XL,Diesel,Standard,3119,Comprehensive,3279,Basic,2479
+TATA,INDIGO XL,Petrol,Standard,2559,Comprehensive,5839,Basic,2079
+TATA,INDIGO XL,CNG,Standard,2559,Comprehensive,3279,Basic,2079
+TATA,MANZA,CNG,Standard,2559,Comprehensive,6079,Basic,2079
+TATA,MANZA,Diesel,Standard,3359,Comprehensive,3759,Basic,2639
+TATA,MANZA,Petrol,Standard,2559,Comprehensive,3759,Basic,2079
+TATA,NANO,Petrol,Standard,1919,Comprehensive,2559,Basic,1519
+TATA,NANO,CNG,Standard,1919,Comprehensive,2559,Basic,1519
+TATA,NANO GENX,CNG,Standard,1919,Comprehensive,2559,Basic,1519
+TATA,NANO GENX,Petrol,Standard,1919,Comprehensive,2559,Basic,1519
+TATA,SAFARI,Diesel,Standard,5119,Comprehensive,8239,Basic,4079
+TATA,SAFARI STORME,Diesel,Standard,5119,Comprehensive,8239,Basic,4079
+TATA,SUMO GOLD,Diesel,Standard,4639,Comprehensive,7599,Basic,3759
+TATA,SUMO GRANDE,Diesel,Standard,4639,Comprehensive,7599,Basic,3759
+TATA,SUMO GRANDE MK II,Diesel,Standard,4639,Comprehensive,7599,Basic,3759
+TATA,SUMO SPACIO,Diesel,Standard,4639,Comprehensive,7599,Basic,3759
+TATA,SUMO VICTA,Diesel,Standard,4639,Comprehensive,7599,Basic,3759
+TATA,ZEST,Diesel,Standard,3359,Comprehensive,3759,Basic,2639
+TATA,ZEST,Petrol,Standard,2879,Comprehensive,5999,Basic,2319
+TATA,ZEST,CNG,Standard,2879,Comprehensive,3759,Basic,2319
+Toyota,CAMRY,CNG,Standard,5599,Comprehensive,7359,Basic,3839
+Toyota,CAMRY,Petrol,Standard,5599,Comprehensive,7359,Basic,3839
+Toyota,COROLLA,Diesel,Standard,4079,Comprehensive,6799,Basic,3359
+Toyota,COROLLA,Petrol,Standard,4079,Comprehensive,5439,Basic,3039
+Toyota,COROLLA,CNG,Standard,4079,Comprehensive,5439,Basic,3039
+Toyota,COROLLA ALTIS,CNG,Standard,4079,Comprehensive,6799,Basic,3039
+Toyota,COROLLA ALTIS,Diesel,Standard,4399,Comprehensive,5439,Basic,3359
+Toyota,COROLLA ALTIS,Petrol,Standard,4079,Comprehensive,5439,Basic,3039
+Toyota,ETIOS,Diesel,Standard,2959,Comprehensive,3519,Basic,2399
+Toyota,ETIOS,Petrol,Standard,2479,Comprehensive,4799,Basic,1999
+Toyota,ETIOS,CNG,Standard,2479,Comprehensive,3519,Basic,1999
+Toyota,ETIOS CROSS,CNG,Standard,2479,Comprehensive,4799,Basic,1999
+Toyota,ETIOS CROSS,Diesel,Standard,2959,Comprehensive,3519,Basic,2399
+Toyota,ETIOS CROSS,Petrol,Standard,2479,Comprehensive,3519,Basic,1999
+Toyota,ETIOS LIVA,Diesel,Standard,2959,Comprehensive,3519,Basic,2399
+Toyota,ETIOS LIVA,Petrol,Standard,2479,Comprehensive,4799,Basic,1999
+Toyota,ETIOS LIVA,CNG,Standard,2479,Comprehensive,3519,Basic,1999
+Toyota,FORTUNER,Diesel,Standard,6799,Comprehensive,8639,Basic,4319
+Toyota,INNOVA,Diesel,Standard,6799,Comprehensive,7359,Basic,3839
+Toyota,LAND CRUISER,Diesel,Standard,6959,Comprehensive,8479,Basic,4319
+Toyota,LAND CRUISER PRADO,Diesel,Standard,6959,Comprehensive,8479,Basic,4319
+Volkswagen,CROSS POLO,Diesel,Standard,3359,Comprehensive,4879,Basic,2639
+Volkswagen,CROSS POLO,Petrol,Standard,3119,Comprehensive,5599,Basic,2479
+Volkswagen,CROSS POLO,CNG,Standard,3119,Comprehensive,4879,Basic,2479
+Volkswagen,JETTA,CNG,Standard,4159,Comprehensive,7279,Basic,2639
+Volkswagen,JETTA,Diesel,Standard,4319,Comprehensive,6159,Basic,2959
+Volkswagen,JETTA,Petrol,Standard,4159,Comprehensive,6159,Basic,2639
+Volkswagen,PASSAT,Diesel,Standard,4319,Comprehensive,6159,Basic,2639
+Volkswagen,PASSAT,Petrol,Standard,4159,Comprehensive,7279,Basic,2479
+Volkswagen,PASSAT,CNG,Standard,4159,Comprehensive,6159,Basic,2479
+Volkswagen,POLO,CNG,Standard,3119,Comprehensive,5599,Basic,2479
+Volkswagen,POLO,Diesel,Standard,3359,Comprehensive,4879,Basic,2639
+Volkswagen,POLO,Petrol,Standard,3119,Comprehensive,4879,Basic,2479
+Volkswagen,VENTO,Petrol,Standard,4159,Comprehensive,5439,Basic,3359
+Volkswagen,VENTO,CNG,Standard,4159,Comprehensive,5679,Basic,3359

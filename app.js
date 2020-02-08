@@ -5,10 +5,10 @@ const AppError = require("./utils/appError");
 const bodyParser = require("body-parser");
 
 const carBrandRouter = require("./routes/carBrandRoutes");
-const packageRouter = require("./routes/packagesRoutes");
+// const packageRouter = require("./routes/packagesRoutes");
 const bookingRouter = require("./routes/coustmerInforRoutes");
 const viewRouter = require("./routes/viewRoutes");
-
+const csvUpload = require("./routes/csvUploadRoutes");
 const app = express();
 
 var cons = require("consolidate");
@@ -37,6 +37,7 @@ app.use((req, res, next) => {
 app.use("/", viewRouter);
 app.use("/api/v1/carBrand", carBrandRouter);
 app.use("/api/v1/booking", bookingRouter);
+app.use("/csvUpload", csvUpload);
 
 app.all("*", (req, res, next) => {
   next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));

@@ -41,13 +41,9 @@ export const packageInsert = async packageData => {
     <div class="pricing-card">
     <span class="pricing-el-med">${packageData.packageType}</span>
     <h2>&#8377 ${packageData.price}</h2>
-    <span class="pricing-el-small">Takes ${
-      packageData.checkingTime
-    } hours</span>
+    <span class="pricing-el-small">Takes ${packageData.checkingTime} hours</span>
     <ul class="pricing-el-small" id="services">
-     ${packageData.services.map(key => {
-       return `<li>${key}</li>`;
-     })}
+     <li>wheel chair</li>
     </ul>
     <a href="/booking" class="btn btn-pricing" id="proccedToBook">Procced to Book</a>
   </div>
@@ -55,8 +51,7 @@ export const packageInsert = async packageData => {
   await elements.packageElement.insertAdjacentHTML("beforeend", data);
   const el = document.getElementById("proccedToBook");
   el.addEventListener("click", e => {
-    localStorage.setItem("packageType", packageData.packageType);
     localStorage.setItem("price", packageData.price);
-    localStorage.setItem("services", packageData.services);
+    localStorage.setItem("packageType", packageData.packageType);
   });
 };

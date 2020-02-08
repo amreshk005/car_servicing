@@ -1,0 +1,7203 @@
+[
+ {
+   "CarMake": "Chevrolet",
+   "Model": "AVEO",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5839
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Chevrolet",
+   "Model": "AVEO",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3359
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4719
+      },
+      {
+         "packageType": "Basic",
+         "price": 2639
+      }
+   ]
+},
+ {
+   "CarMake": "Chevrolet",
+   "Model": "AVEO",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4719
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Chevrolet",
+   "Model": "BEAT",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4239
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Chevrolet",
+   "Model": "BEAT",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2799
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5439
+      },
+      {
+         "packageType": "Basic",
+         "price": 2239
+      }
+   ]
+},
+ {
+   "CarMake": "Chevrolet",
+   "Model": "BEAT",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2799
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4239
+      },
+      {
+         "packageType": "Basic",
+         "price": 2239
+      }
+   ]
+},
+ {
+   "CarMake": "Chevrolet",
+   "Model": "CAPTIVA",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4879
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 7919
+      },
+      {
+         "packageType": "Basic",
+         "price": 3919
+      }
+   ]
+},
+ {
+   "CarMake": "Chevrolet",
+   "Model": "CRUZE",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4879
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6319
+      },
+      {
+         "packageType": "Basic",
+         "price": 3919
+      }
+   ]
+},
+ {
+   "CarMake": "Chevrolet",
+   "Model": "CRUZE",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3999
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 8079
+      },
+      {
+         "packageType": "Basic",
+         "price": 3199
+      }
+   ]
+},
+ {
+   "CarMake": "Chevrolet",
+   "Model": "CRUZE",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3999
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6319
+      },
+      {
+         "packageType": "Basic",
+         "price": 3199
+      }
+   ]
+},
+ {
+   "CarMake": "Chevrolet",
+   "Model": "ENJOY",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3759
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5999
+      },
+      {
+         "packageType": "Basic",
+         "price": 3039
+      }
+   ]
+},
+ {
+   "CarMake": "Chevrolet",
+   "Model": "ENJOY",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3519
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4959
+      },
+      {
+         "packageType": "Basic",
+         "price": 2879
+      }
+   ]
+},
+ {
+   "CarMake": "Chevrolet",
+   "Model": "ENJOY",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3519
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4959
+      },
+      {
+         "packageType": "Basic",
+         "price": 2879
+      }
+   ]
+},
+ {
+   "CarMake": "Chevrolet",
+   "Model": "FORESTER",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4879
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 8559
+      },
+      {
+         "packageType": "Basic",
+         "price": 3919
+      }
+   ]
+},
+ {
+   "CarMake": "Chevrolet",
+   "Model": "FORESTER",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 5519
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 7919
+      },
+      {
+         "packageType": "Basic",
+         "price": 4399
+      }
+   ]
+},
+ {
+   "CarMake": "Chevrolet",
+   "Model": "FORESTER",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4879
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 7919
+      },
+      {
+         "packageType": "Basic",
+         "price": 3919
+      }
+   ]
+},
+ {
+   "CarMake": "Chevrolet",
+   "Model": "OPTRA",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4879
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5199
+      },
+      {
+         "packageType": "Basic",
+         "price": 3919
+      }
+   ]
+},
+ {
+   "CarMake": "Chevrolet",
+   "Model": "OPTRA",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3359
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 7919
+      },
+      {
+         "packageType": "Basic",
+         "price": 2639
+      }
+   ]
+},
+ {
+   "CarMake": "Chevrolet",
+   "Model": "OPTRA",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3359
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5199
+      },
+      {
+         "packageType": "Basic",
+         "price": 2639
+      }
+   ]
+},
+ {
+   "CarMake": "Chevrolet",
+   "Model": "OPTRA MAGNUM",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3359
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 7919
+      },
+      {
+         "packageType": "Basic",
+         "price": 2639
+      }
+   ]
+},
+ {
+   "CarMake": "Chevrolet",
+   "Model": "OPTRA MAGNUM",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4879
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5199
+      },
+      {
+         "packageType": "Basic",
+         "price": 3919
+      }
+   ]
+},
+ {
+   "CarMake": "Chevrolet",
+   "Model": "OPTRA MAGNUM",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3359
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5199
+      },
+      {
+         "packageType": "Basic",
+         "price": 2639
+      }
+   ]
+},
+ {
+   "CarMake": "Chevrolet",
+   "Model": "OPTRA SRV",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3359
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5199
+      },
+      {
+         "packageType": "Basic",
+         "price": 2639
+      }
+   ]
+},
+ {
+   "CarMake": "Chevrolet",
+   "Model": "OPTRA SRV",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3359
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5199
+      },
+      {
+         "packageType": "Basic",
+         "price": 2639
+      }
+   ]
+},
+ {
+   "CarMake": "Chevrolet",
+   "Model": "SAIL",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4719
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Chevrolet",
+   "Model": "SAIL",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5599
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Chevrolet",
+   "Model": "SAIL",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4719
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Chevrolet",
+   "Model": "SAIL HATCHBACK",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2959
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4639
+      },
+      {
+         "packageType": "Basic",
+         "price": 2319
+      }
+   ]
+},
+ {
+   "CarMake": "Chevrolet",
+   "Model": "SAIL HATCHBACK",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2959
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4639
+      },
+      {
+         "packageType": "Basic",
+         "price": 2319
+      }
+   ]
+},
+ {
+   "CarMake": "Chevrolet",
+   "Model": "SAIL HATCHBACK",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2959
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5439
+      },
+      {
+         "packageType": "Basic",
+         "price": 2319
+      }
+   ]
+},
+ {
+   "CarMake": "Chevrolet",
+   "Model": "SPARK",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2959
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3679
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Chevrolet",
+   "Model": "SPARK",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2959
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3679
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Chevrolet",
+   "Model": "TAVERA",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4159
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6719
+      },
+      {
+         "packageType": "Basic",
+         "price": 3359
+      }
+   ]
+},
+ {
+   "CarMake": "Chevrolet",
+   "Model": "UVA",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2959
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4399
+      },
+      {
+         "packageType": "Basic",
+         "price": 2319
+      }
+   ]
+},
+ {
+   "CarMake": "Chevrolet",
+   "Model": "UVA",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2959
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5279
+      },
+      {
+         "packageType": "Basic",
+         "price": 2319
+      }
+   ]
+},
+ {
+   "CarMake": "Chevrolet",
+   "Model": "UVA",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2959
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4399
+      },
+      {
+         "packageType": "Basic",
+         "price": 2319
+      }
+   ]
+},
+ {
+   "CarMake": "Daewoo",
+   "Model": "CIELO",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3199
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5039
+      },
+      {
+         "packageType": "Basic",
+         "price": 2559
+      }
+   ]
+},
+ {
+   "CarMake": "Daewoo",
+   "Model": "CIELO",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3199
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5039
+      },
+      {
+         "packageType": "Basic",
+         "price": 2559
+      }
+   ]
+},
+ {
+   "CarMake": "Daewoo",
+   "Model": "MATIZ",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2479
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3679
+      },
+      {
+         "packageType": "Basic",
+         "price": 1999
+      }
+   ]
+},
+ {
+   "CarMake": "Daewoo",
+   "Model": "MATIZ",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2479
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3679
+      },
+      {
+         "packageType": "Basic",
+         "price": 1999
+      }
+   ]
+},
+ {
+   "CarMake": "Daewoo",
+   "Model": "NEXIA",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3199
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5039
+      },
+      {
+         "packageType": "Basic",
+         "price": 2559
+      }
+   ]
+},
+ {
+   "CarMake": "Daewoo",
+   "Model": "NEXIA",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3199
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5039
+      },
+      {
+         "packageType": "Basic",
+         "price": 2559
+      }
+   ]
+},
+ {
+   "CarMake": "Datsun",
+   "Model": "GO",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2479
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3679
+      },
+      {
+         "packageType": "Basic",
+         "price": 1999
+      }
+   ]
+},
+ {
+   "CarMake": "Datsun",
+   "Model": "GO",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2479
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3679
+      },
+      {
+         "packageType": "Basic",
+         "price": 1999
+      }
+   ]
+},
+ {
+   "CarMake": "Datsun",
+   "Model": "GO PLUS",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2479
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3679
+      },
+      {
+         "packageType": "Basic",
+         "price": 1999
+      }
+   ]
+},
+ {
+   "CarMake": "Datsun",
+   "Model": "GO PLUS",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2479
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3679
+      },
+      {
+         "packageType": "Basic",
+         "price": 1999
+      }
+   ]
+},
+ {
+   "CarMake": "Fiat",
+   "Model": "ADVENTURE",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6079
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Fiat",
+   "Model": "ADVENTURE",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3279
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4399
+      },
+      {
+         "packageType": "Basic",
+         "price": 2639
+      }
+   ]
+},
+ {
+   "CarMake": "Fiat",
+   "Model": "ADVENTURE",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4399
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Fiat",
+   "Model": "AVVENTURA",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3279
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4399
+      },
+      {
+         "packageType": "Basic",
+         "price": 2639
+      }
+   ]
+},
+ {
+   "CarMake": "Fiat",
+   "Model": "AVVENTURA",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6079
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Fiat",
+   "Model": "AVVENTURA",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4399
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Fiat",
+   "Model": "LINEA",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6159
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Fiat",
+   "Model": "LINEA",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3359
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4559
+      },
+      {
+         "packageType": "Basic",
+         "price": 2639
+      }
+   ]
+},
+ {
+   "CarMake": "Fiat",
+   "Model": "LINEA",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4559
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Fiat",
+   "Model": "LINEA CLASSIC",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4559
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Fiat",
+   "Model": "LINEA CLASSIC",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6159
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Fiat",
+   "Model": "LINEA CLASSIC",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3359
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4559
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Fiat",
+   "Model": "PALIO D",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4559
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Fiat",
+   "Model": "PALIO D",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2879
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5599
+      },
+      {
+         "packageType": "Basic",
+         "price": 2319
+      }
+   ]
+},
+ {
+   "CarMake": "Fiat",
+   "Model": "PALIO D",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2879
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4559
+      },
+      {
+         "packageType": "Basic",
+         "price": 2319
+      }
+   ]
+},
+ {
+   "CarMake": "Fiat",
+   "Model": "PALIO NV",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2879
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5599
+      },
+      {
+         "packageType": "Basic",
+         "price": 2319
+      }
+   ]
+},
+ {
+   "CarMake": "Fiat",
+   "Model": "PALIO NV",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4559
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Fiat",
+   "Model": "PALIO NV",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2879
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4559
+      },
+      {
+         "packageType": "Basic",
+         "price": 2319
+      }
+   ]
+},
+ {
+   "CarMake": "Fiat",
+   "Model": "PALIO STILE",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4559
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Fiat",
+   "Model": "PALIO STILE",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2879
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5599
+      },
+      {
+         "packageType": "Basic",
+         "price": 2319
+      }
+   ]
+},
+ {
+   "CarMake": "Fiat",
+   "Model": "PALIO STILE",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2879
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4559
+      },
+      {
+         "packageType": "Basic",
+         "price": 2319
+      }
+   ]
+},
+ {
+   "CarMake": "Fiat",
+   "Model": "PETRA",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2879
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5599
+      },
+      {
+         "packageType": "Basic",
+         "price": 2319
+      }
+   ]
+},
+ {
+   "CarMake": "Fiat",
+   "Model": "PETRA",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4559
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Fiat",
+   "Model": "PETRA",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2879
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4559
+      },
+      {
+         "packageType": "Basic",
+         "price": 2319
+      }
+   ]
+},
+ {
+   "CarMake": "Fiat",
+   "Model": "PUNTO",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2799
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4159
+      },
+      {
+         "packageType": "Basic",
+         "price": 2239
+      }
+   ]
+},
+ {
+   "CarMake": "Fiat",
+   "Model": "PUNTO",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2799
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6079
+      },
+      {
+         "packageType": "Basic",
+         "price": 2239
+      }
+   ]
+},
+ {
+   "CarMake": "Fiat",
+   "Model": "PUNTO",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3279
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4159
+      },
+      {
+         "packageType": "Basic",
+         "price": 2639
+      }
+   ]
+},
+ {
+   "CarMake": "Fiat",
+   "Model": "PUNTO EVO",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2799
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4159
+      },
+      {
+         "packageType": "Basic",
+         "price": 2239
+      }
+   ]
+},
+ {
+   "CarMake": "Fiat",
+   "Model": "UNO",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2799
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4159
+      },
+      {
+         "packageType": "Basic",
+         "price": 2239
+      }
+   ]
+},
+ {
+   "CarMake": "Fiat",
+   "Model": "UNO",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2799
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4159
+      },
+      {
+         "packageType": "Basic",
+         "price": 2239
+      }
+   ]
+},
+ {
+   "CarMake": "Ford",
+   "Model": "ECO SPORT",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5599
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Ford",
+   "Model": "ECO SPORT",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3279
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4559
+      },
+      {
+         "packageType": "Basic",
+         "price": 2639
+      }
+   ]
+},
+ {
+   "CarMake": "Ford",
+   "Model": "ECO SPORT",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4559
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Ford",
+   "Model": "ENDEAVOUR",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4719
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 7279
+      },
+      {
+         "packageType": "Basic",
+         "price": 3759
+      }
+   ]
+},
+ {
+   "CarMake": "Ford",
+   "Model": "ESCORT",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5839
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Ford",
+   "Model": "ESCORT",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3279
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4799
+      },
+      {
+         "packageType": "Basic",
+         "price": 2639
+      }
+   ]
+},
+ {
+   "CarMake": "Ford",
+   "Model": "ESCORT",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4799
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Ford",
+   "Model": "FIESTA",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3279
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4799
+      },
+      {
+         "packageType": "Basic",
+         "price": 2639
+      }
+   ]
+},
+ {
+   "CarMake": "Ford",
+   "Model": "FIESTA",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5839
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Ford",
+   "Model": "FIESTA",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4799
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Ford",
+   "Model": "FIESTA CLASSIC",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5839
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Ford",
+   "Model": "FIESTA CLASSIC",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3279
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4799
+      },
+      {
+         "packageType": "Basic",
+         "price": 2639
+      }
+   ]
+},
+ {
+   "CarMake": "Ford",
+   "Model": "FIESTA CLASSIC",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4799
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Ford",
+   "Model": "FIGO",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5679
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Ford",
+   "Model": "FIGO",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4719
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Ford",
+   "Model": "FIGO",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4719
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Ford",
+   "Model": "FIGO ASPIRE",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4719
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Ford",
+   "Model": "FIGO ASPIRE",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5679
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Ford",
+   "Model": "FIGO ASPIRE",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4719
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Ford",
+   "Model": "FUSION",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5679
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Ford",
+   "Model": "FUSION",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4719
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Ford",
+   "Model": "FUSION",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4719
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Ford",
+   "Model": "IKON",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3279
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4799
+      },
+      {
+         "packageType": "Basic",
+         "price": 2639
+      }
+   ]
+},
+ {
+   "CarMake": "Ford",
+   "Model": "IKON",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5839
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Ford",
+   "Model": "IKON",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4799
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Ford",
+   "Model": "MONDEO",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5839
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Ford",
+   "Model": "MONDEO",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3279
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4799
+      },
+      {
+         "packageType": "Basic",
+         "price": 2639
+      }
+   ]
+},
+ {
+   "CarMake": "Ford",
+   "Model": "MONDEO",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4799
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Honda",
+   "Model": "ACCORD",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3839
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5839
+      },
+      {
+         "packageType": "Basic",
+         "price": 3039
+      }
+   ]
+},
+ {
+   "CarMake": "Honda",
+   "Model": "ACCORD",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3839
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5839
+      },
+      {
+         "packageType": "Basic",
+         "price": 3039
+      }
+   ]
+},
+ {
+   "CarMake": "Honda",
+   "Model": "AMAZE",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2879
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5039
+      },
+      {
+         "packageType": "Basic",
+         "price": 2319
+      }
+   ]
+},
+ {
+   "CarMake": "Honda",
+   "Model": "AMAZE",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4559
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Honda",
+   "Model": "AMAZE",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2879
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4559
+      },
+      {
+         "packageType": "Basic",
+         "price": 2319
+      }
+   ]
+},
+ {
+   "CarMake": "Honda",
+   "Model": "BRIO",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2879
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4559
+      },
+      {
+         "packageType": "Basic",
+         "price": 2319
+      }
+   ]
+},
+ {
+   "CarMake": "Honda",
+   "Model": "BRIO",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2879
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4559
+      },
+      {
+         "packageType": "Basic",
+         "price": 2319
+      }
+   ]
+},
+ {
+   "CarMake": "Honda",
+   "Model": "CITY",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4719
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Honda",
+   "Model": "CITY",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5199
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Honda",
+   "Model": "CITY",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4719
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Honda",
+   "Model": "CITY IVTEC",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4719
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Honda",
+   "Model": "CITY IVTEC",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4719
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Honda",
+   "Model": "CITY ZX",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4719
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Honda",
+   "Model": "CITY ZX",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4719
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Honda",
+   "Model": "CIVIC",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3679
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5679
+      },
+      {
+         "packageType": "Basic",
+         "price": 2959
+      }
+   ]
+},
+ {
+   "CarMake": "Honda",
+   "Model": "CIVIC",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3679
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5679
+      },
+      {
+         "packageType": "Basic",
+         "price": 2959
+      }
+   ]
+},
+ {
+   "CarMake": "Honda",
+   "Model": "CRV",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3839
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5839
+      },
+      {
+         "packageType": "Basic",
+         "price": 3039
+      }
+   ]
+},
+ {
+   "CarMake": "Honda",
+   "Model": "CRV",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3839
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5839
+      },
+      {
+         "packageType": "Basic",
+         "price": 3039
+      }
+   ]
+},
+ {
+   "CarMake": "Honda",
+   "Model": "JAZZ",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4719
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Honda",
+   "Model": "JAZZ",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4719
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Honda",
+   "Model": "JAZZ",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5199
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Honda",
+   "Model": "MOBILIO",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2879
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5039
+      },
+      {
+         "packageType": "Basic",
+         "price": 2319
+      }
+   ]
+},
+ {
+   "CarMake": "Honda",
+   "Model": "MOBILIO",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4559
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Honda",
+   "Model": "MOBILIO",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2879
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4559
+      },
+      {
+         "packageType": "Basic",
+         "price": 2319
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "ACCENT",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3839
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3679
+      },
+      {
+         "packageType": "Basic",
+         "price": 3039
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "ACCENT",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2639
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6719
+      },
+      {
+         "packageType": "Basic",
+         "price": 2159
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "ACCENT",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2639
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3679
+      },
+      {
+         "packageType": "Basic",
+         "price": 2159
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "ACCENT VIVA",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2639
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6719
+      },
+      {
+         "packageType": "Basic",
+         "price": 2159
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "ACCENT VIVA",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3839
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3679
+      },
+      {
+         "packageType": "Basic",
+         "price": 3039
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "ACCENT VIVA",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2639
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3679
+      },
+      {
+         "packageType": "Basic",
+         "price": 2159
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "CRETA",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3759
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4239
+      },
+      {
+         "packageType": "Basic",
+         "price": 3039
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "CRETA",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2879
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6559
+      },
+      {
+         "packageType": "Basic",
+         "price": 2319
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "CRETA",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2879
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4239
+      },
+      {
+         "packageType": "Basic",
+         "price": 2319
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "ELANTRA",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3759
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4399
+      },
+      {
+         "packageType": "Basic",
+         "price": 3039
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "ELANTRA",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4399
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "ELANTRA",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6559
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "ELITE i20",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2479
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5439
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "ELITE i20",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2959
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3439
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "ELITE i20",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2479
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3439
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "EON",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2559
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3759
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "EON",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2559
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3759
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "GETZ",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2479
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3679
+      },
+      {
+         "packageType": "Basic",
+         "price": 1999
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "GETZ",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2479
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3679
+      },
+      {
+         "packageType": "Basic",
+         "price": 1999
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "GETZ PRIME",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3359
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5919
+      },
+      {
+         "packageType": "Basic",
+         "price": 2639
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "GRAND i10",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2479
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6319
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "GRAND i10",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2959
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3759
+      },
+      {
+         "packageType": "Basic",
+         "price": 2799
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "GRAND i10",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2479
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3759
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "i10",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2319
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3439
+      },
+      {
+         "packageType": "Basic",
+         "price": 1919
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "i10",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2319
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3439
+      },
+      {
+         "packageType": "Basic",
+         "price": 1919
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "i20",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2479
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3439
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "i20",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2959
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5439
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "i20",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2479
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3439
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "i20 ACTIVE",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2479
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3439
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "i20 ACTIVE",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2959
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5439
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "i20 ACTIVE",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2479
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3439
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "SANTAFE",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4959
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 8079
+      },
+      {
+         "packageType": "Basic",
+         "price": 3999
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "SANTAFE",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4959
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 8079
+      },
+      {
+         "packageType": "Basic",
+         "price": 3999
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "SANTRO XING",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2239
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3199
+      },
+      {
+         "packageType": "Basic",
+         "price": 1759
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "SANTRO XING",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2239
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3199
+      },
+      {
+         "packageType": "Basic",
+         "price": 1759
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "SONATA",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6559
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "SONATA",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3759
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4399
+      },
+      {
+         "packageType": "Basic",
+         "price": 3039
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "SONATA",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4399
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "SONATA EMBRA",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3759
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4399
+      },
+      {
+         "packageType": "Basic",
+         "price": 3039
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "SONATA EMBRA",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6559
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "SONATA EMBRA",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4399
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "SONATA TRANSFORM",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3759
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4399
+      },
+      {
+         "packageType": "Basic",
+         "price": 3039
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "SONATA TRANSFORM",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4399
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "SONATA TRANSFORM",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6559
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "TUCSON",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4959
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 8079
+      },
+      {
+         "packageType": "Basic",
+         "price": 3999
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "VERNA",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3759
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3919
+      },
+      {
+         "packageType": "Basic",
+         "price": 3039
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "VERNA",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2799
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6559
+      },
+      {
+         "packageType": "Basic",
+         "price": 2239
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "VERNA",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2799
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3919
+      },
+      {
+         "packageType": "Basic",
+         "price": 2239
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "VERNA FLUIDIC",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2799
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6559
+      },
+      {
+         "packageType": "Basic",
+         "price": 2239
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "VERNA FLUIDIC",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3759
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3919
+      },
+      {
+         "packageType": "Basic",
+         "price": 3039
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "VERNA FLUIDIC",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2799
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3919
+      },
+      {
+         "packageType": "Basic",
+         "price": 2239
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "VERNA TRANSFORM",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3759
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3919
+      },
+      {
+         "packageType": "Basic",
+         "price": 3039
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "VERNA TRANSFORM",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2799
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6559
+      },
+      {
+         "packageType": "Basic",
+         "price": 2239
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "VERNA TRANSFORM",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2799
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3919
+      },
+      {
+         "packageType": "Basic",
+         "price": 2239
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "XCENT",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2479
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6319
+      },
+      {
+         "packageType": "Basic",
+         "price": 1999
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "XCENT",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3359
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3439
+      },
+      {
+         "packageType": "Basic",
+         "price": 2639
+      }
+   ]
+},
+ {
+   "CarMake": "Hyundai",
+   "Model": "XCENT",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2479
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3439
+      },
+      {
+         "packageType": "Basic",
+         "price": 1999
+      }
+   ]
+},
+ {
+   "CarMake": "Mahindra",
+   "Model": "BOLERO",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4159
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6319
+      },
+      {
+         "packageType": "Basic",
+         "price": 3359
+      }
+   ]
+},
+ {
+   "CarMake": "Mahindra",
+   "Model": "QUANTO",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4159
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6319
+      },
+      {
+         "packageType": "Basic",
+         "price": 3359
+      }
+   ]
+},
+ {
+   "CarMake": "Mahindra",
+   "Model": "SCORPIO",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4159
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6319
+      },
+      {
+         "packageType": "Basic",
+         "price": 3359
+      }
+   ]
+},
+ {
+   "CarMake": "Mahindra",
+   "Model": "SCORPIO GETAWAY",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4159
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6319
+      },
+      {
+         "packageType": "Basic",
+         "price": 3359
+      }
+   ]
+},
+ {
+   "CarMake": "Mahindra",
+   "Model": "THAR",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4159
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6319
+      },
+      {
+         "packageType": "Basic",
+         "price": 3359
+      }
+   ]
+},
+ {
+   "CarMake": "Mahindra",
+   "Model": "VERITO",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4159
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5759
+      },
+      {
+         "packageType": "Basic",
+         "price": 3359
+      }
+   ]
+},
+ {
+   "CarMake": "Mahindra",
+   "Model": "VERITO VIBE CS",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4159
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6319
+      },
+      {
+         "packageType": "Basic",
+         "price": 3359
+      }
+   ]
+},
+ {
+   "CarMake": "Mahindra",
+   "Model": "XUV 500",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4159
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6319
+      },
+      {
+         "packageType": "Basic",
+         "price": 3359
+      }
+   ]
+},
+ {
+   "CarMake": "Mahindra",
+   "Model": "XYLO",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4159
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6319
+      },
+      {
+         "packageType": "Basic",
+         "price": 3359
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "800",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 1999
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 2879
+      },
+      {
+         "packageType": "Basic",
+         "price": 1599
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "800",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 1999
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 2879
+      },
+      {
+         "packageType": "Basic",
+         "price": 1599
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "A-STAR",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2319
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3359
+      },
+      {
+         "packageType": "Basic",
+         "price": 1919
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "A-STAR",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2319
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3359
+      },
+      {
+         "packageType": "Basic",
+         "price": 1919
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "ALTO",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2239
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3279
+      },
+      {
+         "packageType": "Basic",
+         "price": 1759
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "ALTO",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2239
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3279
+      },
+      {
+         "packageType": "Basic",
+         "price": 1759
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "ALTO 800",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2239
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3359
+      },
+      {
+         "packageType": "Basic",
+         "price": 1759
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "ALTO 800",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2239
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3359
+      },
+      {
+         "packageType": "Basic",
+         "price": 1759
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "ALTO K10",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2239
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3519
+      },
+      {
+         "packageType": "Basic",
+         "price": 1759
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "ALTO K10",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2239
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3519
+      },
+      {
+         "packageType": "Basic",
+         "price": 1759
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "BALENO",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3199
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5759
+      },
+      {
+         "packageType": "Basic",
+         "price": 2559
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "BALENO",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3759
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4399
+      },
+      {
+         "packageType": "Basic",
+         "price": 3119
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "BALENO",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3199
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4399
+      },
+      {
+         "packageType": "Basic",
+         "price": 2559
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "CELERIO",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4879
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "CELERIO",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2479
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5039
+      },
+      {
+         "packageType": "Basic",
+         "price": 1999
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "CELERIO",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2479
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4879
+      },
+      {
+         "packageType": "Basic",
+         "price": 1999
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "CIAZ",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2799
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5039
+      },
+      {
+         "packageType": "Basic",
+         "price": 2239
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "CIAZ",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3519
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3519
+      },
+      {
+         "packageType": "Basic",
+         "price": 2879
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "CIAZ",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2799
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3519
+      },
+      {
+         "packageType": "Basic",
+         "price": 2239
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "EECO",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2319
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3519
+      },
+      {
+         "packageType": "Basic",
+         "price": 1919
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "EECO",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2319
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3519
+      },
+      {
+         "packageType": "Basic",
+         "price": 1919
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "ERTIGA",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2879
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3519
+      },
+      {
+         "packageType": "Basic",
+         "price": 2319
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "ERTIGA",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2879
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5039
+      },
+      {
+         "packageType": "Basic",
+         "price": 2319
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "ERTIGA",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3519
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "ESTEEM",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2319
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3359
+      },
+      {
+         "packageType": "Basic",
+         "price": 1919
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "ESTEEM",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2319
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3359
+      },
+      {
+         "packageType": "Basic",
+         "price": 1919
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "ESTILIO",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2319
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3359
+      },
+      {
+         "packageType": "Basic",
+         "price": 1919
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "ESTILIO",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2319
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3359
+      },
+      {
+         "packageType": "Basic",
+         "price": 1919
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "GRAND VITARA",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3919
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4879
+      },
+      {
+         "packageType": "Basic",
+         "price": 3119
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "GRAND VITARA",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3279
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6159
+      },
+      {
+         "packageType": "Basic",
+         "price": 2639
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "GRAND VITARA",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3279
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4879
+      },
+      {
+         "packageType": "Basic",
+         "price": 2639
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "GYPSY",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5919
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "GYPSY",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3679
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4639
+      },
+      {
+         "packageType": "Basic",
+         "price": 2959
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "GYPSY",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4639
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "KIZASHI",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3919
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4879
+      },
+      {
+         "packageType": "Basic",
+         "price": 3119
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "KIZASHI",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3279
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6159
+      },
+      {
+         "packageType": "Basic",
+         "price": 2639
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "KIZASHI",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3279
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4879
+      },
+      {
+         "packageType": "Basic",
+         "price": 2639
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "OMNI",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3359
+      },
+      {
+         "packageType": "Basic",
+         "price": 1919
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "OMNI",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3039
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3359
+      },
+      {
+         "packageType": "Basic",
+         "price": 1919
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "RITZ",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2959
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4639
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "RITZ",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2479
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3359
+      },
+      {
+         "packageType": "Basic",
+         "price": 1919
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "RITZ",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2479
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3359
+      },
+      {
+         "packageType": "Basic",
+         "price": 1919
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "S-CROSS",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2319
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4719
+      },
+      {
+         "packageType": "Basic",
+         "price": 1999
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "S-CROSS",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2639
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3759
+      },
+      {
+         "packageType": "Basic",
+         "price": 2159
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "S-CROSS",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2319
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3759
+      },
+      {
+         "packageType": "Basic",
+         "price": 1999
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "SWIFT",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2559
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3359
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "SWIFT",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2319
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4639
+      },
+      {
+         "packageType": "Basic",
+         "price": 1919
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "SWIFT",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2319
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3359
+      },
+      {
+         "packageType": "Basic",
+         "price": 1919
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "SWIFT DZIRE",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2479
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4719
+      },
+      {
+         "packageType": "Basic",
+         "price": 1999
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "SWIFT DZIRE",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2639
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3519
+      },
+      {
+         "packageType": "Basic",
+         "price": 2159
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "SWIFT DZIRE",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2479
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3519
+      },
+      {
+         "packageType": "Basic",
+         "price": 1999
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "SX4",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3279
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4159
+      },
+      {
+         "packageType": "Basic",
+         "price": 2639
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "SX4",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2959
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5279
+      },
+      {
+         "packageType": "Basic",
+         "price": 2319
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "SX4",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2959
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4159
+      },
+      {
+         "packageType": "Basic",
+         "price": 2319
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "VERSA",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2799
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3839
+      },
+      {
+         "packageType": "Basic",
+         "price": 2239
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "VERSA",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2799
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3839
+      },
+      {
+         "packageType": "Basic",
+         "price": 2239
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "WAGONR",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2319
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3359
+      },
+      {
+         "packageType": "Basic",
+         "price": 1919
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "WAGONR",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2319
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3359
+      },
+      {
+         "packageType": "Basic",
+         "price": 1919
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "ZEN",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2319
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3359
+      },
+      {
+         "packageType": "Basic",
+         "price": 1919
+      }
+   ]
+},
+ {
+   "CarMake": "Maruti Suzuki",
+   "Model": "ZEN",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2319
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3359
+      },
+      {
+         "packageType": "Basic",
+         "price": 1919
+      }
+   ]
+},
+ {
+   "CarMake": "Mitsubishi",
+   "Model": "PAJERO",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 5519
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 8799
+      },
+      {
+         "packageType": "Basic",
+         "price": 4399
+      }
+   ]
+},
+ {
+   "CarMake": "Mitsubishi",
+   "Model": "PAJERO SPORT",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 5519
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 8799
+      },
+      {
+         "packageType": "Basic",
+         "price": 4399
+      }
+   ]
+},
+ {
+   "CarMake": "Nissan",
+   "Model": "EVALIA",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4159
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 7359
+      },
+      {
+         "packageType": "Basic",
+         "price": 3359
+      }
+   ]
+},
+ {
+   "CarMake": "Nissan",
+   "Model": "MICRA",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5279
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Nissan",
+   "Model": "MICRA",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5279
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Nissan",
+   "Model": "MICRA ACTIVE",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5279
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Nissan",
+   "Model": "MICRA ACTIVE",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5279
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Nissan",
+   "Model": "SUNNY",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3839
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6159
+      },
+      {
+         "packageType": "Basic",
+         "price": 3039
+      }
+   ]
+},
+ {
+   "CarMake": "Nissan",
+   "Model": "TEANA",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4239
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6639
+      },
+      {
+         "packageType": "Basic",
+         "price": 3359
+      }
+   ]
+},
+ {
+   "CarMake": "Nissan",
+   "Model": "TERRANO",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4079
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 7279
+      },
+      {
+         "packageType": "Basic",
+         "price": 3279
+      }
+   ]
+},
+ {
+   "CarMake": "Nissan",
+   "Model": "X-TRAIL",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4399
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 7599
+      },
+      {
+         "packageType": "Basic",
+         "price": 3519
+      }
+   ]
+},
+ {
+   "CarMake": "Renault",
+   "Model": "DUSTER",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4079
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 7279
+      },
+      {
+         "packageType": "Basic",
+         "price": 3279
+      }
+   ]
+},
+ {
+   "CarMake": "Renault",
+   "Model": "FLUENCE",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3279
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4879
+      },
+      {
+         "packageType": "Basic",
+         "price": 2639
+      }
+   ]
+},
+ {
+   "CarMake": "Renault",
+   "Model": "FLUENCE",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3839
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6159
+      },
+      {
+         "packageType": "Basic",
+         "price": 3039
+      }
+   ]
+},
+ {
+   "CarMake": "Renault",
+   "Model": "FLUENCE",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3279
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4879
+      },
+      {
+         "packageType": "Basic",
+         "price": 2639
+      }
+   ]
+},
+ {
+   "CarMake": "Renault",
+   "Model": "KOLEOS",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4399
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 7599
+      },
+      {
+         "packageType": "Basic",
+         "price": 3519
+      }
+   ]
+},
+ {
+   "CarMake": "Renault",
+   "Model": "LODGY",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4159
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 7359
+      },
+      {
+         "packageType": "Basic",
+         "price": 3359
+      }
+   ]
+},
+ {
+   "CarMake": "Renault",
+   "Model": "PULSE",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4159
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Renault",
+   "Model": "PULSE",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2639
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5279
+      },
+      {
+         "packageType": "Basic",
+         "price": 2159
+      }
+   ]
+},
+ {
+   "CarMake": "Renault",
+   "Model": "PULSE",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2639
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4159
+      },
+      {
+         "packageType": "Basic",
+         "price": 2159
+      }
+   ]
+},
+ {
+   "CarMake": "Renault",
+   "Model": "SCALA",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3279
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6159
+      },
+      {
+         "packageType": "Basic",
+         "price": 2639
+      }
+   ]
+},
+ {
+   "CarMake": "Renault",
+   "Model": "SCALA",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3839
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4879
+      },
+      {
+         "packageType": "Basic",
+         "price": 3039
+      }
+   ]
+},
+ {
+   "CarMake": "Renault",
+   "Model": "SCALA",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3279
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4879
+      },
+      {
+         "packageType": "Basic",
+         "price": 2639
+      }
+   ]
+},
+ {
+   "CarMake": "Skoda",
+   "Model": "FABIA",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4079
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6079
+      },
+      {
+         "packageType": "Basic",
+         "price": 3199
+      }
+   ]
+},
+ {
+   "CarMake": "Skoda",
+   "Model": "FABIA",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4079
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6639
+      },
+      {
+         "packageType": "Basic",
+         "price": 3199
+      }
+   ]
+},
+ {
+   "CarMake": "Skoda",
+   "Model": "FABIA",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4079
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6079
+      },
+      {
+         "packageType": "Basic",
+         "price": 3199
+      }
+   ]
+},
+ {
+   "CarMake": "Skoda",
+   "Model": "FABIA SCOUT",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4079
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6639
+      },
+      {
+         "packageType": "Basic",
+         "price": 3199
+      }
+   ]
+},
+ {
+   "CarMake": "Skoda",
+   "Model": "FABIA SCOUT",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4079
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6079
+      },
+      {
+         "packageType": "Basic",
+         "price": 3199
+      }
+   ]
+},
+ {
+   "CarMake": "Skoda",
+   "Model": "FABIA SCOUT",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4079
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6079
+      },
+      {
+         "packageType": "Basic",
+         "price": 3199
+      }
+   ]
+},
+ {
+   "CarMake": "Skoda",
+   "Model": "LAURA",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4559
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6719
+      },
+      {
+         "packageType": "Basic",
+         "price": 3519
+      }
+   ]
+},
+ {
+   "CarMake": "Skoda",
+   "Model": "OCTAVIA",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4559
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6079
+      },
+      {
+         "packageType": "Basic",
+         "price": 3519
+      }
+   ]
+},
+ {
+   "CarMake": "Skoda",
+   "Model": "OCTAVIA",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4239
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 7039
+      },
+      {
+         "packageType": "Basic",
+         "price": 3519
+      }
+   ]
+},
+ {
+   "CarMake": "Skoda",
+   "Model": "OCTAVIA",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4239
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6079
+      },
+      {
+         "packageType": "Basic",
+         "price": 3519
+      }
+   ]
+},
+ {
+   "CarMake": "Skoda",
+   "Model": "RAPID",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4239
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 7279
+      },
+      {
+         "packageType": "Basic",
+         "price": 3519
+      }
+   ]
+},
+ {
+   "CarMake": "Skoda",
+   "Model": "RAPID",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4559
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6159
+      },
+      {
+         "packageType": "Basic",
+         "price": 3519
+      }
+   ]
+},
+ {
+   "CarMake": "Skoda",
+   "Model": "RAPID",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4239
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6159
+      },
+      {
+         "packageType": "Basic",
+         "price": 3519
+      }
+   ]
+},
+ {
+   "CarMake": "Skoda",
+   "Model": "SUPERB",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 5279
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 7199
+      },
+      {
+         "packageType": "Basic",
+         "price": 4239
+      }
+   ]
+},
+ {
+   "CarMake": "Skoda",
+   "Model": "SUPERB",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 5279
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 8319
+      },
+      {
+         "packageType": "Basic",
+         "price": 4239
+      }
+   ]
+},
+ {
+   "CarMake": "Skoda",
+   "Model": "SUPERB",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 5279
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 7199
+      },
+      {
+         "packageType": "Basic",
+         "price": 4239
+      }
+   ]
+},
+ {
+   "CarMake": "Skoda",
+   "Model": "YETI",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 5279
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 8319
+      },
+      {
+         "packageType": "Basic",
+         "price": 3839
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "ARIA",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3279
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "ARIA",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2559
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5839
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "ARIA",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2559
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3279
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "BOLT",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5839
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "BOLT",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2559
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3279
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "BOLT",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2559
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3279
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "INDICA",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2559
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5839
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "INDICA",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3279
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "INDICA",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2559
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3279
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "INDICA eV2",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3279
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "INDICA eV2",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2559
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5839
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "INDICA eV2",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2559
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3279
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "INDICA V2",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2559
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5839
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "INDICA V2",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3279
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "INDICA V2",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2559
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3279
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "INDICA VISTA",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3279
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "INDICA VISTA",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2559
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5839
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "INDICA VISTA",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2559
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3279
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "INDIGO",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2559
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5839
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "INDIGO",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3279
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "INDIGO",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2559
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3279
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "INDIGO CS",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2559
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5839
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "INDIGO CS",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3279
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "INDIGO CS",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2559
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3279
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "INDIGO eCS",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3279
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "INDIGO eCS",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2559
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5839
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "INDIGO eCS",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2559
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3279
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "INDIGO MARINA",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2559
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5839
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "INDIGO MARINA",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3279
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "INDIGO MARINA",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2559
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3279
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "INDIGO XL",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3279
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "INDIGO XL",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2559
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5839
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "INDIGO XL",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2559
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3279
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "MANZA",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2559
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6079
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "MANZA",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3359
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3759
+      },
+      {
+         "packageType": "Basic",
+         "price": 2639
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "MANZA",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2559
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3759
+      },
+      {
+         "packageType": "Basic",
+         "price": 2079
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "NANO",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 1919
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 2559
+      },
+      {
+         "packageType": "Basic",
+         "price": 1519
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "NANO",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 1919
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 2559
+      },
+      {
+         "packageType": "Basic",
+         "price": 1519
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "NANO GENX",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 1919
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 2559
+      },
+      {
+         "packageType": "Basic",
+         "price": 1519
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "NANO GENX",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 1919
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 2559
+      },
+      {
+         "packageType": "Basic",
+         "price": 1519
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "SAFARI",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 5119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 8239
+      },
+      {
+         "packageType": "Basic",
+         "price": 4079
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "SAFARI STORME",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 5119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 8239
+      },
+      {
+         "packageType": "Basic",
+         "price": 4079
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "SUMO GOLD",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4639
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 7599
+      },
+      {
+         "packageType": "Basic",
+         "price": 3759
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "SUMO GRANDE",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4639
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 7599
+      },
+      {
+         "packageType": "Basic",
+         "price": 3759
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "SUMO GRANDE MK II",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4639
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 7599
+      },
+      {
+         "packageType": "Basic",
+         "price": 3759
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "SUMO SPACIO",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4639
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 7599
+      },
+      {
+         "packageType": "Basic",
+         "price": 3759
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "SUMO VICTA",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4639
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 7599
+      },
+      {
+         "packageType": "Basic",
+         "price": 3759
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "ZEST",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3359
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3759
+      },
+      {
+         "packageType": "Basic",
+         "price": 2639
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "ZEST",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2879
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5999
+      },
+      {
+         "packageType": "Basic",
+         "price": 2319
+      }
+   ]
+},
+ {
+   "CarMake": "TATA",
+   "Model": "ZEST",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2879
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3759
+      },
+      {
+         "packageType": "Basic",
+         "price": 2319
+      }
+   ]
+},
+ {
+   "CarMake": "Toyota",
+   "Model": "CAMRY",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 5599
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 7359
+      },
+      {
+         "packageType": "Basic",
+         "price": 3839
+      }
+   ]
+},
+ {
+   "CarMake": "Toyota",
+   "Model": "CAMRY",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 5599
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 7359
+      },
+      {
+         "packageType": "Basic",
+         "price": 3839
+      }
+   ]
+},
+ {
+   "CarMake": "Toyota",
+   "Model": "COROLLA",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4079
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6799
+      },
+      {
+         "packageType": "Basic",
+         "price": 3359
+      }
+   ]
+},
+ {
+   "CarMake": "Toyota",
+   "Model": "COROLLA",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4079
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5439
+      },
+      {
+         "packageType": "Basic",
+         "price": 3039
+      }
+   ]
+},
+ {
+   "CarMake": "Toyota",
+   "Model": "COROLLA",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4079
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5439
+      },
+      {
+         "packageType": "Basic",
+         "price": 3039
+      }
+   ]
+},
+ {
+   "CarMake": "Toyota",
+   "Model": "COROLLA ALTIS",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4079
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6799
+      },
+      {
+         "packageType": "Basic",
+         "price": 3039
+      }
+   ]
+},
+ {
+   "CarMake": "Toyota",
+   "Model": "COROLLA ALTIS",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4399
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5439
+      },
+      {
+         "packageType": "Basic",
+         "price": 3359
+      }
+   ]
+},
+ {
+   "CarMake": "Toyota",
+   "Model": "COROLLA ALTIS",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4079
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5439
+      },
+      {
+         "packageType": "Basic",
+         "price": 3039
+      }
+   ]
+},
+ {
+   "CarMake": "Toyota",
+   "Model": "ETIOS",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2959
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3519
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Toyota",
+   "Model": "ETIOS",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2479
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4799
+      },
+      {
+         "packageType": "Basic",
+         "price": 1999
+      }
+   ]
+},
+ {
+   "CarMake": "Toyota",
+   "Model": "ETIOS",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2479
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3519
+      },
+      {
+         "packageType": "Basic",
+         "price": 1999
+      }
+   ]
+},
+ {
+   "CarMake": "Toyota",
+   "Model": "ETIOS CROSS",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2479
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4799
+      },
+      {
+         "packageType": "Basic",
+         "price": 1999
+      }
+   ]
+},
+ {
+   "CarMake": "Toyota",
+   "Model": "ETIOS CROSS",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2959
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3519
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Toyota",
+   "Model": "ETIOS CROSS",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2479
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3519
+      },
+      {
+         "packageType": "Basic",
+         "price": 1999
+      }
+   ]
+},
+ {
+   "CarMake": "Toyota",
+   "Model": "ETIOS LIVA",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2959
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3519
+      },
+      {
+         "packageType": "Basic",
+         "price": 2399
+      }
+   ]
+},
+ {
+   "CarMake": "Toyota",
+   "Model": "ETIOS LIVA",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2479
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4799
+      },
+      {
+         "packageType": "Basic",
+         "price": 1999
+      }
+   ]
+},
+ {
+   "CarMake": "Toyota",
+   "Model": "ETIOS LIVA",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 2479
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 3519
+      },
+      {
+         "packageType": "Basic",
+         "price": 1999
+      }
+   ]
+},
+ {
+   "CarMake": "Toyota",
+   "Model": "FORTUNER",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 6799
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 8639
+      },
+      {
+         "packageType": "Basic",
+         "price": 4319
+      }
+   ]
+},
+ {
+   "CarMake": "Toyota",
+   "Model": "INNOVA",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 6799
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 7359
+      },
+      {
+         "packageType": "Basic",
+         "price": 3839
+      }
+   ]
+},
+ {
+   "CarMake": "Toyota",
+   "Model": "LAND CRUISER",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 6959
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 8479
+      },
+      {
+         "packageType": "Basic",
+         "price": 4319
+      }
+   ]
+},
+ {
+   "CarMake": "Toyota",
+   "Model": "LAND CRUISER PRADO",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 6959
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 8479
+      },
+      {
+         "packageType": "Basic",
+         "price": 4319
+      }
+   ]
+},
+ {
+   "CarMake": "Volkswagen",
+   "Model": "CROSS POLO",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3359
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4879
+      },
+      {
+         "packageType": "Basic",
+         "price": 2639
+      }
+   ]
+},
+ {
+   "CarMake": "Volkswagen",
+   "Model": "CROSS POLO",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5599
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Volkswagen",
+   "Model": "CROSS POLO",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4879
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Volkswagen",
+   "Model": "JETTA",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4159
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 7279
+      },
+      {
+         "packageType": "Basic",
+         "price": 2639
+      }
+   ]
+},
+ {
+   "CarMake": "Volkswagen",
+   "Model": "JETTA",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4319
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6159
+      },
+      {
+         "packageType": "Basic",
+         "price": 2959
+      }
+   ]
+},
+ {
+   "CarMake": "Volkswagen",
+   "Model": "JETTA",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4159
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6159
+      },
+      {
+         "packageType": "Basic",
+         "price": 2639
+      }
+   ]
+},
+ {
+   "CarMake": "Volkswagen",
+   "Model": "PASSAT",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4319
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6159
+      },
+      {
+         "packageType": "Basic",
+         "price": 2639
+      }
+   ]
+},
+ {
+   "CarMake": "Volkswagen",
+   "Model": "PASSAT",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4159
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 7279
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Volkswagen",
+   "Model": "PASSAT",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4159
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 6159
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Volkswagen",
+   "Model": "POLO",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5599
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Volkswagen",
+   "Model": "POLO",
+   "fuelType": "Diesel",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3359
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4879
+      },
+      {
+         "packageType": "Basic",
+         "price": 2639
+      }
+   ]
+},
+ {
+   "CarMake": "Volkswagen",
+   "Model": "POLO",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 3119
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 4879
+      },
+      {
+         "packageType": "Basic",
+         "price": 2479
+      }
+   ]
+},
+ {
+   "CarMake": "Volkswagen",
+   "Model": "VENTO",
+   "fuelType": "Petrol",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4159
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5439
+      },
+      {
+         "packageType": "Basic",
+         "price": 3359
+      }
+   ]
+},
+ {
+   "CarMake": "Volkswagen",
+   "Model": "VENTO",
+   "fuelType": "CNG",
+   "packages": [
+      {
+         "packageType": "Standard",
+         "price": 4159
+      },
+      {
+         "packageType": "Comprehensive",
+         "price": 5679
+      },
+      {
+         "packageType": "Basic",
+         "price": 3359
+      }
+   ]
+}
+]

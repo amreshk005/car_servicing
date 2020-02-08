@@ -8448,7 +8448,7 @@ var booking =
 function () {
   var _ref = _asyncToGenerator(
   /*#__PURE__*/
-  regeneratorRuntime.mark(function _callee2(name, email, phone, pickupLocation, pinCode, slugholder, packageType, price, services) {
+  regeneratorRuntime.mark(function _callee2(name, email, phone, pickupLocation, pinCode, slugholder, packageType, price) {
     var res;
     return regeneratorRuntime.wrap(function _callee2$(_context2) {
       while (1) {
@@ -8467,8 +8467,7 @@ function () {
                 pinCode: pinCode,
                 slugholder: slugholder,
                 packageType: packageType,
-                price: price,
-                services: services
+                price: price
               }
             });
 
@@ -8498,7 +8497,7 @@ function () {
     }, _callee2, null, [[0, 8]]);
   }));
 
-  return function booking(_x, _x2, _x3, _x4, _x5, _x6, _x7, _x8, _x9) {
+  return function booking(_x, _x2, _x3, _x4, _x5, _x6, _x7, _x8) {
     return _ref.apply(this, arguments);
   };
 }();
@@ -8512,13 +8511,15 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.elements = void 0;
 var elements = {
+  indexElement: document.getElementById("index"),
   manufacturer: document.getElementById("Manufacturer"),
   modelElement: document.getElementById("model"),
   fuelElement: document.getElementById("fuelType"),
   buttonElement: document.getElementById("buttonNext"),
   formElement: document.getElementById("form"),
   packageElement: document.getElementById("pricing-cont"),
-  buttonSubmitElement: document.getElementById("form-submit-btn")
+  buttonSubmitElement: document.getElementById("form-submit-btn"),
+  bookingElement: document.getElementById("booking")
 };
 exports.elements = elements;
 },{}],"insertElement.js":[function(require,module,exports) {
@@ -8586,18 +8587,15 @@ function () {
             // `;
             // });
             // console.log("packageData.services: " + packageData.services);
-            data = "\n    <div class=\"pricing-card\">\n    <span class=\"pricing-el-med\">".concat(packageData.packageType, "</span>\n    <h2>&#8377 ").concat(packageData.price, "</h2>\n    <span class=\"pricing-el-small\">Takes ").concat(packageData.checkingTime, " hours</span>\n    <ul class=\"pricing-el-small\" id=\"services\">\n     ").concat(packageData.services.map(function (key) {
-              return "<li>".concat(key, "</li>");
-            }), "\n    </ul>\n    <a href=\"/booking\" class=\"btn btn-pricing\" id=\"proccedToBook\">Procced to Book</a>\n  </div>\n  ");
+            data = "\n    <div class=\"pricing-card\">\n    <span class=\"pricing-el-med\">".concat(packageData.packageType, "</span>\n    <h2>&#8377 ").concat(packageData.price, "</h2>\n    <span class=\"pricing-el-small\">Takes ").concat(packageData.checkingTime, " hours</span>\n    <ul class=\"pricing-el-small\" id=\"services\">\n     <li>wheel chair</li>\n    </ul>\n    <a href=\"/booking\" class=\"btn btn-pricing\" id=\"proccedToBook\">Procced to Book</a>\n  </div>\n  ");
             _context.next = 3;
             return _queryHolder.elements.packageElement.insertAdjacentHTML("beforeend", data);
 
           case 3:
             el = document.getElementById("proccedToBook");
             el.addEventListener("click", function (e) {
-              localStorage.setItem("packageType", packageData.packageType);
               localStorage.setItem("price", packageData.price);
-              localStorage.setItem("services", packageData.services);
+              localStorage.setItem("packageType", packageData.packageType);
             });
 
           case 5:
@@ -8887,158 +8885,250 @@ function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return 
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
-function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread(); }
-
-function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance"); }
-
-function _iterableToArray(iter) { if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter); }
-
-function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } }
-
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
 
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
-_asyncToGenerator(
-/*#__PURE__*/
-regeneratorRuntime.mark(function _callee2() {
-  var state, dataholder, count, ManufacturerHolder, getarrayedpackages;
-  return regeneratorRuntime.wrap(function _callee2$(_context2) {
-    while (1) {
-      switch (_context2.prev = _context2.next) {
-        case 0:
-          state = {};
-          count = 0;
-          ManufacturerHolder = [];
-          state.search = new _overview.default();
-          _context2.next = 6;
-          return state.search.getresults();
+// import cons from "consolidate";
+window.onload = function () {
+  _asyncToGenerator(
+  /*#__PURE__*/
+  regeneratorRuntime.mark(function _callee5() {
+    var state, dataholder, ManufacturerHolder, getarrayedpackages, i, packageType, slugholder, price;
+    return regeneratorRuntime.wrap(function _callee5$(_context5) {
+      while (1) {
+        switch (_context5.prev = _context5.next) {
+          case 0:
+            state = {};
+            ManufacturerHolder = [];
+            state.search = new _overview.default();
+            _context5.next = 5;
+            return state.search.getresults();
 
-        case 6:
-          dataholder = state.search.results.data.manufacturers;
+          case 5:
+            dataholder = state.search.results.data.manufacturers; // For Index page
 
-          if (window.location.href === "http://127.0.0.1:3000/") {
-            localStorage.clear();
-
-            window.onload = function () {
-              for (var i = 0; i < dataholder.length; i++) {
-                ManufacturerHolder.push(dataholder[i].CarMake);
-              }
-
-              ManufacturerHolder = _toConsumableArray(new this.Set(ManufacturerHolder));
-              ManufacturerHolder.map(function (x) {
-                (0, _insertElement.renderModel)(x, "Manufacturer");
-              });
-              console.log(window.location.href);
-            };
-
-            _queryHolder.elements.manufacturer.addEventListener("change",
-            /*#__PURE__*/
-            function () {
-              var _ref2 = _asyncToGenerator(
+            if (_queryHolder.elements.indexElement) {
+              localStorage.clear();
+              console.log("yeah in index");
+              document.onload = _asyncToGenerator(
               /*#__PURE__*/
-              regeneratorRuntime.mark(function _callee(e) {
-                var ModelHolder, fuelHolder, i;
+              regeneratorRuntime.mark(function _callee() {
+                var i;
                 return regeneratorRuntime.wrap(function _callee$(_context) {
                   while (1) {
                     switch (_context.prev = _context.next) {
                       case 0:
-                        (0, _insertElement.clearModeloptions)();
-                        ModelHolder = [];
-                        fuelHolder = [];
+                        console.log(dataholder);
+                        i = 0;
 
-                        for (i = 0; i < dataholder.length; i++) {
-                          if (dataholder[i].CarMake === e.target.value) {
-                            // renderModel(dataholder[i].Model, "Model");
-                            ModelHolder.push(dataholder[i].Model);
-                            if (fuelHolder.length == 0 || fuelHolder.includes(fuelHolder)) fuelHolder.push(dataholder[i].fuelType);
-                          }
+                      case 2:
+                        if (!(i < dataholder.length)) {
+                          _context.next = 9;
+                          break;
                         }
 
-                        ModelHolder.filter(function (ele, indx) {
-                          return indx === ModelHolder.indexOf(ele);
-                        });
-                        ModelHolder.map(function (x) {
-                          (0, _insertElement.renderModel)(x, "Model");
-                        });
-                        fuelHolder.map(function (x) {
-                          (0, _insertElement.renderModel)(x, "fuelType");
+                        if (!(ManufacturerHolder.length == 0 || !ManufacturerHolder.includes(dataholder[i].CarMake))) {
+                          _context.next = 6;
+                          break;
+                        }
+
+                        _context.next = 6;
+                        return ManufacturerHolder.push(dataholder[i].CarMake);
+
+                      case 6:
+                        i++;
+                        _context.next = 2;
+                        break;
+
+                      case 9:
+                        // ManufacturerHolder = [...new this.Set(ManufacturerHolder)];
+                        ManufacturerHolder.map(function (x) {
+                          (0, _insertElement.renderModel)(x, "Manufacturer");
                         });
 
-                      case 7:
+                      case 10:
                       case "end":
                         return _context.stop();
                     }
                   }
                 }, _callee);
-              }));
+              }))();
+              console.log("yeah in index 1");
+              console.log(window.location.href); // };
+              // For Model in Index page
 
-              return function (_x) {
-                return _ref2.apply(this, arguments);
-              };
-            }());
+              _queryHolder.elements.manufacturer.addEventListener("change",
+              /*#__PURE__*/
+              function () {
+                var _ref3 = _asyncToGenerator(
+                /*#__PURE__*/
+                regeneratorRuntime.mark(function _callee2(e) {
+                  var ModelHolder, i;
+                  return regeneratorRuntime.wrap(function _callee2$(_context2) {
+                    while (1) {
+                      switch (_context2.prev = _context2.next) {
+                        case 0:
+                          (0, _insertElement.clearModeloptions)();
+                          ModelHolder = [];
 
-            _queryHolder.elements.modelElement.addEventListener("change", function (e) {
-              // console.log(e);
-              localStorage.setItem("slug", "".concat(e.target.value));
+                          for (i = 0; i < dataholder.length; i++) {
+                            if (dataholder[i].CarMake === e.target.value) {
+                              // renderModel(dataholder[i].Model, "Model");
+                              if (ModelHolder.length == 0 || !ModelHolder.includes(dataholder[i].Model)) ModelHolder.push(dataholder[i].Model);
+                            }
+                          }
 
-              _queryHolder.elements.buttonElement.setAttribute("href", "/package/".concat(e.target.value));
+                          ModelHolder.map(function (x) {
+                            (0, _insertElement.renderModel)(x, "Model");
+                          });
 
-              console.log(localStorage.getItem("slug"));
-            });
-          } //packasges insertion
+                        case 4:
+                        case "end":
+                          return _context2.stop();
+                      }
+                    }
+                  }, _callee2);
+                }));
+
+                return function (_x) {
+                  return _ref3.apply(this, arguments);
+                };
+              }()); // For check service button in index page
 
 
-          getarrayedpackages = function getarrayedpackages(arrayOfpackages) {
-            var _iteratorNormalCompletion = true;
-            var _didIteratorError = false;
-            var _iteratorError = undefined;
+              _queryHolder.elements.modelElement.addEventListener("change",
+              /*#__PURE__*/
+              function () {
+                var _ref4 = _asyncToGenerator(
+                /*#__PURE__*/
+                regeneratorRuntime.mark(function _callee3(e) {
+                  var fuelHolder, opt, i;
+                  return regeneratorRuntime.wrap(function _callee3$(_context3) {
+                    while (1) {
+                      switch (_context3.prev = _context3.next) {
+                        case 0:
+                          localStorage.removeItem("slug");
+                          fuelHolder = [];
+                          opt = _queryHolder.elements.modelElement[_queryHolder.elements.modelElement.selectedIndex];
 
-            try {
-              for (var _iterator = arrayOfpackages[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
-                var arrayOfpackage = _step.value;
-                (0, _insertElement.packageInsert)(arrayOfpackage);
-              }
-            } catch (err) {
-              _didIteratorError = true;
-              _iteratorError = err;
-            } finally {
-              try {
-                if (!_iteratorNormalCompletion && _iterator.return != null) {
-                  _iterator.return();
-                }
-              } finally {
-                if (_didIteratorError) {
-                  throw _iteratorError;
-                }
-              }
-            }
-          };
+                          for (i = 0; i < dataholder.length; i++) {
+                            if (dataholder[i].Model === opt.text) {
+                              if (fuelHolder.length == 0 || !fuelHolder.includes(dataholder[i].fuelType)) {
+                                fuelHolder.push(dataholder[i].fuelType);
+                              }
+                            }
+                          }
 
-          document.onload = function () {
-            console.log("yeah i'm here bro! new");
+                          _context3.next = 6;
+                          return fuelHolder.map(function (x) {
+                            (0, _insertElement.renderModel)(x, "fuelType");
+                          });
 
-            if (window.location.href == "http://127.0.0.1:3000/package/".concat(localStorage.getItem("slug"))) {
-              console.log("yeah i'm here bro!");
+                        case 6:
+                          // console.log(opt.value);
+                          localStorage.setItem("slug", "".concat(opt.text));
 
-              if (window.location.href) {
-                // console.log(localStorage.getItem("slug"));
-                for (var i = 0; i < dataholder.length; i++) {
-                  if (dataholder[i].Model === localStorage.getItem("slug")) {
-                    getarrayedpackages(dataholder[i].packages);
-                    console.log(dataholder[i]);
-                    localStorage.setItem("dataholderforemail", dataholder[i]);
+                          _queryHolder.elements.buttonElement.setAttribute("href", "/package/".concat(opt.text));
+
+                        case 8:
+                        case "end":
+                          return _context3.stop();
+                      }
+                    }
+                  }, _callee3);
+                }));
+
+                return function (_x2) {
+                  return _ref4.apply(this, arguments);
+                };
+              }());
+
+              _queryHolder.elements.fuelElement.addEventListener("change",
+              /*#__PURE__*/
+              function () {
+                var _ref5 = _asyncToGenerator(
+                /*#__PURE__*/
+                regeneratorRuntime.mark(function _callee4(e) {
+                  var optForfuel;
+                  return regeneratorRuntime.wrap(function _callee4$(_context4) {
+                    while (1) {
+                      switch (_context4.prev = _context4.next) {
+                        case 0:
+                          _context4.next = 2;
+                          return localStorage.removeItem("fuelType");
+
+                        case 2:
+                          optForfuel = _queryHolder.elements.fuelElement[_queryHolder.elements.fuelElement.selectedIndex];
+                          _context4.next = 5;
+                          return localStorage.setItem("fuelType", "".concat(optForfuel.text));
+
+                        case 5:
+                        case "end":
+                          return _context4.stop();
+                      }
+                    }
+                  }, _callee4);
+                }));
+
+                return function (_x3) {
+                  return _ref5.apply(this, arguments);
+                };
+              }());
+            } // For the packages page
+
+
+            if (_queryHolder.elements.packageElement) {
+              console.log("we are in package");
+
+              getarrayedpackages = function getarrayedpackages(arrayOfpackages) {
+                var _iteratorNormalCompletion = true;
+                var _didIteratorError = false;
+                var _iteratorError = undefined;
+
+                try {
+                  for (var _iterator = arrayOfpackages[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+                    var arrayOfpackage = _step.value;
+                    (0, _insertElement.packageInsert)(arrayOfpackage);
+                  }
+                } catch (err) {
+                  _didIteratorError = true;
+                  _iteratorError = err;
+                } finally {
+                  try {
+                    if (!_iteratorNormalCompletion && _iterator.return != null) {
+                      _iterator.return();
+                    }
+                  } finally {
+                    if (_didIteratorError) {
+                      throw _iteratorError;
+                    }
                   }
                 }
-              }
-            }
+              }; // console.log(localStorage.getItem("slug"));
 
-            if (_queryHolder.elements.formElement) {
-              var packageType = localStorage.getItem("packageType");
-              var slugholder = localStorage.getItem("slug");
-              var price = localStorage.getItem("price");
-              var services = localStorage.getItem("services");
-              console.log(packageType, slugholder, price, services);
+
+              for (i = 0; i < dataholder.length; i++) {
+                console.log(localStorage.getItem("slug"));
+                console.log(localStorage.getItem("fuelType"));
+
+                if (dataholder[i].Model === localStorage.getItem("slug") && dataholder[i].fuelType === localStorage.getItem("fuelType")) {
+                  getarrayedpackages(dataholder[i].packages);
+                  console.log(dataholder[i]);
+                  localStorage.setItem("dataholderforemail", dataholder[i]);
+                }
+              }
+            } // For the Booking page
+
+
+            console.log(_queryHolder.elements.bookingElement);
+
+            if (_queryHolder.elements.bookingElement) {
+              console.log("inside of booking");
+              packageType = localStorage.getItem("packageType");
+              slugholder = localStorage.getItem("slug");
+              price = localStorage.getItem("price");
+              console.log(packageType, slugholder, price);
 
               if (localStorage.getItem("slug") && localStorage.getItem("packageType")) {
                 _queryHolder.elements.formElement.addEventListener("submit", function (e) {
@@ -9048,7 +9138,7 @@ regeneratorRuntime.mark(function _callee2() {
                   var phone = document.getElementById("phone").value;
                   var pickupLocation = document.getElementById("pickupLocation").value;
                   var pinCode = document.getElementById("pinCode").value;
-                  (0, _overview.booking)(name, email, phone, pickupLocation, pinCode, slugholder, packageType, price, services);
+                  (0, _overview.booking)(name, email, phone, pickupLocation, pinCode, slugholder, packageType, price);
                 });
 
                 console.log(localStorage.getItem("packageType"));
@@ -9063,15 +9153,15 @@ regeneratorRuntime.mark(function _callee2() {
                 alert("procced from inital and please select Model");
               }
             }
-          }();
 
-        case 10:
-        case "end":
-          return _context2.stop();
+          case 10:
+          case "end":
+            return _context5.stop();
+        }
       }
-    }
-  }, _callee2);
-}))();
+    }, _callee5);
+  }))();
+};
 },{"core-js/modules/es6.array.copy-within":"../../node_modules/core-js/modules/es6.array.copy-within.js","core-js/modules/es6.array.fill":"../../node_modules/core-js/modules/es6.array.fill.js","core-js/modules/es6.array.find":"../../node_modules/core-js/modules/es6.array.find.js","core-js/modules/es6.array.find-index":"../../node_modules/core-js/modules/es6.array.find-index.js","core-js/modules/es7.array.flat-map":"../../node_modules/core-js/modules/es7.array.flat-map.js","core-js/modules/es6.array.from":"../../node_modules/core-js/modules/es6.array.from.js","core-js/modules/es7.array.includes":"../../node_modules/core-js/modules/es7.array.includes.js","core-js/modules/es6.array.iterator":"../../node_modules/core-js/modules/es6.array.iterator.js","core-js/modules/es6.array.of":"../../node_modules/core-js/modules/es6.array.of.js","core-js/modules/es6.array.sort":"../../node_modules/core-js/modules/es6.array.sort.js","core-js/modules/es6.array.species":"../../node_modules/core-js/modules/es6.array.species.js","core-js/modules/es6.date.to-json":"../../node_modules/core-js/modules/es6.date.to-json.js","core-js/modules/es6.date.to-primitive":"../../node_modules/core-js/modules/es6.date.to-primitive.js","core-js/modules/es6.function.has-instance":"../../node_modules/core-js/modules/es6.function.has-instance.js","core-js/modules/es6.function.name":"../../node_modules/core-js/modules/es6.function.name.js","core-js/modules/es6.map":"../../node_modules/core-js/modules/es6.map.js","core-js/modules/es6.math.acosh":"../../node_modules/core-js/modules/es6.math.acosh.js","core-js/modules/es6.math.asinh":"../../node_modules/core-js/modules/es6.math.asinh.js","core-js/modules/es6.math.atanh":"../../node_modules/core-js/modules/es6.math.atanh.js","core-js/modules/es6.math.cbrt":"../../node_modules/core-js/modules/es6.math.cbrt.js","core-js/modules/es6.math.clz32":"../../node_modules/core-js/modules/es6.math.clz32.js","core-js/modules/es6.math.cosh":"../../node_modules/core-js/modules/es6.math.cosh.js","core-js/modules/es6.math.expm1":"../../node_modules/core-js/modules/es6.math.expm1.js","core-js/modules/es6.math.fround":"../../node_modules/core-js/modules/es6.math.fround.js","core-js/modules/es6.math.hypot":"../../node_modules/core-js/modules/es6.math.hypot.js","core-js/modules/es6.math.imul":"../../node_modules/core-js/modules/es6.math.imul.js","core-js/modules/es6.math.log1p":"../../node_modules/core-js/modules/es6.math.log1p.js","core-js/modules/es6.math.log10":"../../node_modules/core-js/modules/es6.math.log10.js","core-js/modules/es6.math.log2":"../../node_modules/core-js/modules/es6.math.log2.js","core-js/modules/es6.math.sign":"../../node_modules/core-js/modules/es6.math.sign.js","core-js/modules/es6.math.sinh":"../../node_modules/core-js/modules/es6.math.sinh.js","core-js/modules/es6.math.tanh":"../../node_modules/core-js/modules/es6.math.tanh.js","core-js/modules/es6.math.trunc":"../../node_modules/core-js/modules/es6.math.trunc.js","core-js/modules/es6.number.constructor":"../../node_modules/core-js/modules/es6.number.constructor.js","core-js/modules/es6.number.epsilon":"../../node_modules/core-js/modules/es6.number.epsilon.js","core-js/modules/es6.number.is-finite":"../../node_modules/core-js/modules/es6.number.is-finite.js","core-js/modules/es6.number.is-integer":"../../node_modules/core-js/modules/es6.number.is-integer.js","core-js/modules/es6.number.is-nan":"../../node_modules/core-js/modules/es6.number.is-nan.js","core-js/modules/es6.number.is-safe-integer":"../../node_modules/core-js/modules/es6.number.is-safe-integer.js","core-js/modules/es6.number.max-safe-integer":"../../node_modules/core-js/modules/es6.number.max-safe-integer.js","core-js/modules/es6.number.min-safe-integer":"../../node_modules/core-js/modules/es6.number.min-safe-integer.js","core-js/modules/es6.number.parse-float":"../../node_modules/core-js/modules/es6.number.parse-float.js","core-js/modules/es6.number.parse-int":"../../node_modules/core-js/modules/es6.number.parse-int.js","core-js/modules/es6.object.assign":"../../node_modules/core-js/modules/es6.object.assign.js","core-js/modules/es7.object.define-getter":"../../node_modules/core-js/modules/es7.object.define-getter.js","core-js/modules/es7.object.define-setter":"../../node_modules/core-js/modules/es7.object.define-setter.js","core-js/modules/es7.object.entries":"../../node_modules/core-js/modules/es7.object.entries.js","core-js/modules/es6.object.freeze":"../../node_modules/core-js/modules/es6.object.freeze.js","core-js/modules/es6.object.get-own-property-descriptor":"../../node_modules/core-js/modules/es6.object.get-own-property-descriptor.js","core-js/modules/es7.object.get-own-property-descriptors":"../../node_modules/core-js/modules/es7.object.get-own-property-descriptors.js","core-js/modules/es6.object.get-own-property-names":"../../node_modules/core-js/modules/es6.object.get-own-property-names.js","core-js/modules/es6.object.get-prototype-of":"../../node_modules/core-js/modules/es6.object.get-prototype-of.js","core-js/modules/es7.object.lookup-getter":"../../node_modules/core-js/modules/es7.object.lookup-getter.js","core-js/modules/es7.object.lookup-setter":"../../node_modules/core-js/modules/es7.object.lookup-setter.js","core-js/modules/es6.object.prevent-extensions":"../../node_modules/core-js/modules/es6.object.prevent-extensions.js","core-js/modules/es6.object.to-string":"../../node_modules/core-js/modules/es6.object.to-string.js","core-js/modules/es6.object.is":"../../node_modules/core-js/modules/es6.object.is.js","core-js/modules/es6.object.is-frozen":"../../node_modules/core-js/modules/es6.object.is-frozen.js","core-js/modules/es6.object.is-sealed":"../../node_modules/core-js/modules/es6.object.is-sealed.js","core-js/modules/es6.object.is-extensible":"../../node_modules/core-js/modules/es6.object.is-extensible.js","core-js/modules/es6.object.keys":"../../node_modules/core-js/modules/es6.object.keys.js","core-js/modules/es6.object.seal":"../../node_modules/core-js/modules/es6.object.seal.js","core-js/modules/es6.object.set-prototype-of":"../../node_modules/core-js/modules/es6.object.set-prototype-of.js","core-js/modules/es7.object.values":"../../node_modules/core-js/modules/es7.object.values.js","core-js/modules/es6.promise":"../../node_modules/core-js/modules/es6.promise.js","core-js/modules/es7.promise.finally":"../../node_modules/core-js/modules/es7.promise.finally.js","core-js/modules/es6.reflect.apply":"../../node_modules/core-js/modules/es6.reflect.apply.js","core-js/modules/es6.reflect.construct":"../../node_modules/core-js/modules/es6.reflect.construct.js","core-js/modules/es6.reflect.define-property":"../../node_modules/core-js/modules/es6.reflect.define-property.js","core-js/modules/es6.reflect.delete-property":"../../node_modules/core-js/modules/es6.reflect.delete-property.js","core-js/modules/es6.reflect.get":"../../node_modules/core-js/modules/es6.reflect.get.js","core-js/modules/es6.reflect.get-own-property-descriptor":"../../node_modules/core-js/modules/es6.reflect.get-own-property-descriptor.js","core-js/modules/es6.reflect.get-prototype-of":"../../node_modules/core-js/modules/es6.reflect.get-prototype-of.js","core-js/modules/es6.reflect.has":"../../node_modules/core-js/modules/es6.reflect.has.js","core-js/modules/es6.reflect.is-extensible":"../../node_modules/core-js/modules/es6.reflect.is-extensible.js","core-js/modules/es6.reflect.own-keys":"../../node_modules/core-js/modules/es6.reflect.own-keys.js","core-js/modules/es6.reflect.prevent-extensions":"../../node_modules/core-js/modules/es6.reflect.prevent-extensions.js","core-js/modules/es6.reflect.set":"../../node_modules/core-js/modules/es6.reflect.set.js","core-js/modules/es6.reflect.set-prototype-of":"../../node_modules/core-js/modules/es6.reflect.set-prototype-of.js","core-js/modules/es6.regexp.constructor":"../../node_modules/core-js/modules/es6.regexp.constructor.js","core-js/modules/es6.regexp.flags":"../../node_modules/core-js/modules/es6.regexp.flags.js","core-js/modules/es6.regexp.match":"../../node_modules/core-js/modules/es6.regexp.match.js","core-js/modules/es6.regexp.replace":"../../node_modules/core-js/modules/es6.regexp.replace.js","core-js/modules/es6.regexp.split":"../../node_modules/core-js/modules/es6.regexp.split.js","core-js/modules/es6.regexp.search":"../../node_modules/core-js/modules/es6.regexp.search.js","core-js/modules/es6.regexp.to-string":"../../node_modules/core-js/modules/es6.regexp.to-string.js","core-js/modules/es6.set":"../../node_modules/core-js/modules/es6.set.js","core-js/modules/es6.symbol":"../../node_modules/core-js/modules/es6.symbol.js","core-js/modules/es7.symbol.async-iterator":"../../node_modules/core-js/modules/es7.symbol.async-iterator.js","core-js/modules/es6.string.anchor":"../../node_modules/core-js/modules/es6.string.anchor.js","core-js/modules/es6.string.big":"../../node_modules/core-js/modules/es6.string.big.js","core-js/modules/es6.string.blink":"../../node_modules/core-js/modules/es6.string.blink.js","core-js/modules/es6.string.bold":"../../node_modules/core-js/modules/es6.string.bold.js","core-js/modules/es6.string.code-point-at":"../../node_modules/core-js/modules/es6.string.code-point-at.js","core-js/modules/es6.string.ends-with":"../../node_modules/core-js/modules/es6.string.ends-with.js","core-js/modules/es6.string.fixed":"../../node_modules/core-js/modules/es6.string.fixed.js","core-js/modules/es6.string.fontcolor":"../../node_modules/core-js/modules/es6.string.fontcolor.js","core-js/modules/es6.string.fontsize":"../../node_modules/core-js/modules/es6.string.fontsize.js","core-js/modules/es6.string.from-code-point":"../../node_modules/core-js/modules/es6.string.from-code-point.js","core-js/modules/es6.string.includes":"../../node_modules/core-js/modules/es6.string.includes.js","core-js/modules/es6.string.italics":"../../node_modules/core-js/modules/es6.string.italics.js","core-js/modules/es6.string.iterator":"../../node_modules/core-js/modules/es6.string.iterator.js","core-js/modules/es6.string.link":"../../node_modules/core-js/modules/es6.string.link.js","core-js/modules/es7.string.pad-start":"../../node_modules/core-js/modules/es7.string.pad-start.js","core-js/modules/es7.string.pad-end":"../../node_modules/core-js/modules/es7.string.pad-end.js","core-js/modules/es6.string.raw":"../../node_modules/core-js/modules/es6.string.raw.js","core-js/modules/es6.string.repeat":"../../node_modules/core-js/modules/es6.string.repeat.js","core-js/modules/es6.string.small":"../../node_modules/core-js/modules/es6.string.small.js","core-js/modules/es6.string.starts-with":"../../node_modules/core-js/modules/es6.string.starts-with.js","core-js/modules/es6.string.strike":"../../node_modules/core-js/modules/es6.string.strike.js","core-js/modules/es6.string.sub":"../../node_modules/core-js/modules/es6.string.sub.js","core-js/modules/es6.string.sup":"../../node_modules/core-js/modules/es6.string.sup.js","core-js/modules/es7.string.trim-left":"../../node_modules/core-js/modules/es7.string.trim-left.js","core-js/modules/es7.string.trim-right":"../../node_modules/core-js/modules/es7.string.trim-right.js","core-js/modules/es6.typed.array-buffer":"../../node_modules/core-js/modules/es6.typed.array-buffer.js","core-js/modules/es6.typed.int8-array":"../../node_modules/core-js/modules/es6.typed.int8-array.js","core-js/modules/es6.typed.uint8-array":"../../node_modules/core-js/modules/es6.typed.uint8-array.js","core-js/modules/es6.typed.uint8-clamped-array":"../../node_modules/core-js/modules/es6.typed.uint8-clamped-array.js","core-js/modules/es6.typed.int16-array":"../../node_modules/core-js/modules/es6.typed.int16-array.js","core-js/modules/es6.typed.uint16-array":"../../node_modules/core-js/modules/es6.typed.uint16-array.js","core-js/modules/es6.typed.int32-array":"../../node_modules/core-js/modules/es6.typed.int32-array.js","core-js/modules/es6.typed.uint32-array":"../../node_modules/core-js/modules/es6.typed.uint32-array.js","core-js/modules/es6.typed.float32-array":"../../node_modules/core-js/modules/es6.typed.float32-array.js","core-js/modules/es6.typed.float64-array":"../../node_modules/core-js/modules/es6.typed.float64-array.js","core-js/modules/es6.weak-map":"../../node_modules/core-js/modules/es6.weak-map.js","core-js/modules/es6.weak-set":"../../node_modules/core-js/modules/es6.weak-set.js","core-js/modules/web.timers":"../../node_modules/core-js/modules/web.timers.js","core-js/modules/web.immediate":"../../node_modules/core-js/modules/web.immediate.js","core-js/modules/web.dom.iterable":"../../node_modules/core-js/modules/web.dom.iterable.js","regenerator-runtime/runtime":"../../node_modules/regenerator-runtime/runtime.js","./overview":"overview.js","./queryHolder":"queryHolder.js","./insertElement":"insertElement.js"}],"../../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -9100,7 +9190,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56108" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53188" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

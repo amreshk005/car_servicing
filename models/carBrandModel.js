@@ -35,17 +35,12 @@ const carBrandSchema = new mongoose.Schema(
         packageType: {
           type: String,
           length: [10, "A packagae type has length of 10"],
-          required: true,
-          unique: true
+          required: true
         },
         price: {
           type: Number,
           required: true
-        },
-        checkingTime: {
-          type: Number
-        },
-        services: []
+        }
       }
     ]
   },

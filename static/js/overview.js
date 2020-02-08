@@ -24,8 +24,7 @@ export const booking = async (
   pinCode,
   slugholder,
   packageType,
-  price,
-  services
+  price
 ) => {
   try {
     const res = await axios({
@@ -39,8 +38,7 @@ export const booking = async (
         pinCode,
         slugholder,
         packageType,
-        price,
-        services
+        price
       }
     });
     console.log("in booking post");

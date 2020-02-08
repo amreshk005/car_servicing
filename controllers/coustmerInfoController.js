@@ -14,7 +14,6 @@ exports.createcoustmerInfo = catchAsync(async (req, res, next) => {
   YourModel: ${modelFilter.Model}
   package Type: ${req.body.packageType}
   price: ${req.body.price}
-  services: ${req.body.services}
   `;
   try {
     await sendEmail({
