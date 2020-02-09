@@ -16,6 +16,7 @@ var cons = require("consolidate");
 app.engine("html", cons.swig);
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "html");
+// app.use.static("static");
 
 // app.set("view engine", "pug");
 // app.set("views", path.join(__dirname, "views"));

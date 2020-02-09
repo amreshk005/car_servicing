@@ -4,10 +4,14 @@ import axios from "axios";
 export default class Models {
   async getresults() {
     try {
+      const proxy = "https://cors-anywhere.herokuapp.com/";
+      // const proxy = "https://crossorigin.me/";
       const res = await axios({
         method: "GET",
-        url: "http://mechmycar.com/api/v1/carbrand"
+        Origin: null,
+        url: `${proxy}http://mechmycar.com/api/v1/carbrand`
       });
+      // res.setHeader("Access-Control-Allow-Origin", "*");
       this.results = res.data;
       //   console.log(this.results);
     } catch (error) {
@@ -27,9 +31,12 @@ export const booking = async (
   price
 ) => {
   try {
+    const proxy = "https://cors-anywhere.herokuapp.com/";
+    // const proxy = "https://crossorigin.me/";
     const res = await axios({
       method: "POST",
-      url: "http://mechmycar.com/api/v1/booking",
+      Origin: null,
+      url: `${proxy}http://mechmycar.com/api/v1/booking`,
       data: {
         name,
         email,
@@ -41,6 +48,7 @@ export const booking = async (
         price
       }
     });
+    // res.setHeader("Access-Control-Allow-Origin", "*");
     console.log("in booking post");
     if (res.data.status === "success") {
       window.setTimeout(() => {
