@@ -8407,7 +8407,7 @@ function () {
                 _context.next = 3;
                 return (0, _axios.default)({
                   method: "GET",
-                  url: "http://ec2-18-191-170-162.us-east-2.compute.amazonaws.com:3000/api/v1/carBrand"
+                  url: "http://mechmycar.com/api/v1/carbrand"
                 });
 
               case 3:
@@ -8458,7 +8458,7 @@ function () {
             _context2.next = 3;
             return (0, _axios.default)({
               method: "POST",
-              url: "http://ec2-18-191-170-162.us-east-2.compute.amazonaws.com:3000/api/v1/booking",
+              url: "http://mechmycar.com/api/v1/booking",
               data: {
                 name: name,
                 email: email,
@@ -9173,7 +9173,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53188" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49996" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
