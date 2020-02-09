@@ -7,7 +7,7 @@ export default class Models {
       const res = await axios({
         method: "GET",
         url:
-          "http://ec2-18-191-170-162.us-east-2.compute.amazonaws.com:3000/api/v1/carBrand"
+          "http://ec2-18-191-170-162.us-east-2.compute.amazonaws.com:8000/api/v1/carBrand"
       });
       this.results = res.data;
       //   console.log(this.results);
@@ -31,7 +31,7 @@ export const booking = async (
     const res = await axios({
       method: "POST",
       url:
-        "http://ec2-18-191-170-162.us-east-2.compute.amazonaws.com:3000/api/v1/booking",
+        "http://ec2-18-191-170-162.us-east-2.compute.amazonaws.com:8000/api/v1/booking",
       data: {
         name,
         email,
