@@ -9,7 +9,7 @@ export default class Models {
       const res = await axios({
         method: "GET",
         Origin: null,
-        url: `${proxy}http://mechmycar.com/api/v1/carbrand`
+        url: `${proxy}http://www.mechmycar.com/api/v1/carbrand`
       });
       // res.setHeader("Access-Control-Allow-Origin", "*");
       this.results = res.data;
@@ -36,7 +36,7 @@ export const booking = async (
     const res = await axios({
       method: "POST",
       Origin: null,
-      url: `${proxy}http://mechmycar.com/api/v1/booking`,
+      url: `${proxy}http://www.mechmycar.com/api/v1/booking`,
       data: {
         name,
         email,

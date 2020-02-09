@@ -8410,7 +8410,7 @@ function () {
                 return (0, _axios.default)({
                   method: "GET",
                   Origin: null,
-                  url: "".concat(proxy, "http://mechmycar.com/api/v1/carbrand")
+                  url: "".concat(proxy, "http://www.mechmycar.com/api/v1/carbrand")
                 });
 
               case 4:
@@ -8465,7 +8465,7 @@ function () {
             return (0, _axios.default)({
               method: "POST",
               Origin: null,
-              url: "".concat(proxy, "http://mechmycar.com/api/v1/booking"),
+              url: "".concat(proxy, "http://www.mechmycar.com/api/v1/booking"),
               data: {
                 name: name,
                 email: email,
