@@ -4,12 +4,11 @@ import axios from "axios";
 export default class Models {
   async getresults() {
     try {
-      const proxy = "https://cors-anywhere.herokuapp.com/";
+      // const proxy = "https://cors-anywhere.herokuapp.com/";
       // const proxy = "https://crossorigin.me/";
       const res = await axios({
         method: "GET",
-        Origin: null,
-        url: `${proxy}http://www.mechmycar.com/api/v1/carbrand`
+        url: `http://www.mechmycar.com/api/v1/carbrand`
       });
       // res.setHeader("Access-Control-Allow-Origin", "*");
       this.results = res.data;
@@ -31,12 +30,11 @@ export const booking = async (
   price
 ) => {
   try {
-    const proxy = "https://cors-anywhere.herokuapp.com/";
+    // const proxy = "https://cors-anywhere.herokuapp.com/";
     // const proxy = "https://crossorigin.me/";
     const res = await axios({
       method: "POST",
-      Origin: null,
-      url: `${proxy}http://www.mechmycar.com/api/v1/booking`,
+      url: `http://www.mechmycar.com/api/v1/booking`,
       data: {
         name,
         email,
