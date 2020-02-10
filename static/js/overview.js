@@ -7,9 +7,13 @@ export default class Models {
       // const proxy = "https://cors-anywhere.herokuapp.com/";
       // const proxy = "https://crossorigin.me/";
       const res = await axios({
+        headers: {
+          "Content-Type": "application/json",
+          "Access-Control-Allow-Origin": "*"
+        },
         method: "GET",
         // url: `http://www.mechmycar.com/api/v1/carbrand`
-        url: `http://www.mechmycar.com/api/v1/carbrand`
+        url: `/api/v1/carbrand`
         // url: `http://127.0.0.1:8000/api/v1/carbrand`
       });
       // res.setHeader("Access-Control-Allow-Origin", "*");
@@ -36,9 +40,13 @@ export const booking = async (
     // const proxy = "https://crossorigin.me/";
 
     const res = await axios({
+      headers: {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*"
+      },
       method: "POST",
       // url: `http://www.mechmycar.com/api/v1/booking`,
-      url: `http://www.mechmycar.com/api/v1/booking`,
+      url: `/api/v1/booking`,
       // url: `http://127.0.0.1:8000/api/v1/booking`,
       data: {
         name,

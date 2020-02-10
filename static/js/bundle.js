@@ -8406,9 +8406,13 @@ function () {
                 _context.prev = 0;
                 _context.next = 3;
                 return (0, _axios.default)({
+                  headers: {
+                    "Content-Type": "application/json",
+                    "Access-Control-Allow-Origin": "*"
+                  },
                   method: "GET",
                   // url: `http://www.mechmycar.com/api/v1/carbrand`
-                  url: "http://www.mechmycar.com/api/v1/carbrand" // url: `http://127.0.0.1:8000/api/v1/carbrand`
+                  url: "/api/v1/carbrand" // url: `http://127.0.0.1:8000/api/v1/carbrand`
 
                 });
 
@@ -8462,9 +8466,13 @@ function () {
 
             _context2.next = 4;
             return (0, _axios.default)({
+              headers: {
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*"
+              },
               method: "POST",
               // url: `http://www.mechmycar.com/api/v1/booking`,
-              url: "http://www.mechmycar.com/api/v1/booking",
+              url: "/api/v1/booking",
               // url: `http://127.0.0.1:8000/api/v1/booking`,
               data: {
                 name: name,
