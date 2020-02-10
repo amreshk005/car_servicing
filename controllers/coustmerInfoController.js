@@ -17,7 +17,7 @@ exports.createcoustmerInfo = catchAsync(async (req, res, next) => {
   `;
   try {
     await sendEmail({
-      email: `${newCoustmerInfo.email},amreshk005@gmail.com`,
+      email: [`${newCoustmerInfo.email}`, "zaidforalam424@gmail.com"],
       subject:
         "Your Booking has been successfully recived! you will recive our response from our team 🧨",
       message: message
@@ -33,6 +33,7 @@ exports.createcoustmerInfo = catchAsync(async (req, res, next) => {
       500
     );
   }
+  console.log("message sent");
 });
 
 exports.getallcoustmerInfo = catchAsync(async (req, res, next) => {

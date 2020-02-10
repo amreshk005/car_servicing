@@ -3,6 +3,7 @@ const express = require("express");
 const morgan = require("morgan");
 const AppError = require("./utils/appError");
 const bodyParser = require("body-parser");
+const cors = require("cors");
 
 const carBrandRouter = require("./routes/carBrandRoutes");
 // const packageRouter = require("./routes/packagesRoutes");
@@ -53,9 +54,29 @@ app.use((req, res, next) => {
   next();
 });
 
+var whitelist = [
+  "http://www.mechmycar.com/api/v1/carbrand",
+  "http://www.mechmycar.com/api/v1/booking",
+  "http://www.mechmycar.com",
+  "http://mechmycar.com/",
+  "http://mechmycar.com/api/v1/carbrand",
+  "http://mechmycar.com/api/v1/booking"
+];
+
+var corsOptionsDelegate = function(req, callback) {
+  var corsOptions;
+  if (whitelist.indexOf(req.header("Origin")) !== -1) {
+    corsOptions = { origin: true };
+  } else {
+    corsOptions = { origin: false };
+  }
+
+  callback(null, corsOptions);
+};
+
 app.use("/", viewRouter);
-app.use("/api/v1/carBrand", carBrandRouter);
-app.use("/api/v1/booking", bookingRouter);
+app.use("/api/v1/carBrand", cors(corsOptionsDelegate), carBrandRouter);
+app.use("/api/v1/booking", cors(corsOptionsDelegate), bookingRouter);
 app.use("/csvUpload", csvUpload);
 
 app.all("*", (req, res, next) => {

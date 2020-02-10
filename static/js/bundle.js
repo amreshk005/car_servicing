@@ -8407,7 +8407,9 @@ function () {
                 _context.next = 3;
                 return (0, _axios.default)({
                   method: "GET",
-                  url: "http://www.mechmycar.com/api/v1/carbrand"
+                  // url: `http://www.mechmycar.com/api/v1/carbrand`
+                  url: "http://www.mechmycar.com/api/v1/carbrand" // url: `http://127.0.0.1:8000/api/v1/carbrand`
+
                 });
 
               case 3:
@@ -8450,16 +8452,20 @@ function () {
   var _ref = _asyncToGenerator(
   /*#__PURE__*/
   regeneratorRuntime.mark(function _callee2(name, email, phone, pickupLocation, pinCode, slugholder, packageType, price) {
-    var res;
+    var proxy, res;
     return regeneratorRuntime.wrap(function _callee2$(_context2) {
       while (1) {
         switch (_context2.prev = _context2.next) {
           case 0:
             _context2.prev = 0;
-            _context2.next = 3;
+            proxy = "https://cors-anywhere.herokuapp.com/"; // const proxy = "https://crossorigin.me/";
+
+            _context2.next = 4;
             return (0, _axios.default)({
               method: "POST",
+              // url: `http://www.mechmycar.com/api/v1/booking`,
               url: "http://www.mechmycar.com/api/v1/booking",
+              // url: `http://127.0.0.1:8000/api/v1/booking`,
               data: {
                 name: name,
                 email: email,
@@ -8472,31 +8478,32 @@ function () {
               }
             });
 
-          case 3:
+          case 4:
             res = _context2.sent;
             // res.setHeader("Access-Control-Allow-Origin", "*");
             console.log("in booking post");
 
             if (res.data.status === "success") {
+              alert("success", "Logged in successfully!");
               window.setTimeout(function () {
                 location.assign("/");
-              }, 1500);
+              }, 1000);
             }
 
-            _context2.next = 11;
+            _context2.next = 12;
             break;
 
-          case 8:
-            _context2.prev = 8;
+          case 9:
+            _context2.prev = 9;
             _context2.t0 = _context2["catch"](0);
             alert(_context2.t0, "Erro in the overview.js");
 
-          case 11:
+          case 12:
           case "end":
             return _context2.stop();
         }
       }
-    }, _callee2, null, [[0, 8]]);
+    }, _callee2, null, [[0, 9]]);
   }));
 
   return function booking(_x, _x2, _x3, _x4, _x5, _x6, _x7, _x8) {
@@ -9175,7 +9182,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64342" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49468" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
