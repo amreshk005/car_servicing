@@ -41,7 +41,7 @@ window.onload = function() {
       elements.manufacturer.addEventListener("change", async e => {
         localStorage.removeItem("slug");
         localStorage.removeItem("fuelType");
-        elements.fuelElement.innerHTML = "";
+        // elements.fuelElement.innerHTML = "";
         clearModeloptions();
         let ModelHolder = [];
 
@@ -65,7 +65,12 @@ window.onload = function() {
       elements.modelElement.addEventListener("change", async e => {
         localStorage.removeItem("slug");
         localStorage.removeItem("fuelType");
+
         elements.fuelElement.innerHTML = "";
+        const fuelAdder = `
+        <option value=""></option>
+        `;
+        elements.fuelElement.insertAdjacentHTML("beforeend", fuelAdder);
         let fuelHolder = [];
         var opt = elements.modelElement[elements.modelElement.selectedIndex];
         for (var i = 0; i < dataholder.length; i++) {
