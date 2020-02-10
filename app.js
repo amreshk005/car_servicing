@@ -13,24 +13,6 @@ const app = express();
 
 var cons = require("consolidate");
 
-app.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "*");
-  // res.header('Access-Control-Allow-Headers', '*');
-  res.header(
-    "Access-Control-Allow-Headers",
-    "Origin, X-Requested-With, Content-Type, Accept, Authorization"
-  );
-
-  if (req.method === "OPTIONS") {
-    req.header(
-      "Access-Control-Allow-Methods",
-      "POST, POST, PATCH, DELETE, GET"
-    );
-    return res.status(200).json({});
-  }
-  next();
-});
-
 app.engine("html", cons.swig);
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "html");
@@ -50,6 +32,24 @@ app.use(express.json());
 
 app.use((req, res, next) => {
   console.log("Hello from the middleware");
+  next();
+});
+
+app.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", "*");
+  // res.header('Access-Control-Allow-Headers', '*');
+  res.header(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept, Authorization"
+  );
+
+  if (req.method === "OPTIONS") {
+    req.header(
+      "Access-Control-Allow-Methods",
+      "POST, POST, PATCH, DELETE, GET"
+    );
+    return res.status(200).json({});
+  }
   next();
 });
 
