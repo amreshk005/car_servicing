@@ -8982,6 +8982,9 @@ window.onload = function () {
                     while (1) {
                       switch (_context2.prev = _context2.next) {
                         case 0:
+                          localStorage.removeItem("slug");
+                          localStorage.removeItem("fuelType");
+                          _queryHolder.elements.fuelElement.innerHTML = "";
                           (0, _insertElement.clearModeloptions)();
                           ModelHolder = [];
 
@@ -8996,7 +8999,7 @@ window.onload = function () {
                             (0, _insertElement.renderModel)(x, "Model");
                           });
 
-                        case 4:
+                        case 7:
                         case "end":
                           return _context2.stop();
                       }
@@ -9022,6 +9025,8 @@ window.onload = function () {
                       switch (_context3.prev = _context3.next) {
                         case 0:
                           localStorage.removeItem("slug");
+                          localStorage.removeItem("fuelType");
+                          _queryHolder.elements.fuelElement.innerHTML = "";
                           fuelHolder = [];
                           opt = _queryHolder.elements.modelElement[_queryHolder.elements.modelElement.selectedIndex];
 
@@ -9033,18 +9038,18 @@ window.onload = function () {
                             }
                           }
 
-                          _context3.next = 6;
+                          _context3.next = 8;
                           return fuelHolder.map(function (x) {
                             (0, _insertElement.renderModel)(x, "fuelType");
                           });
 
-                        case 6:
+                        case 8:
                           // console.log(opt.value);
                           localStorage.setItem("slug", "".concat(opt.text));
 
                           _queryHolder.elements.buttonElement.setAttribute("href", "/package/".concat(opt.text));
 
-                        case 8:
+                        case 10:
                         case "end":
                           return _context3.stop();
                       }

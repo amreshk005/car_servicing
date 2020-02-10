@@ -39,6 +39,9 @@ window.onload = function() {
       // For Model in Index page
 
       elements.manufacturer.addEventListener("change", async e => {
+        localStorage.removeItem("slug");
+        localStorage.removeItem("fuelType");
+        elements.fuelElement.innerHTML = "";
         clearModeloptions();
         let ModelHolder = [];
 
@@ -61,6 +64,8 @@ window.onload = function() {
 
       elements.modelElement.addEventListener("change", async e => {
         localStorage.removeItem("slug");
+        localStorage.removeItem("fuelType");
+        elements.fuelElement.innerHTML = "";
         let fuelHolder = [];
         var opt = elements.modelElement[elements.modelElement.selectedIndex];
         for (var i = 0; i < dataholder.length; i++) {
