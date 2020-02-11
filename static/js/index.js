@@ -101,12 +101,63 @@ window.onload = function() {
 
     // For the packages page
     if (elements.packageElement) {
-      const getarrayedpackages = arrayOfpackages => {
+      let packageType = [];
+      let price = {
+        Basic: "value",
+        Comprehensive: "value1",
+        Standard: "value2"
+      };
+      let packageId = [];
+      let count = 0;
+      const getarrayedpackages = async arrayOfpackages => {
         for (let arrayOfpackage of arrayOfpackages) {
-          packageInsert(arrayOfpackage);
+          await packageInsert(arrayOfpackage, count);
+          await packageType.push(arrayOfpackage.packageType);
+          price[`${arrayOfpackage.packageType}`] = arrayOfpackage.price;
+          // console.log(price[`${arrayOfpackage.packageType}`]);
         }
+        console.log(price);
+        document.getElementById("Basic0").addEventListener("click", e => {
+          localStorage.removeItem("packageType");
+          localStorage.setItem("packageType", "Basic");
+          if (price.hasOwnProperty("Basic")) {
+            localStorage.removeItem("price");
+            localStorage.setItem("price", price["Basic"]);
+            // console.log(localStorage.getItem("price"));
+          }
+        });
+        document
+          .getElementById("Comprehensive0")
+          .addEventListener("click", e => {
+            localStorage.removeItem("packageType");
+            localStorage.setItem("packageType", "Comprehensive");
+            if (price.hasOwnProperty("Comprehensive")) {
+              localStorage.removeItem("price");
+              localStorage.setItem("price", price["Comprehensive"]);
+              // console.log(localStorage.getItem("price"));
+            }
+          });
+        document.getElementById("Standard0").addEventListener("click", e => {
+          localStorage.removeItem("packageType");
+          localStorage.setItem("packageType", "Standard");
+          if (price.hasOwnProperty("Standard")) {
+            localStorage.removeItem("price");
+            localStorage.setItem("price", price["Standard"]);
+            // console.log(localStorage.getItem("price"));
+          }
+        });
+
+        console.log(packageType);
+        // let packageTypeElement = document.getElementsByClassName(
+        //   "pricing-el-med"
+        // );
+
+        // for (var i = 0; i < packageTypeElement.length; i++) {
+
+        // }
       };
       // console.log(localStorage.getItem("slug"));
+
       for (var i = 0; i < dataholder.length; i++) {
         if (
           dataholder[i].Model === localStorage.getItem("slug") &&
@@ -125,7 +176,8 @@ window.onload = function() {
       let packageType = localStorage.getItem("packageType");
       let slugholder = localStorage.getItem("slug");
       let price = localStorage.getItem("price");
-
+      console.log("packageType: " + packageType);
+      console.log("packageType: " + slugholder);
       if (localStorage.getItem("slug") && localStorage.getItem("packageType")) {
         elements.formElement.addEventListener("submit", e => {
           e.preventDefault();

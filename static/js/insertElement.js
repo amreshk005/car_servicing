@@ -29,29 +29,23 @@ export const buttonInsert = slug => {
   `;
 };
 
-export const packageInsert = async packageData => {
-  // var dataService;
-  // packageData.services.map(x => {
-  //   var dataService = `
-  // <li>${x}</li>
-  // `;
-  // });
-  // console.log("packageData.services: " + packageData.services);
+export const packageInsert = async (packageData, count) => {
   const data = `
     <div class="pricing-card">
-    <span class="pricing-el-med">${packageData.packageType}</span>
+    <span class="pricing-el-med" id="${packageData.packageType}">${packageData.packageType}</span>
     <h2>&#8377 ${packageData.price}</h2>
-    <span class="pricing-el-small">Takes ${packageData.checkingTime} hours</span>
+   
     <ul class="pricing-el-small" id="services">
      <li>wheel chair</li>
     </ul>
-    <a href="/booking" class="btn btn-pricing" id="proccedToBook">Procced to Book</a>
+    <a href="/booking" class="btn btn-pricing" value="${packageData.packageType}" id="${packageData.packageType}${count}" >Procced to Book</a>
   </div>
   `;
   await elements.packageElement.insertAdjacentHTML("beforeend", data);
-  const el = document.getElementById("proccedToBook");
-  el.addEventListener("click", e => {
-    localStorage.setItem("price", packageData.price);
-    localStorage.setItem("packageType", packageData.packageType);
-  });
+
+  // const el = document.getElementById("proccedToBook");
+  // el.addEventListener("click", e => {
+  //   localStorage.setItem("price", packageData.price);
+  //   localStorage.setItem("packageType", packageData.packageType);
+  // });
 };
