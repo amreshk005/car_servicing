@@ -25,8 +25,9 @@ export const clearModeloptions = () => {
 
 export const buttonInsert = slug => {
   const button = `
-  <a href="/package/${slug}" class="button" id="buttonNext">CHECK SERVICE</a> 
+  <a href="/package/${slug}" class="content__formsection__formplace__form__button" id="buttonNext">CHECK SERVICE</a> 
   `;
+  elements.formElement.insertAdjacentHTML("beforeend", button);
 };
 
 export const packageInsert = async (packageData, count) => {

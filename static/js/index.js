@@ -1,7 +1,12 @@
 import "@babel/polyfill";
 import Models, { booking } from "./overview";
 import { elements } from "./queryHolder";
-import { renderModel, clearModeloptions, packageInsert } from "./insertElement";
+import {
+  renderModel,
+  clearModeloptions,
+  packageInsert,
+  buttonInsert
+} from "./insertElement";
 
 // import cons from "consolidate";
 

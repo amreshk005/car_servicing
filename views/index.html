@@ -1,24 +1,158 @@
-{% extends "base.html" %}
-{% block additional_css %}
-<link rel="stylesheet" href="/css/index.css">
+{% extends "base.html" %} {% block additional_css %}
+<link rel="stylesheet" href="/css/index.css" />
 
-{% endblock %}
-{% block content %}
+{% endblock %} {% block content %}
 <!-- <script type="text/javascript" src="//use.typekit.net/uvs8amk.js"></script> -->
-<div class="form" id="index">
-<select data-placeholder="&nbsp;Year" class="chzn-select year" style="position:relative; width:131px; height: 40px; -webkit-appearance: none; font-size: 16px; font-weight: 100;" tabindex="1" id="Manufacturer">
-<option value=""></option>
-
-</select>
-<select data-placeholder="Make" class="chzn-select" style="width:131px; height: 40px; -webkit-appearance: none; font-size: 16px; font-weight: 100;" tabindex="2" id="model">
-<option value=""></option>
-</select>
-<select data-placeholder="Model" class="chzn-select" style="width:131px; height: 40px; -webkit-appearance: none; font-size: 16px; font-weight: 100;" tabindex="3" id="fuelType">
-<option value=""></option>
-</select>
- <a class="button" id="buttonNext">CHECK SERVICE</a>   
+<div class="container">
+  <div class="header">
+    <div class="header__logo">
+      <img
+        class="header__logo__carservice"
+        src="/img/logomechmycar.png"
+        alt="logo image"
+      />
+    </div>
+    <div class="header__navigation">
+      <div class="header__navigation__first">
+        <!-- <div class="header__navigation__first__Admin"> -->
+        Admin SignIn
+        <!-- </div> -->
+      </div>
+      <div class="header__navigation__second">Contact</div>
+    </div>
+    <div class="header__space">
+      <div></div>
+    </div>
   </div>
-{% endblock %}
-{% block additional_js %}
+  <div class="content">
+    <div class="content__formsection">
+      <div class="content__formsection__formplace">
+        <div class="content__formsection__formplace__form" id="index">
+          <h1>The Best Car Service Awaits You</h1>
+          <div class="content__formsection__formplace__form__manufacturer">
+            <label
+              class="content__formsection__formplace__form__manufacturer__label"
+              for="Manufacturer"
+              >Choose a Manufacturer
+            </label>
+            <select name="Manufacturer" type="text" id="Manufacturer">
+              <option value=""></option>
+            </select>
+          </div>
+          <div class="content__formsection__formplace__form__model">
+            <label
+              class="content__formsection__formplace__form__model__label"
+              for="Model"
+              >Choose a Model</label
+            >
+            <select name="Model" id="model">
+              <option value=""></option>
+            </select>
+          </div>
+          <div class="content__formsection__formplace__form__fuelType">
+            <label
+              class="content__formsection__formplace__form__fuelType__label"
+              for="fuelType"
+              >Choose a FuelType</label
+            >
+            <select name="fuelType" id="fuelType">
+              <option value=""></option>
+            </select>
+          </div>
+          <a id="buttonNext"
+            ><button
+              type="button"
+              class="content__formsection__formplace__form__button"
+            >
+              <div></div>
+              <p>Check Service</p>
+            </button></a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="content__cardsection">
+      <div class="content__cardsection__card1">
+        <div class="content__cardsection__card1__imagesection">
+          <img src="/img/Services-mobile-01.jpg" alt="" />
+        </div>
+        <div class="content__cardsection__card1__info">
+          <h2>Periodic Car Services</h2>
+          <p>
+            A range of car services tailored specifically for all your car
+            repair needs. Choose what your car requires and discover the most
+            efficient and hassle-free car servicing in Hyderabad
+          </p>
+        </div>
+      </div>
+      <div class="content__cardsection__card2">
+        <div class="content__cardsection__card2__imagesection">
+          <img src="/img/Services-mobile-02.jpg" alt="" />
+        </div>
+        <div class="content__cardsection__card2__info">
+          <h2>Periodic Car Services</h2>
+          <p>
+            A range of car services tailored specifically for all your car
+            repair needs. Choose what your car requires and discover the most
+            efficient and hassle-free car servicing in Hyderabad
+          </p>
+        </div>
+      </div>
+      <div class="content__cardsection__card3">
+        <div class="content__cardsection__card3__imagesection">
+          <img src="/img/Services-mobile-03.jpg" alt="" />
+        </div>
+        <div class="content__cardsection__card3__info">
+          <h2>Periodic Car Services</h2>
+          <p>
+            A range of car services tailored specifically for all your car
+            repair needs. Choose what your car requires and discover the most
+            efficient and hassle-free car servicing in Hyderabad
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="footer__brandsection">
+      <div class="footer__brandsection__logosection">
+        <div class="footer__brandsection__logosection__logo">
+          <img src="/img/logomechmycar.png" alt="footer Logo" />
+        </div>
+      </div>
+      <div class="footer__brandsection__border"></div>
+      <div class="footer__brandsection__info">
+        <div class="footer__brandsection__info__about">
+          Aboutus
+          <li>washing</li>
+          <li>washing</li>
+          <li>washing</li>
+        </div>
+        <div class="footer__brandsection__info__border"></div>
+        <div class="footer__brandsection__info__ourservice">
+          ourservice
+          <li>washing</li>
+          <li>washing</li>
+          <li>washing</li>
+        </div>
+      </div>
+    </div>
+    <div class="footer__addsection">
+      <div class="footer__addsection__copyright">
+        &#0169; 2020 MechMyCar pvt ltd.
+      </div>
+      <div class="footer__addsection__socialmedia">
+        <a href="#"><img src="/img/fbNewFooter.png" alt="fb"/></a>
+        <a href="#"> <img src="/img/instaNewFooter.png" alt="inst"/></a>
+        <a href="#"><img src="/img/youtubeNewFooter.png" alt="youtube"/></a>
+        <a href="#"
+          ><img src="/img/twiterNewFooter.png" alt="twiterNewFooter"
+        /></a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %} {% block additional_js %}
 <!-- <script src="/js/index.js"></script> -->
-    {% endblock %}
+{% endblock %}
