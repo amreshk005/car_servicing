@@ -93,6 +93,10 @@
       font-size: 1.3em;
       letter-spacing: 1px;
       font-weight: 400;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
       //iphone 5, 5s
       @media only screen and (min-device-width: 320px) and (max-device-width: 359px) and (-webkit-min-device-pixel-ratio: 2) {
         margin-top: 0px;
@@ -157,42 +161,42 @@
 .content {
   grid-row: 2/3;
   display: grid;
-  grid-template-rows: 100vh 100vh;
+  grid-template-rows: 130vh 100vh;
   grid-template-columns: 100vw;
 
   //   background-color: red;
 
   //iphone 5, 5s
   @media only screen and (min-device-width: 320px) and (max-device-width: 359px) and (-webkit-min-device-pixel-ratio: 2) {
-    grid-template-rows: 175vh 25vh;
+    grid-template-rows: 205vh 25vh;
   }
   //iphone 5, 5s
   @media only screen and (min-device-width: 360px) and (max-device-width: 374px) and (-webkit-min-device-pixel-ratio: 2) {
-    grid-template-rows: 175vh 25vh;
+    grid-template-rows: 205vh 25vh;
   }
   @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-    grid-template-rows: 175vh 25vh;
+    grid-template-rows: 205vh 25vh;
   }
 
   &__cardsection {
     grid-row: 1;
     display: grid;
     grid-template-columns: repeat(3, 30%);
-    grid-template-rows: 80vh;
+    grid-template-rows: 100vh;
     justify-content: center;
     // margin-right: 30px;
     //iphone 5, 5s
     @media only screen and (min-device-width: 320px) and (max-device-width: 359px) and (-webkit-min-device-pixel-ratio: 2) {
       grid-template-columns: 90%;
-      grid-template-rows: repeat(3, 56.66vh);
+      grid-template-rows: repeat(3, 68.33vh);
     }
     @media only screen and (min-device-width: 360px) and (max-device-width: 374px) and (-webkit-min-device-pixel-ratio: 2) {
       grid-template-columns: 90%;
-      grid-template-rows: repeat(3, 56.66vh);
+      grid-template-rows: repeat(3, 68.33vh);
     }
     @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
       grid-template-columns: 90%;
-      grid-template-rows: repeat(3, 56.66vh);
+      grid-template-rows: repeat(3, 68.33vh);
     }
 
     &__card1 {

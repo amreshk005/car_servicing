@@ -8594,16 +8594,24 @@ function () {
   var _ref = _asyncToGenerator(
   /*#__PURE__*/
   regeneratorRuntime.mark(function _callee(packageData, count, countbookingId) {
-    var data;
+    var package_detail, data;
     return regeneratorRuntime.wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
-            data = "\n  <div class=\"content__cardsection__card".concat(count, "\">\n            <div class=\"content__cardsection__card").concat(count, "__package\">\n              <h2>").concat(packageData.packageType, "</h2>\n            </div>\n            <div class=\"content__cardsection__card").concat(count, "__price\">\n              <h1>&#8377 ").concat(packageData.price, "</h1>\n              <h2>Every 5,000kms / 3 months |</h2>\n              <h2>1 months warranty</h2>\n            </div>\n            <div class=\"content__cardsection__card").concat(count, "__info\">\n              <ul>\n                <li>air filter - cleaned</li>\n                <li>Oil Filter Rpalced</li>\n                <li>Oil Filter - Rpalced</li>\n                <li>Oil Filter - Rpalced</li>\n                <li>Oil Filter - Rpalced</li>\n                <li>Oil Filter - Rpalced</li>\n                <li>Oil Filter - Rpalced</li>\n                <li>Oil Filter - Rpalced</li>\n                <li>Oil Filter - Rpalced</li>\n                <li>Oil Filter - Rpalced</li>\n              </ul>\n            </div>\n            <a href=\"/booking\" class=\"content__cardsection__card").concat(count, "__button\" id=\"").concat(packageData.packageType).concat(countbookingId, "\">\n              <h2>Proceed to Book</h2>\n            </a>\n          </div>\n  ");
-            _context.next = 3;
+            if (packageData.packageType === "Basic") {
+              package_detail = "\n                <li>Air Filter - Cleaned</li>\n                <li>Oil Filter - Replaced</li>\n                <li>Engine Oil - Replaced</li>\n                <li>Coolant    - Top up</li>\n                <li>Fuel Filter/Disel Filter - NA</li>\n                <li>Brake pads - NA</li>\n                <li>Brake Fluids - NA</li>\n                <li>Gear Oil - NA</li>\n                <li>Wiper Fluid - Replaced</li>\n                <li>Battery Water - Replaced</li>\n                <li>Spark Plugs(P) - cleaned</li>\n                <li>Cabin Filter/AC Filter - NA</li>\n                <li>Tyre Rotation - NA</li>\n                <li>Interior cabin cleaning - included</li>\n                <li>Wheel Alignement and Balancing - NA</li>\n                <li>Car Wash - NA</li>\n\n\n    ";
+            } else if (packageData.packageType === "Comprehensive") {
+              package_detail = "\n    <li>Air Filter - Replaced</li>\n    <li>Oil Filter - Replaced</li>\n    <li>Engine Oil - Replaced</li>\n    <li>Coolant    - Top up</li>\n    <li>Fuel Filter/Disel Filter - Replaced</li>\n    <li>Brake pads - Serviced</li>\n    <li>Brake Fluids - Replaced</li>\n    <li>Gear Oil - Top up</li>\n    <li>Wiper Fluid - Replaced</li>\n    <li>Battery Water - Replaced</li>\n    <li>Spark Plugs(P) - cleaned</li>\n    <li>Cabin Filter/AC Filter - Cleaned</li>\n    <li>Tyre Rotation - included</li>\n    <li>Interior cabin cleaning - included</li>\n    <li>Wheel Alignement and Balancing - included</li>\n    <li>Car Wash - included</li>\n    ";
+            } else if (packageData.packageType === "Standard") {
+              package_detail = "\n    <li>Air Filter - Replaced</li>\n    <li>Oil Filter - Replaced</li>\n    <li>Engine Oil - Replaced</li>\n    <li>Coolant    - Top up</li>\n    <li>Fuel Filter/Disel Filter - Cleaned</li>\n    <li>Brake pads - Serviced</li>\n    <li>Brake Fluids - Top up</li>\n    <li>Gear Oil - NA</li>\n    <li>Wiper Fluid - Replaced</li>\n    <li>Battery Water - Replaced</li>\n    <li>Spark Plugs(P) - cleaned</li>\n    <li>Cabin Filter/AC Filter - NA</li>\n    <li>Tyre Rotation - included</li>\n    <li>Interior cabin cleaning - included</li>\n    <li>Wheel Alignement and Balancing - NA</li>\n    <li>Car Wash - included</li>\n";
+            }
+
+            data = "\n  <div class=\"content__cardsection__card".concat(count, "\">\n            <div class=\"content__cardsection__card").concat(count, "__package\">\n              <h2>").concat(packageData.packageType, "</h2>\n            </div>\n            <div class=\"content__cardsection__card").concat(count, "__price\">\n              <h1>&#8377 ").concat(packageData.price, "</h1>\n              <h2>Every 5,000kms / 3 months |</h2>\n              <h2>1 months warranty</h2>\n            </div>\n            <div class=\"content__cardsection__card").concat(count, "__info\">\n              <ul>\n              ").concat(package_detail, "\n              </ul>\n            </div>\n            <a href=\"/booking\" class=\"content__cardsection__card").concat(count, "__button\" id=\"").concat(packageData.packageType).concat(countbookingId, "\">\n              <h2>Proceed to Book</h2>\n            </a>\n          </div>\n  ");
+            _context.next = 4;
             return _queryHolder.elements.packageElement.insertAdjacentHTML("beforeend", data);
 
-          case 3:
+          case 4:
           case "end":
             return _context.stop();
         }

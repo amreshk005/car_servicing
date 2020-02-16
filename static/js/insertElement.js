@@ -31,6 +31,67 @@ export const buttonInsert = slug => {
 };
 
 export const packageInsert = async (packageData, count, countbookingId) => {
+  let package_detail;
+  if (packageData.packageType === "Basic") {
+    package_detail = `
+                <li>Air Filter - Cleaned</li>
+                <li>Oil Filter - Replaced</li>
+                <li>Engine Oil - Replaced</li>
+                <li>Coolant    - Top up</li>
+                <li>Fuel Filter/Disel Filter - NA</li>
+                <li>Brake pads - NA</li>
+                <li>Brake Fluids - NA</li>
+                <li>Gear Oil - NA</li>
+                <li>Wiper Fluid - Replaced</li>
+                <li>Battery Water - Replaced</li>
+                <li>Spark Plugs(P) - cleaned</li>
+                <li>Cabin Filter/AC Filter - NA</li>
+                <li>Tyre Rotation - NA</li>
+                <li>Interior cabin cleaning - included</li>
+                <li>Wheel Alignement and Balancing - NA</li>
+                <li>Car Wash - NA</li>
+
+
+    `;
+  } else if (packageData.packageType === "Comprehensive") {
+    package_detail = `
+    <li>Air Filter - Replaced</li>
+    <li>Oil Filter - Replaced</li>
+    <li>Engine Oil - Replaced</li>
+    <li>Coolant    - Top up</li>
+    <li>Fuel Filter/Disel Filter - Replaced</li>
+    <li>Brake pads - Serviced</li>
+    <li>Brake Fluids - Replaced</li>
+    <li>Gear Oil - Top up</li>
+    <li>Wiper Fluid - Replaced</li>
+    <li>Battery Water - Replaced</li>
+    <li>Spark Plugs(P) - cleaned</li>
+    <li>Cabin Filter/AC Filter - Cleaned</li>
+    <li>Tyre Rotation - included</li>
+    <li>Interior cabin cleaning - included</li>
+    <li>Wheel Alignement and Balancing - included</li>
+    <li>Car Wash - included</li>
+    `;
+  } else if (packageData.packageType === "Standard") {
+    package_detail = `
+    <li>Air Filter - Replaced</li>
+    <li>Oil Filter - Replaced</li>
+    <li>Engine Oil - Replaced</li>
+    <li>Coolant    - Top up</li>
+    <li>Fuel Filter/Disel Filter - Cleaned</li>
+    <li>Brake pads - Serviced</li>
+    <li>Brake Fluids - Top up</li>
+    <li>Gear Oil - NA</li>
+    <li>Wiper Fluid - Replaced</li>
+    <li>Battery Water - Replaced</li>
+    <li>Spark Plugs(P) - cleaned</li>
+    <li>Cabin Filter/AC Filter - NA</li>
+    <li>Tyre Rotation - included</li>
+    <li>Interior cabin cleaning - included</li>
+    <li>Wheel Alignement and Balancing - NA</li>
+    <li>Car Wash - included</li>
+`;
+  }
   const data = `
   <div class="content__cardsection__card${count}">
             <div class="content__cardsection__card${count}__package">
@@ -43,16 +104,7 @@ export const packageInsert = async (packageData, count, countbookingId) => {
             </div>
             <div class="content__cardsection__card${count}__info">
               <ul>
-                <li>air filter - cleaned</li>
-                <li>Oil Filter Rpalced</li>
-                <li>Oil Filter - Rpalced</li>
-                <li>Oil Filter - Rpalced</li>
-                <li>Oil Filter - Rpalced</li>
-                <li>Oil Filter - Rpalced</li>
-                <li>Oil Filter - Rpalced</li>
-                <li>Oil Filter - Rpalced</li>
-                <li>Oil Filter - Rpalced</li>
-                <li>Oil Filter - Rpalced</li>
+              ${package_detail}
               </ul>
             </div>
             <a href="/booking" class="content__cardsection__card${count}__button" id="${packageData.packageType}${countbookingId}">
