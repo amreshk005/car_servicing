@@ -11,7 +11,7 @@ $background-image: rgba(0, 0, 0, 0.1);
     &__carservice {
       height: 40px;
       width: 200px;
-      @media only screen and (max-width: 320px) and (max-width: 567px) {
+      @media only screen and (max-width: 320px) and (max-width: 374px) {
         height: 20px;
         width: 125px;
       }
@@ -30,7 +30,7 @@ $background-image: rgba(0, 0, 0, 0.1);
     align-items: center;
     font-size: 1.8em;
     font-weight: 400;
-    @media only screen and (max-width: 320px) and (max-width: 567px) {
+    @media only screen and (max-width: 320px) and (max-width: 374px) {
       grid-template-columns: 70% 30%;
       font-size: 1.4em;
       justify-items: normal;
@@ -48,7 +48,7 @@ $background-image: rgba(0, 0, 0, 0.1);
     &__second {
       padding-right: 20px;
       cursor: pointer;
-      @media only screen and (max-width: 320px) and (max-width: 567px) {
+      @media only screen and (max-width: 320px) and (max-width: 374px) {
         padding-right: 10px;
         margin-right: 10px;
         // color: red;

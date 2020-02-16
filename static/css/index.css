@@ -29,7 +29,7 @@ body {
     .header__logo__carservice {
       height: 40px;
       width: 200px; }
-      @media only screen and (max-width: 320px) and (max-width: 567px) {
+      @media only screen and (max-width: 320px) and (max-width: 374px) {
         .header__logo__carservice {
           height: 20px;
           width: 125px; } }
@@ -46,7 +46,7 @@ body {
     align-items: center;
     font-size: 1.8em;
     font-weight: 400; }
-    @media only screen and (max-width: 320px) and (max-width: 567px) {
+    @media only screen and (max-width: 320px) and (max-width: 374px) {
       .header__navigation {
         grid-template-columns: 70% 30%;
         font-size: 1.4em;
@@ -63,7 +63,7 @@ body {
     .header__navigation__second {
       padding-right: 20px;
       cursor: pointer; }
-      @media only screen and (max-width: 320px) and (max-width: 567px) {
+      @media only screen and (max-width: 320px) and (max-width: 374px) {
         .header__navigation__second {
           padding-right: 10px;
           margin-right: 10px; } }
