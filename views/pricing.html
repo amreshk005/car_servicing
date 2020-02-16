@@ -1,52 +1,115 @@
-{% extends "base.html" %}
-{% block additional_css %}
-<link rel="stylesheet" href="/css/pricing.css">
+{% extends "base.html" %} {% block additional_css %}
+<link rel="stylesheet" href="/css/pricing.css" />
 
-{% endblock %}
-{% block content %}
-<div id="switch-cont">
-
-    <button class="switch-button switch-selected">Basic</button>
-
-  </div>
-  
-  <div id="pricing-cont">
-
-
-<!-- 
-    <div class="pricing-card">
-      <span class="pricing-el-med">Standard</span>
-      <h2>$42</h2>
-      <span class="pricing-el-small">Per Month</span>
-      <ul class="pricing-el-small">
-        <li>Lorem dolem </li>
-        <li>Lorem dolem wolem</li>
-        <li>Lorem dolem</li>
-        <li>Dolem wolem</li>
-      </ul>
-      <a href="" class="btn btn-pricing">Learn more</a>
+{% endblock %} {% block content %}
+<div class="container">
+  {% include "header.html" %}
+  <div class="content">
+    <div class="content__cardsection" id="pricing-cont">
+      <!-- <div class="content__cardsection__card1">
+        <div class="content__cardsection__card1__package">
+          <h2>Basic</h2>
+        </div>
+        <div class="content__cardsection__card1__price">
+          <h1>Rs. 2899</h1>
+          <h2>Every 5,000kms / 3 months |</h2>
+          <h2>1 months warranty</h2>
+        </div>
+        <div class="content__cardsection__card1__info">
+          <ul>
+            <li>air filter - cleaned</li>
+            <li>Oil Filter Rpalced</li>
+            <li>Oil Filter - Rpalced</li>
+            <li>Oil Filter - Rpalced</li>
+            <li>Oil Filter - Rpalced</li>
+            <li>Oil Filter - Rpalced</li>
+            <li>Oil Filter - Rpalced</li>
+            <li>Oil Filter - Rpalced</li>
+            <li>Oil Filter - Rpalced</li>
+            <li>Oil Filter - Rpalced</li>
+          </ul>
+        </div>
+        <button class="content__cardsection__card1__button">
+          Proceed to Book
+        </button>
+      </div> -->
+      <!-- <div class="content__cardsection__card2">
+        <div class="content__cardsection__card2__package">
+          <h2>Basic</h2>
+        </div>
+        <div class="content__cardsection__card2__price">
+          <h1>Rs. 2899</h1>
+          <h2>Every 5,000kms / 3 months |</h2>
+          <h2>1 months warranty</h2>
+        </div>
+        <div class="content__cardsection__card2__info">
+          <ul>
+            <li>air filter - cleaned</li>
+            <li>Oil Filter Rpalced</li>
+            <li>Oil Filter - Rpalced</li>
+            <li>Oil Filter - Rpalced</li>
+            <li>Oil Filter - Rpalced</li>
+            <li>Oil Filter - Rpalced</li>
+            <li>Oil Filter - Rpalced</li>
+            <li>Oil Filter - Rpalced</li>
+            <li>Oil Filter - Rpalced</li>
+            <li>Oil Filter - Rpalced</li>
+          </ul>
+        </div>
+        <button class="content__cardsection__card2__button">
+          Proceed to Book
+        </button>
+      </div> -->
+      <!-- <div class="content__cardsection__card3">
+        <div class="content__cardsection__card3__package">
+          <h2>Basic</h2>
+        </div>
+        <div class="content__cardsection__card3__price">
+          <h1>Rs. 2899</h1>
+          <h2>Every 5,000kms / 3 months |</h2>
+          <h2>1 months warranty</h2>
+        </div>
+        <div class="content__cardsection__card3__info">
+          <ul>
+            <li>air filter - cleaned</li>
+            <li>Oil Filter Rpalced</li>
+            <li>Oil Filter - Rpalced</li>
+            <li>Oil Filter - Rpalced</li>
+            <li>Oil Filter - Rpalced</li>
+            <li>Oil Filter - Rpalced</li>
+            <li>Oil Filter - Rpalced</li>
+            <li>Oil Filter - Rpalced</li>
+            <li>Oil Filter - Rpalced</li>
+            <li>Oil Filter - hello</li>
+          </ul>
+        </div>
+        <button class="content__cardsection__card3__button">
+          Proceed to Book
+        </button>
+      </div> -->
     </div>
-     -->
-    <!-- <div class="pricing-card">
-      <span class="pricing-el-med">Professional</span>
-      <h2>$79</h2>
-      <span class="pricing-el-small">Per Month</span>
-      <ul class="pricing-el-small">
-        <li>Lorem wolem</li>
-        <li>Lorem Lorem dolem</li>
-        <li>Dolem wolem</li>
-        <li>Dolem wolem wolem</li>
-      </ul>
-      <a href="" class="btn btn-pricing">Learn more</a>
+    <div class="content__blank">
+      <div class="content__blank__carousel">
+        <div class="content__blank__carousel-1">
+          <div class="content__blank__carousel-1__image">
+            <img src="/img/carsoul-3.jpg" alt="carsoule" />
+          </div>
+          <div class="content__blank__carousel-1__info">
+            <h2>What Goes Into Your Car AC Service | Explained</h2>
+            <p>
+              Commuting without AC is a dreadful deal. Given that the
+              temperature inside the car cabin can rise up to 60°C, checking up
+              on your car AC should be your top priority. There can be a host of
+              issues creeping like low cooling, bad odour, failed AC compressor
+              and what not. Although regular car AC maintenance should be a
+              ritual, It is generally prescribed to get a full car AC service
+              every year to keep the cooling at maximum efficiency.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-     -->
-    
-    
-  
   </div>
-  
-  
+  {% include "footer.html" %}
+</div>
 {% endblock %}
-<!-- {% block additional_js %}
-
-{% endblock %} -->

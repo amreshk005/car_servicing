@@ -8581,7 +8581,9 @@ var clearModeloptions = function clearModeloptions() {
 exports.clearModeloptions = clearModeloptions;
 
 var buttonInsert = function buttonInsert(slug) {
-  var button = "\n  <a href=\"/package/".concat(slug, "\" class=\"button\" id=\"buttonNext\">CHECK SERVICE</a> \n  ");
+  var button = "\n  <a href=\"/package/".concat(slug, "\" class=\"content__formsection__formplace__form__button\" id=\"buttonNext\">CHECK SERVICE</a> \n  ");
+
+  _queryHolder.elements.formElement.insertAdjacentHTML("beforeend", button);
 };
 
 exports.buttonInsert = buttonInsert;
@@ -8591,13 +8593,13 @@ var packageInsert =
 function () {
   var _ref = _asyncToGenerator(
   /*#__PURE__*/
-  regeneratorRuntime.mark(function _callee(packageData, count) {
+  regeneratorRuntime.mark(function _callee(packageData, count, countbookingId) {
     var data;
     return regeneratorRuntime.wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
-            data = "\n    <div class=\"pricing-card\">\n    <span class=\"pricing-el-med\" id=\"".concat(packageData.packageType, "\">").concat(packageData.packageType, "</span>\n    <h2>&#8377 ").concat(packageData.price, "</h2>\n   \n    <ul class=\"pricing-el-small\" id=\"services\">\n     <li>wheel chair</li>\n    </ul>\n    <a href=\"/booking\" class=\"btn btn-pricing\" value=\"").concat(packageData.packageType, "\" id=\"").concat(packageData.packageType).concat(count, "\" >Procced to Book</a>\n  </div>\n  ");
+            data = "\n  <div class=\"content__cardsection__card".concat(count, "\">\n            <div class=\"content__cardsection__card").concat(count, "__package\">\n              <h2>").concat(packageData.packageType, "</h2>\n            </div>\n            <div class=\"content__cardsection__card").concat(count, "__price\">\n              <h1>&#8377 ").concat(packageData.price, "</h1>\n              <h2>Every 5,000kms / 3 months |</h2>\n              <h2>1 months warranty</h2>\n            </div>\n            <div class=\"content__cardsection__card").concat(count, "__info\">\n              <ul>\n                <li>air filter - cleaned</li>\n                <li>Oil Filter Rpalced</li>\n                <li>Oil Filter - Rpalced</li>\n                <li>Oil Filter - Rpalced</li>\n                <li>Oil Filter - Rpalced</li>\n                <li>Oil Filter - Rpalced</li>\n                <li>Oil Filter - Rpalced</li>\n                <li>Oil Filter - Rpalced</li>\n                <li>Oil Filter - Rpalced</li>\n                <li>Oil Filter - Rpalced</li>\n              </ul>\n            </div>\n            <a href=\"/booking\" class=\"content__cardsection__card").concat(count, "__button\" id=\"").concat(packageData.packageType).concat(countbookingId, "\">\n              <h2>Proceed to Book</h2>\n            </a>\n          </div>\n  ");
             _context.next = 3;
             return _queryHolder.elements.packageElement.insertAdjacentHTML("beforeend", data);
 
@@ -8609,7 +8611,7 @@ function () {
     }, _callee);
   }));
 
-  return function packageInsert(_x, _x2) {
+  return function packageInsert(_x, _x2, _x3) {
     return _ref.apply(this, arguments);
   };
 }();
@@ -8897,7 +8899,7 @@ window.onload = function () {
   _asyncToGenerator(
   /*#__PURE__*/
   regeneratorRuntime.mark(function _callee6() {
-    var state, dataholder, ManufacturerHolder, packageType, price, packageId, count, getarrayedpackages, i, _packageType, slugholder, _price;
+    var state, dataholder, ManufacturerHolder, packageType, price, packageId, count, countbookingId, getarrayedpackages, i, _packageType, slugholder, _price;
 
     return regeneratorRuntime.wrap(function _callee6$(_context6) {
       while (1) {
@@ -9095,7 +9097,8 @@ window.onload = function () {
                 Standard: "value2"
               };
               packageId = [];
-              count = 0;
+              count = 1;
+              countbookingId = 0;
 
               getarrayedpackages =
               /*#__PURE__*/
@@ -9117,13 +9120,13 @@ window.onload = function () {
 
                         case 5:
                           if (_iteratorNormalCompletion = (_step = _iterator.next()).done) {
-                            _context5.next = 15;
+                            _context5.next = 16;
                             break;
                           }
 
                           arrayOfpackage = _step.value;
                           _context5.next = 9;
-                          return (0, _insertElement.packageInsert)(arrayOfpackage, count);
+                          return (0, _insertElement.packageInsert)(arrayOfpackage, count, countbookingId);
 
                         case 9:
                           _context5.next = 11;
@@ -9132,47 +9135,50 @@ window.onload = function () {
                         case 11:
                           price["".concat(arrayOfpackage.packageType)] = arrayOfpackage.price; // console.log(price[`${arrayOfpackage.packageType}`]);
 
-                        case 12:
+                          count++;
+
+                        case 13:
                           _iteratorNormalCompletion = true;
                           _context5.next = 5;
                           break;
 
-                        case 15:
-                          _context5.next = 21;
+                        case 16:
+                          _context5.next = 22;
                           break;
 
-                        case 17:
-                          _context5.prev = 17;
+                        case 18:
+                          _context5.prev = 18;
                           _context5.t0 = _context5["catch"](3);
                           _didIteratorError = true;
                           _iteratorError = _context5.t0;
 
-                        case 21:
-                          _context5.prev = 21;
+                        case 22:
                           _context5.prev = 22;
+                          _context5.prev = 23;
 
                           if (!_iteratorNormalCompletion && _iterator.return != null) {
                             _iterator.return();
                           }
 
-                        case 24:
-                          _context5.prev = 24;
+                        case 25:
+                          _context5.prev = 25;
 
                           if (!_didIteratorError) {
-                            _context5.next = 27;
+                            _context5.next = 28;
                             break;
                           }
 
                           throw _iteratorError;
 
-                        case 27:
-                          return _context5.finish(24);
-
                         case 28:
-                          return _context5.finish(21);
+                          return _context5.finish(25);
 
                         case 29:
+                          return _context5.finish(22);
+
+                        case 30:
                           console.log(price);
+                          console.log(document.getElementById("Basic0"));
                           document.getElementById("Basic0").addEventListener("click", function (e) {
                             localStorage.removeItem("packageType");
                             localStorage.setItem("packageType", "Basic");
@@ -9206,12 +9212,12 @@ window.onload = function () {
                           // for (var i = 0; i < packageTypeElement.length; i++) {
                           // }
 
-                        case 34:
+                        case 36:
                         case "end":
                           return _context5.stop();
                       }
                     }
-                  }, _callee5, null, [[3, 17, 21, 29], [22,, 24, 28]]);
+                  }, _callee5, null, [[3, 18, 22, 30], [23,, 25, 29]]);
                 }));
 
                 return function getarrayedpackages(_x4) {
@@ -9293,7 +9299,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49456" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65111" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

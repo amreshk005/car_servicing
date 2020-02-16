@@ -113,15 +113,18 @@ window.onload = function() {
         Standard: "value2"
       };
       let packageId = [];
-      let count = 0;
+      let count = 1;
+      let countbookingId = 0;
       const getarrayedpackages = async arrayOfpackages => {
         for (let arrayOfpackage of arrayOfpackages) {
-          await packageInsert(arrayOfpackage, count);
+          await packageInsert(arrayOfpackage, count, countbookingId);
           await packageType.push(arrayOfpackage.packageType);
           price[`${arrayOfpackage.packageType}`] = arrayOfpackage.price;
           // console.log(price[`${arrayOfpackage.packageType}`]);
+          count++;
         }
         console.log(price);
+        console.log(document.getElementById("Basic0"));
         document.getElementById("Basic0").addEventListener("click", e => {
           localStorage.removeItem("packageType");
           localStorage.setItem("packageType", "Basic");

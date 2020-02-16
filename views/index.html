@@ -4,26 +4,7 @@
 {% endblock %} {% block content %}
 <!-- <script type="text/javascript" src="//use.typekit.net/uvs8amk.js"></script> -->
 <div class="container">
-  <div class="header">
-    <div class="header__logo">
-      <img
-        class="header__logo__carservice"
-        src="/img/logomechmycar.png"
-        alt="logo image"
-      />
-    </div>
-    <div class="header__navigation">
-      <div class="header__navigation__first">
-        <!-- <div class="header__navigation__first__Admin"> -->
-        Admin SignIn
-        <!-- </div> -->
-      </div>
-      <div class="header__navigation__second">Contact</div>
-    </div>
-    <div class="header__space">
-      <div></div>
-    </div>
-  </div>
+  {% include "header.html" %}
   <div class="content">
     <div class="content__formsection">
       <div class="content__formsection__formplace">
@@ -152,6 +133,8 @@
       </div>
     </div>
   </div>
+
+  {% include "footer.html" %}
 </div>
 {% endblock %} {% block additional_js %}
 <!-- <script src="/js/index.js"></script> -->

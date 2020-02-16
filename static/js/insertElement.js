@@ -30,17 +30,35 @@ export const buttonInsert = slug => {
   elements.formElement.insertAdjacentHTML("beforeend", button);
 };
 
-export const packageInsert = async (packageData, count) => {
+export const packageInsert = async (packageData, count, countbookingId) => {
   const data = `
-    <div class="pricing-card">
-    <span class="pricing-el-med" id="${packageData.packageType}">${packageData.packageType}</span>
-    <h2>&#8377 ${packageData.price}</h2>
-   
-    <ul class="pricing-el-small" id="services">
-     <li>wheel chair</li>
-    </ul>
-    <a href="/booking" class="btn btn-pricing" value="${packageData.packageType}" id="${packageData.packageType}${count}" >Procced to Book</a>
-  </div>
+  <div class="content__cardsection__card${count}">
+            <div class="content__cardsection__card${count}__package">
+              <h2>${packageData.packageType}</h2>
+            </div>
+            <div class="content__cardsection__card${count}__price">
+              <h1>&#8377 ${packageData.price}</h1>
+              <h2>Every 5,000kms / 3 months |</h2>
+              <h2>1 months warranty</h2>
+            </div>
+            <div class="content__cardsection__card${count}__info">
+              <ul>
+                <li>air filter - cleaned</li>
+                <li>Oil Filter Rpalced</li>
+                <li>Oil Filter - Rpalced</li>
+                <li>Oil Filter - Rpalced</li>
+                <li>Oil Filter - Rpalced</li>
+                <li>Oil Filter - Rpalced</li>
+                <li>Oil Filter - Rpalced</li>
+                <li>Oil Filter - Rpalced</li>
+                <li>Oil Filter - Rpalced</li>
+                <li>Oil Filter - Rpalced</li>
+              </ul>
+            </div>
+            <a href="/booking" class="content__cardsection__card${count}__button" id="${packageData.packageType}${countbookingId}">
+              <h2>Proceed to Book</h2>
+            </a>
+          </div>
   `;
   await elements.packageElement.insertAdjacentHTML("beforeend", data);
 
