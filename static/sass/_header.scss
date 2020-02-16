@@ -11,10 +11,15 @@ $background-image: rgba(0, 0, 0, 0.1);
     &__carservice {
       height: 40px;
       width: 200px;
-      @media only screen and (max-width: 320px) and (max-width: 374px) {
+      @media only screen and (max-device-width: 320px) and (max-device-width: 359px) {
         height: 20px;
         width: 125px;
       }
+      @media only screen and (max-device-width: 360px) and (max-device-width: 374px) {
+        height: 25px;
+        width: 125px;
+      }
+
       @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
         height: 30px;
         width: 130px;
@@ -30,7 +35,13 @@ $background-image: rgba(0, 0, 0, 0.1);
     align-items: center;
     font-size: 1.8em;
     font-weight: 400;
-    @media only screen and (max-width: 320px) and (max-width: 374px) {
+    @media only screen and (max-device-width: 320px) and (max-device-width: 359px) {
+      grid-template-columns: 70% 30%;
+      font-size: 1.4em;
+      justify-items: normal;
+      align-items: flex-end;
+    }
+    @media only screen and (max-device-width: 360px) and (max-device-width: 374px) {
       grid-template-columns: 70% 30%;
       font-size: 1.4em;
       justify-items: normal;
@@ -48,10 +59,14 @@ $background-image: rgba(0, 0, 0, 0.1);
     &__second {
       padding-right: 20px;
       cursor: pointer;
-      @media only screen and (max-width: 320px) and (max-width: 374px) {
+      @media only screen and (max-width: 320px) and (max-width: 359px) {
         padding-right: 10px;
         margin-right: 10px;
         // color: red;
+      }
+      @media only screen and (max-device-width: 360px) and (max-device-width: 374px) {
+        padding-right: 10px;
+        margin-right: 10px;
       }
       @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
         padding-right: 10px;

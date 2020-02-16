@@ -19,11 +19,14 @@ $background-image: rgba(0, 0, 0, 2);
     h2 {
       margin-top: 15px;
       text-align: justify;
-      @media only screen and (max-width: 320px) and (max-width: 374px) {
+      @media only screen and (max-width: 320px) and (max-width: 359px) {
+        margin-top: 2px;
+      }
+      @media only screen and (max-width: 360px) and (max-width: 374px) {
         margin-top: 2px;
       }
       @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-        margin-top: 2px;
+        margin-top: 1px;
       }
     }
     p {
@@ -35,9 +38,16 @@ $background-image: rgba(0, 0, 0, 2);
       letter-spacing: 1px;
       // hyphens: auto;
 
-      @media only screen and( max-width:320px) and (max-width: 374px) {
-        margin: 2px 5px 2px 5px;
+      @media only screen and( max-width:320px) and (max-width: 359px) {
+        margin: 2px 2px 2px 2px;
         letter-spacing: 0px;
+        word-spacing: 0px;
+        font-size: 1.3em;
+        // text-align: center;
+      }
+      @media only screen and( max-width:360px) and (max-width: 374px) {
+        margin: 2px 2px 2px 2px;
+        letter-spacing: 1px;
         word-spacing: 0px;
         font-size: 1.3em;
         // text-align: center;
@@ -56,7 +66,7 @@ $background-image: rgba(0, 0, 0, 2);
   display: grid;
   //   background-color: rgba(0, 0, 0, 0.1);
   grid-template-columns: 100%;
-  grid-template-rows: 85vh 100vh;
+  grid-template-rows: 75vh 110vh;
 
   @media only screen and (max-width: 320px) {
     // grid-template-rows: 180px 100vh;
@@ -77,7 +87,10 @@ $background-image: rgba(0, 0, 0, 2);
     background-position: center;
     align-content: center;
     padding-left: 40px;
-    @media only screen and (max-width: 320px) and (max-width: 374px) {
+    @media only screen and (max-width: 320px) and (max-width: 359px) {
+      padding-left: 15px;
+    }
+    @media only screen and (max-width: 360px) and (max-width: 374px) {
       padding-left: 15px;
     }
     @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -89,9 +102,13 @@ $background-image: rgba(0, 0, 0, 2);
       width: 361px;
       border-radius: 5px;
 
-      @media only screen and(max-width: 320px) and (max-width: 374px) {
+      @media only screen and(max-width: 320px) and (max-width: 359px) {
         height: 357px;
         width: 289px;
+      }
+      @media only screen and(max-width: 360px) and (max-width: 374px) {
+        height: 357px;
+        width: 320px;
       }
       @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
         height: 357px;
@@ -105,7 +122,10 @@ $background-image: rgba(0, 0, 0, 2);
           margin-left: 5px;
           text-transform: uppercase;
           color: rgb(73, 71, 71);
-          @media only screen and (max-width: 320px) and (max-width: 374px) {
+          @media only screen and (max-width: 320px) and (max-width: 359px) {
+            font-size: 1.2em;
+          }
+          @media only screen and(max-width: 360px) and (max-width: 374px) {
             font-size: 1.2em;
           }
           @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -122,7 +142,10 @@ $background-image: rgba(0, 0, 0, 2);
             font-weight: 300;
             color: rgb(61, 59, 59);
             //   margin: 5px 0 5px 10px;
-            @media only screen and (max-width: 320px) and (max-width: 374px) {
+            @media only screen and (max-width: 320px) and (max-width: 359px) {
+              font-size: 1.5em;
+            }
+            @media only screen and(max-width: 360px) and (max-width: 374px) {
               font-size: 1.5em;
             }
             @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -154,7 +177,11 @@ $background-image: rgba(0, 0, 0, 2);
             option {
               position: absolute;
             }
-            @media only screen and(max-width: 320px) and (max-width: 374px) {
+            @media only screen and(max-width: 320px) and (max-width: 359px) {
+              width: 250px;
+              height: 40px;
+            }
+            @media only screen and(max-width: 360px) and (max-width: 374px) {
               width: 250px;
               height: 40px;
             }
@@ -174,7 +201,10 @@ $background-image: rgba(0, 0, 0, 2);
             font-weight: 300;
             color: rgb(61, 59, 59);
             //   margin: 5px 0 5px 10px;
-            @media only screen and (max-width: 320px) and (max-width: 374px) {
+            @media only screen and (max-width: 320px) and (max-width: 359px) {
+              font-size: 1.5em;
+            }
+            @media only screen and(max-width: 360px) and (max-width: 374px) {
               font-size: 1.5em;
             }
             @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -206,7 +236,11 @@ $background-image: rgba(0, 0, 0, 2);
             option {
               position: absolute;
             }
-            @media only screen and(max-width: 320px) and (max-width: 374px) {
+            @media only screen and(max-width: 320px) and (max-width: 359px) {
+              width: 250px;
+              height: 40px;
+            }
+            @media only screen and(max-width: 360px) and (max-width: 374px) {
               width: 250px;
               height: 40px;
             }
@@ -226,7 +260,10 @@ $background-image: rgba(0, 0, 0, 2);
             font-weight: 300;
             color: rgb(61, 59, 59);
             //   margin: 5px 0 5px 10px;
-            @media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
+            @media only screen and (min-device-width: 320px) and (max-device-width: 359px) {
+              font-size: 1.5em;
+            }
+            @media only screen and(max-device-width: 360px) and (max-device-width: 374px) {
               font-size: 1.5em;
             }
             @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -258,7 +295,11 @@ $background-image: rgba(0, 0, 0, 2);
             option {
               position: absolute;
             }
-            @media only screen and(max-width: 320px) and (max-device-width: 374px) {
+            @media only screen and(max-width: 320px) and (max-device-width: 359px) {
+              width: 250px;
+              height: 40px;
+            }
+            @media only screen and(max-device-width: 360px) and (max-device-width: 374px) {
               width: 250px;
               height: 40px;
             }
@@ -284,7 +325,11 @@ $background-image: rgba(0, 0, 0, 2);
           outline: none;
           cursor: pointer;
           transition: all 0.2s;
-          @media only screen and (max-width: 320px) and (max-device-width: 374px) {
+          @media only screen and (max-width: 320px) and (max-device-width: 359px) {
+            width: 250px;
+            height: 40px;
+          }
+          @media only screen and(max-device-width: 360px) and (max-device-width: 374px) {
             width: 250px;
             height: 40px;
           }
@@ -332,7 +377,10 @@ $background-image: rgba(0, 0, 0, 2);
             box-shadow: none;
           }
         }
-        @media only screen and (max-width: 320px) and (max-width: 374px) {
+        @media only screen and (max-width: 320px) and (max-width: 359px) {
+          margin: 20px 0 0 10px;
+        }
+        @media only screen and(max-device-width: 360px) and (max-device-width: 374px) {
           margin: 20px 0 0 10px;
         }
         @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -350,11 +398,14 @@ $background-image: rgba(0, 0, 0, 2);
     grid-template-rows: 15% 70% 15%;
     align-items: center;
     justify-content: space-evenly;
-    @media only screen and (max-width: 320px) and (max-width: 374px) {
+    @media only screen and (max-width: 320px) and (max-width: 359px) {
       grid-template-columns: 80%;
       grid-template-rows: repeat(3, 33%);
     }
-
+    @media only screen and(max-device-width: 360px) and (max-device-width: 374px) {
+      grid-template-columns: 80%;
+      grid-template-rows: repeat(3, 33%);
+    }
     @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
       grid-template-columns: 80%;
       grid-template-rows: repeat(3, 33%);
@@ -383,9 +434,14 @@ $background-image: rgba(0, 0, 0, 2);
     &__card1 {
       @include card(1);
 
-      @media only screen and(max-width: 320px) and (max-width: 374px) {
+      @media only screen and(max-width: 320px) and (max-width: 359px) {
         // justify-content: space-evenly;
         // align-content: space-around;
+        margin-top: 25px;
+        grid-column: 1;
+        grid-row: 1;
+      }
+      @media only screen and(max-device-width: 360px) and (max-device-width: 374px) {
         margin-top: 25px;
         grid-column: 1;
         grid-row: 1;
@@ -398,7 +454,12 @@ $background-image: rgba(0, 0, 0, 2);
     }
     &__card2 {
       @include card(2);
-      @media only screen and(max-width: 320px) and (max-width: 374px) {
+      @media only screen and(max-width: 320px) and (max-width: 359px) {
+        margin-top: 45px;
+        grid-column: 1;
+        grid-row: 2;
+      }
+      @media only screen and(max-device-width: 360px) and (max-device-width: 374px) {
         margin-top: 45px;
         grid-column: 1;
         grid-row: 2;
@@ -411,9 +472,15 @@ $background-image: rgba(0, 0, 0, 2);
     }
     &__card3 {
       @include card(3);
-      @media only screen and(max-width: 320px) and (max-width: 374px) {
+      @media only screen and(max-width: 320px) and (max-width: 359px) {
         margin-top: 85px;
         margin-bottom: 25px;
+        grid-column: 1;
+        grid-row: 3;
+      }
+      @media only screen and(max-device-width: 360px) and (max-device-width: 374px) {
+        margin-top: 85px;
+        margin-bottom: 0px;
         grid-column: 1;
         grid-row: 3;
       }

@@ -4,7 +4,7 @@
   "description": "this is the api version of go mechanic",
   "main": "index.js",
   "scripts": {
-    "start:dev": "nodemon server.js",
+    "start:dev": "nodemon server.js -w",
     "start:prod": "NODE_ENV=production nodemon server.js",
     "watch:js": "parcel watch ./static/js/index.js --out-dir ./static/js/ --out-file bundle.js",
     "build:js": "parcel watch ./static/js/index.js --out-dir ./static/js/ --out-file bundle.js",
