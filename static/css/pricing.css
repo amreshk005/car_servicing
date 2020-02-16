@@ -15,7 +15,7 @@ body {
 
 .container {
   display: grid;
-  grid-template-rows: 10vh 130vh 100vh 60vh;
+  grid-template-rows: 10vh 100vh 100vh 60vh;
   grid-template-columns: 100vw; }
   @media only screen and (min-device-width: 320px) and (max-device-width: 359px) and (-webkit-min-device-pixel-ratio: 2) {
     .container {
@@ -98,7 +98,7 @@ body {
 .content {
   grid-row: 2/3;
   display: grid;
-  grid-template-rows: 130vh 100vh;
+  grid-template-rows: 110vh 90vh;
   grid-template-columns: 100vw; }
   @media only screen and (min-device-width: 320px) and (max-device-width: 359px) and (-webkit-min-device-pixel-ratio: 2) {
     .content {
@@ -113,7 +113,7 @@ body {
     grid-row: 1;
     display: grid;
     grid-template-columns: repeat(3, 30%);
-    grid-template-rows: 280vh;
+    grid-template-rows: 100vh;
     justify-content: center; }
     @media only screen and (min-device-width: 320px) and (max-device-width: 359px) and (-webkit-min-device-pixel-ratio: 2) {
       .content__cardsection {

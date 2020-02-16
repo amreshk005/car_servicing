@@ -18,7 +18,7 @@ body {
 
 .container {
   display: grid;
-  grid-template-rows: 10vh 130vh 100vh 60vh;
+  grid-template-rows: 10vh 110vh 90vh 60vh;
   grid-template-columns: 100vw;
   @media only screen and (min-device-width: 320px) and (max-device-width: 359px) and (-webkit-min-device-pixel-ratio: 2) {
     grid-template-rows: 10vh 280vh 35vh 60vh;
