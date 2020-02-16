@@ -1,0 +1,163 @@
+.footer {
+  grid-row: 4;
+  grid-column: 1;
+  background-color: #071c2c;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 85% 15%;
+  color: #fff;
+  &__brandsection {
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 30% 0.1% 69.9%;
+    grid-template-rows: 100%;
+
+    @media only screen and (max-width: 320px) and (max-width: 567px) {
+      grid-template-columns: 100%;
+      grid-template-rows: 20% 80%;
+    }
+    @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+      grid-template-columns: 100%;
+      grid-template-rows: 20% 80%;
+    }
+    &__logosection {
+      grid-column: 1;
+      height: 100%;
+      width: 100%;
+      @media only screen and (max-width: 320px) and (max-width: 567px) {
+        grid-row: 1;
+      }
+      @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+        grid-row: 1;
+      }
+      &__logo {
+        img {
+          margin: 50px 0 0 20px;
+          height: 40px;
+          width: 200px;
+          @media only screen and (max-width: 320px) and (max-width: 567px) {
+            grid-row: 1;
+            margin: 10px 0 0 20px;
+          }
+          @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+            grid-row: 1;
+            margin: 10px 0 0 20px;
+          }
+        }
+      }
+    }
+    &__border {
+      grid-column: 2;
+      border: 0.4px solid rgb(196, 193, 193);
+      // margin-bottom: 5px;
+      height: 20rem;
+      margin-top: 50px;
+      @media only screen and (max-width: 320px) and (max-width: 567px) {
+        display: none;
+      }
+      @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+        display: none;
+      }
+    }
+    &__info {
+      grid-column: 3;
+      display: grid;
+      grid-template-columns: 47.5% 5% 47.5%;
+      grid-template-rows: 100%;
+      justify-items: center;
+      @media only screen and (max-width: 320px) and (max-width: 567px) {
+        grid-column: 1;
+        grid-row: 2;
+      }
+      @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+        grid-column: 1;
+        grid-row: 2;
+      }
+      & > * {
+        margin: 50px 0 0 0;
+        font-size: 2em;
+        letter-spacing: 2px;
+      }
+      &__about {
+        grid-column: 1;
+
+        li {
+          letter-spacing: 1px;
+          text-decoration: none;
+          outline: none;
+          list-style-type: none;
+          font-size: 0.9em;
+          margin-left: 8px;
+          &:nth-child(1) {
+            margin: 10px 0 0 5px;
+            // color: red;
+          }
+        }
+      }
+      &__border {
+        border: 0.5px solid rgb(196, 193, 193);
+        // margin-bottom: 5px;
+        height: 20rem;
+      }
+      &__ourservice {
+        grid-column: 3;
+        li {
+          letter-spacing: 1px;
+          text-decoration: none;
+          outline: none;
+          list-style-type: none;
+          font-size: 0.8em;
+          margin-left: 5px;
+          &:nth-child(1) {
+            margin: 10px 0 0 5px;
+            // color: red;
+          }
+        }
+      }
+    }
+  }
+  &__addsection {
+    grid-row: 2;
+    border-top: 0.5px solid #fff;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    align-items: center;
+
+    font-size: 1.2em;
+    &__copyright {
+      margin: 0 0 0 40px;
+      letter-spacing: 1.5px;
+      word-spacing: 0.8px;
+      @media only screen and (max-width: 320px) and (max-width: 567px) {
+        margin: 0 0 0 5px;
+        word-spacing: 0.5px;
+        letter-spacing: 0.5px;
+      }
+      @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+        margin: 0 0 0 5px;
+        word-spacing: 0.5px;
+        letter-spacing: 0.5px;
+      }
+    }
+    &__socialmedia {
+      grid-column: 2;
+      display: flex;
+      justify-content: flex-end;
+
+      img {
+        height: 30px;
+        width: 30px;
+        margin-right: 10px;
+        &:nth-last-child(1) {
+          margin-right: 28px;
+          @media only screen and (max-width: 320px) and (max-width: 567px) {
+            margin-right: 8px;
+          }
+          @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+            margin-right: 8px;
+          }
+        }
+      }
+    }
+  }
+}

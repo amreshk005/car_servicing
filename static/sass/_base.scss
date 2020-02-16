@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 10vh repeat(2, 100vh) 60vh;
+  grid-template-columns: 100vw;
+  @media only screen and (max-width: 320px) {
+    // grid-template-rows: 10vh 90vh 100vh 60vh;
+  }
+}

@@ -1,0 +1,64 @@
+$background-image: rgba(0, 0, 0, 0.1);
+.header {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: 90% 10%;
+  align-items: center;
+
+  &__logo {
+    padding-left: 10px;
+    cursor: pointer;
+    &__carservice {
+      height: 40px;
+      width: 200px;
+      @media only screen and (max-width: 320px) and (max-width: 567px) {
+        height: 20px;
+        width: 125px;
+      }
+      @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+        height: 30px;
+        width: 130px;
+      }
+    }
+  }
+  &__navigation {
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+    grid-template-columns: 1fr minmax(100px, auto);
+    justify-items: flex-end;
+    align-items: center;
+    font-size: 1.8em;
+    font-weight: 400;
+    @media only screen and (max-width: 320px) and (max-width: 567px) {
+      grid-template-columns: 70% 30%;
+      font-size: 1.4em;
+      justify-items: normal;
+      align-items: flex-end;
+    }
+    @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+      grid-template-columns: 70% 30%;
+      font-size: 1.6em;
+      justify-items: normal;
+      align-items: flex-end;
+    }
+    &__first {
+      cursor: pointer;
+    }
+    &__second {
+      padding-right: 20px;
+      cursor: pointer;
+      @media only screen and (max-width: 320px) and (max-width: 567px) {
+        padding-right: 10px;
+        margin-right: 10px;
+        // color: red;
+      }
+      @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+        padding-right: 10px;
+        margin-right: 8px;
+      }
+    }
+  }
+  &__space {
+  }
+}
