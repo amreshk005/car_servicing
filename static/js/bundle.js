@@ -8492,7 +8492,7 @@ function () {
             console.log("in booking post");
 
             if (res.data.status === "success") {
-              alert("success", "Logged in successfully!");
+              alert("Great! we have received your request. Please check your Email Id. Our executive will be in touch with you shortly.", "Logged in successfully!");
               window.setTimeout(function () {
                 location.assign("/");
               }, 1000);
@@ -9307,7 +9307,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65111" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62380" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

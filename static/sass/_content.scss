@@ -5,9 +5,16 @@ $background-image: rgba(0, 0, 0, 2);
 
   &__imagesection {
     grid-row: 1;
+    height: 70%;
+    width: 70%;
+
     img {
       height: 100%;
       width: 100%;
+      margin-left: 40px;
+      &:nth-child(1) {
+        margin-top: 10px;
+      }
     }
   }
   &__info {
@@ -19,6 +26,7 @@ $background-image: rgba(0, 0, 0, 2);
     h2 {
       margin-top: 15px;
       text-align: justify;
+      font-size: 2em;
       @media only screen and (max-width: 320px) and (max-width: 359px) {
         margin-top: 2px;
       }
@@ -66,7 +74,7 @@ $background-image: rgba(0, 0, 0, 2);
   display: grid;
   //   background-color: rgba(0, 0, 0, 0.1);
   grid-template-columns: 100%;
-  grid-template-rows: 75vh 110vh;
+  grid-template-rows: 90vh 110vh;
 
   @media only screen and (max-width: 320px) {
     // grid-template-rows: 180px 100vh;

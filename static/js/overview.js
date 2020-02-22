@@ -62,7 +62,10 @@ export const booking = async (
     // res.setHeader("Access-Control-Allow-Origin", "*");
     console.log("in booking post");
     if (res.data.status === "success") {
-      alert("success", "Logged in successfully!");
+      alert(
+        "Great! we have received your request. Please check your Email Id. Our executive will be in touch with you shortly.",
+        "Logged in successfully!"
+      );
       window.setTimeout(() => {
         location.assign("/");
       }, 1000);

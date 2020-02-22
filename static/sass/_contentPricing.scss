@@ -1,7 +1,7 @@
 @mixin cardMixin {
   background-color: rgb(238, 238, 237);
   display: grid;
-  grid-template-rows: 10% 20% 60% 10%;
+  grid-template-rows: 10% 14% 66% 10%;
   width: 90%;
   border-radius: 10px;
   margin-top: 30px;
@@ -161,21 +161,21 @@
 .content {
   grid-row: 2/3;
   display: grid;
-  grid-template-rows: 110vh 90vh;
+  grid-template-rows: 160vh;
   grid-template-columns: 100vw;
 
   //   background-color: red;
 
   //iphone 5, 5s
   @media only screen and (min-device-width: 320px) and (max-device-width: 359px) and (-webkit-min-device-pixel-ratio: 2) {
-    grid-template-rows: 280vh 35vh;
+    grid-template-rows: 280vh;
   }
   //iphone 5, 5s
   @media only screen and (min-device-width: 360px) and (max-device-width: 374px) and (-webkit-min-device-pixel-ratio: 2) {
-    grid-template-rows: 280vh 35vh;
+    grid-template-rows: 280vh;
   }
   @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-    grid-template-rows: 280vh 35vh;
+    grid-template-rows: 280vh;
   }
 
   &__cardsection {
@@ -238,9 +238,10 @@
     grid-row: 2;
     background-color: rgb(211, 207, 207);
     box-shadow: 20px 20px 20px rgb(224, 165, 165);
-    display: grid;
-    grid-template-columns: 10% 80% 10%;
-    grid-template-rows: 20% 60% 20%;
+    // display: grid;
+    // grid-template-columns: 10% 80% 10%;
+    // grid-template-rows: 20% 60% 20%;
+    display: none !important;
     //iphone 5, 5s
     @media only screen and (min-device-width: 320px) and (max-device-width: 359px) and (-webkit-min-device-pixel-ratio: 2) {
       grid-template-rows: 1% 99% 1%;
