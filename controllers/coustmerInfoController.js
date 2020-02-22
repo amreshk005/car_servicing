@@ -23,8 +23,9 @@ exports.createcoustmerInfo = catchAsync(async (req, res, next) => {
   <h4>YourModel: ${modelFilter.Model}</h4>
   <h4>Package Type: ${req.body.packageType}</h4>
   <hr>
-  <h3 style=>Price: ${req.body.price}</h3>
+  <h3>Price: ${req.body.price}</h3>
   `;
+
   try {
     await sendEmail({
       email: [`${newCoustmerInfo.email}`, "ambienceautos@gmail.com"],
